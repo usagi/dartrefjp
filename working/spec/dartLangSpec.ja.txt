@@ -1,22 +1,22 @@
 
 
-Dart Programming Language Specification
+Dart プログラミング言語仕様
 
 Draft Version 0.07
 
-The Dart Team January 20, 2012
+The Dart Team 2012年1月20日
+dartrefjp 2012年3月
 
 Contents 1 Notes 5
 
-1.1 Licensing
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 1.2 Change
-Log . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.1 ライセンス . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.2 更新履歴 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
 
-1.2.1 Changes Since Version 0.02 . . . . . . . . . . . . . . . . . 5 1.2.2
-Changes Since Version 0.03 . . . . . . . . . . . . . . . . . 5 1.2.3 Changes
-Since Version 0.04 . . . . . . . . . . . . . . . . . 6 1.2.4 Changes Since
-Version 0.05 . . . . . . . . . . . . . . . . . 6 1.2.5 Changes Since Version
-0.06 . . . . . . . . . . . . . . . . . 6
+1.2.1 Version 0.02 からの変更点 . . . . . . . . . . . . . . . . . 5 1.2.2 Version
+0.03 からの変更点 . . . . . . . . . . . . . . . . . 5 1.2.3 Version 0.04 からの変更点
+. . . . . . . . . . . . . . . . . 6 1.2.4 Version 0.05 からの変更点
+. . . . . . . . . . . . . . . . . 6 1.2.5 Version 0.06 からの変更点
+. . . . . . . . . . . . . . . . . 6
 
 2 Notation 7 3 Overview 9
 

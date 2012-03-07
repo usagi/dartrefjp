@@ -1,15 +1,15 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Usagi Ito
+# Dart Language Spec (en-->ja)
+# Copyright (C) 2012 dartrefjp
 # This file is distributed under the same license as the dartrefjp package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Usagi Ito <usagi@WonderRabbitProject.net>, 2012.
+# FULL NAME <EMAIL@ADDRESS>, 2012.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-08 06:38+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2012-03-08 08:40+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -26,39 +26,39 @@ msgid ""
 "<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
 "<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
 "<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
-"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> "
-"<!--<![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
 "<head>\n"
 "\t<meta charset=\"UTF-8\">\n"
 "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
 "\t<title>Dart Puzzlers 1 : Dart : Structured web programming</title>\n"
 "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
-"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' "
-"rel='stylesheet' type='text/css'>\n"
+"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
 msgstr ""
+"<!DOCTYPE html>\n"
+"<head>\n"
+"\t<meta charset=\"UTF-8\">\n"
+"\t<title>Dart ぱずらーず 1 : Dart : 構造化ウェブプログラミング</title>\n"
 
 #. type: Plain text
 #: chapter-1.html:15
 #, no-wrap
 msgid "\t<link rel=\"author\" href=\"/authors/joshua-bloch.html\">\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:19
 #, no-wrap
 msgid ""
-"\t<link rel=\"alternate\" type=\"application/atom+xml\" "
-"href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
-"    <link href=\"https://plus.google.com/109866369054280216564\" "
-"rel=\"publisher\">\n"
+"\t<link rel=\"alternate\" type=\"application/atom+xml\" href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
+"    <link href=\"https://plus.google.com/109866369054280216564\" rel=\"publisher\">\n"
 "\t<script src=\"/js/modernizr.custom.02548.js\"></script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:21
 #, no-wrap
 msgid "  <script type=\"text/javascript\">\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:26
@@ -68,27 +68,24 @@ msgid ""
 "    _gaq.push(['_setAccount', 'UA-26406144-4']);\n"
 "    _gaq.push(['_setDomainName', 'dartlang.org']);\n"
 "    _gaq.push(['_trackPageview']);\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:32
 #, no-wrap
 msgid ""
 "    (function() {\n"
-"      var ga = document.createElement('script'); ga.type = "
-"'text/javascript'; ga.async = true;\n"
-"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : "
-"'http://www') + '.google-analytics.com/ga.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; "
-"s.parentNode.insertBefore(ga, s);\n"
+"      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n"
+"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n"
 "    })();\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:34
 #, no-wrap
 msgid "  </script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:52
@@ -98,8 +95,7 @@ msgid ""
 "\twindow.___gcfg = {lang: 'en'};\n"
 "\t(function() \n"
 "\t{var po = document.createElement(\"script\");\n"
-"\tpo.type = \"text/javascript\"; po.async = true;po.src = "
-"\"https://apis.google.com/js/plusone.js\";\n"
+"\tpo.type = \"text/javascript\"; po.async = true;po.src = \"https://apis.google.com/js/plusone.js\";\n"
 "\tvar s = document.getElementsByTagName(\"script\")[0];\n"
 "\ts.parentNode.insertBefore(po, s);\n"
 "\t})();\n"
@@ -108,13 +104,11 @@ msgid ""
 "<body>\n"
 "\t<div id=\"container\">\n"
 "\t\t<header>\n"
-"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" "
-"data-count=\"true\"></div></div>\n"
-"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" "
-"height=\"116\" alt=\"Dart\"></a>\n"
+"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" data-count=\"true\"></div></div>\n"
+"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" height=\"116\" alt=\"Dart\"></a>\n"
 "\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
 "\t\t</header>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:63
@@ -123,15 +117,13 @@ msgid ""
 "\t\t<nav>\n"
 "  <form action=\"/search.html\" id=\"cse-search-box\">\n"
 "    <div id=\"search\">\n"
-"      <input type=\"hidden\" name=\"cx\" "
-"value=\"011220921317074318178:i4mscbaxtru\" />\n"
+"      <input type=\"hidden\" name=\"cx\" value=\"011220921317074318178:i4mscbaxtru\" />\n"
 "      <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\n"
 "      <input type=\"hidden\" name=\"hl\" value=\"en\" />\n"
-"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" "
-"placeholder=\"Search\"/>\n"
+"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" placeholder=\"Search\"/>\n"
 "    </div>\n"
 "  </form>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:94
@@ -143,10 +135,8 @@ msgid ""
 "    <li>Getting Started\n"
 "      <ul>\n"
 "        <li><a href=\"/language-tour/index.html\">Language Tour</a></li>\n"
-"        <li><a href=\"/docs/technical-overview/index.html\">Technical "
-"Overview</a></li>\n"
-"        <li><a href=\"http://synonym.dartlang.org\">Translations from "
-"JavaScript</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/index.html\">Technical Overview</a></li>\n"
+"        <li><a href=\"http://synonym.dartlang.org\">Translations from JavaScript</a></li>\n"
 "      </ul>\n"
 "    </li>\n"
 "    <li>Language &amp; Libraries\n"
@@ -158,10 +148,8 @@ msgid ""
 "    <li>Tools\n"
 "      <ul>\n"
 "        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
-"        <li><a href=\"/docs/getting-started/editor/index.html\">Dart "
-"Editor</a></li>\n"
-"        <li><a href=\"/dartium/index.html\">Chromium with the Dart "
-"VM</a></li>\n"
+"        <li><a href=\"/docs/getting-started/editor/index.html\">Dart Editor</a></li>\n"
+"        <li><a href=\"/dartium/index.html\">Chromium with the Dart VM</a></li>\n"
 "        <li><a href=\"/docs/getting-started/sdk/index.html\">SDK</a></li>\n"
 "      </ul>\n"
 "    <li><a href=\"/samples/index.html\">Code Samples</a></li>\n"
@@ -171,17 +159,15 @@ msgid ""
 "    <li><a href=\"/slides/index.html\">Presentations</a></li>\n"
 "    <li><a href=\"/support/index.html\">Discuss</a></li>\n"
 "  </ul>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:97
 #, no-wrap
 msgid ""
-"  <div id=\"pluspage\"><div class=\"g-plus\" "
-"data-href=\"https://plus.google.com/109866369054280216564\" "
-"data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
+"  <div id=\"pluspage\"><div class=\"g-plus\" data-href=\"https://plus.google.com/109866369054280216564\" data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
 "</nav>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:104
@@ -193,11 +179,15 @@ msgid ""
 "<em>Written by Joshua Bloch <br />\n"
 "January 2012</em>\n"
 msgstr ""
+"<article>\n"
+"<h1> Dart ぱずらーず 1</h1>\n"
+"<em>著 Joshua Bloch 訳 Usagi Ito <br />\n"
+"2012年 1月（訳 2012年 3月）</em>\n"
 
 #. type: Plain text
 #: chapter-1.html:106
 msgid "<section>"
-msgstr ""
+msgstr "<section>"
 
 #. type: Plain text
 #: chapter-1.html:115
@@ -208,6 +198,11 @@ msgid ""
 "anything useful to tell us about the Dart design.  Here's the first "
 "chapter's worth.  </p>"
 msgstr ""
+"<p> もう何年も前に、私は<em>Java ぱずらーず: ワナと落とし穴と重箱の隅と</em>"
+"（訳註: ）という本を共同執筆した。 そして今、私は Dart チームに居て、その "
+"Java ぱずらーずの全てを Dart へと翻訳しようとしている。この試みがパズルを求め"
+"る誰かさんや、Dart の設計に関する有用な知見としてお役に立てれば幸いである。 "
+"それでは、さっそく最初の章へと迷い込むとしよう。  </p>"
 
 #. type: Plain text
 #: chapter-1.html:132
@@ -230,11 +225,27 @@ msgid ""
 "</ol>\n"
 "</section>\n"
 msgstr ""
+"<section id=\"toc\">\n"
+"<h4> もくじ </h4>\n"
+"<ol class=\"toc\">\n"
+"  <li> <a href=\"#1\">ぱずらー 1: 奇数かな</a> </li>\n"
+"  <li> <a href=\"#2\">ぱずらー 2: 変革の時</a> </li>\n"
+"  <li> <a href=\"#3\">ぱずらー 3: 割り算の筆算</a> </li>\n"
+"  <li> <a href=\"#4\">ぱずらー 4: このくらい基礎だよね</a> </li>\n"
+"  <li> <a href=\"#5\">ぱずらー 5: １６進あそび</a> </li>\n"
+"  <li> <a href=\"#6\">ぱずらー 6: マルチキャスト</a> </li>\n"
+"  <li> <a href=\"#7\">ぱずらー 7: お肉の交換</a> </li>\n"
+"  <li> <a href=\"#8\">ぱずらー 8: ドス エキス(訳註: Dos Equis; スペイン語で２つのエックス)</a> </li>\n"
+"  <li> <a href=\"#9\">ぱずらー 9: トゥィードルダム(訳註: 鏡の国のアリアス)</a> </li>\n"
+"  <li> <a href=\"#10\">ぱずらー 10: トゥィードルディー(訳註: 鏡の国のアリアス)</a> </li>\n"
+"  <li> <a href=\"#summary\">まとめ！</a> </li>\n"
+"</ol>\n"
+"</section>\n"
 
 #. type: Plain text
 #: chapter-1.html:134
 msgid "<h2 id=\"1\"> Puzzler 1: Oddity </h2>"
-msgstr ""
+msgstr "<h2 id=\"1\"> ぱずらー 1: 奇数かな </h2>"
 
 #. type: Plain text
 #: chapter-1.html:139
@@ -242,6 +253,8 @@ msgid ""
 "<p> This method appears to tell you whether its argument is odd or even, but "
 "fails on negative odd arguments: </p>"
 msgstr ""
+"<p> 次に示すJavaのメソッドでは引数が偶数か奇数かを表示するよ。でも、引数が負"
+"の奇数だと失敗しちゃうんだ。: </p>"
 
 #. type: Plain text
 #: chapter-1.html:145
@@ -253,6 +266,11 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-java linenums:0 \">\n"
+"public static boolean isOdd(int i) {\n"
+"  return i % 2 == 1;\n"
+"}\n"
+"</pre>\n"
 
 #. type: Plain text
 #: chapter-1.html:150
@@ -260,6 +278,8 @@ msgid ""
 "<p> The puzzler was fixed in Dart: The following function <em>does</em> "
 "identify odd numbers in Dart (unlike Java): </p>"
 msgstr ""
+"<p> このパズルをDartにしてみよう: Dartではこの様な関数も<em>きっちり</em>と奇"
+"数を判定してくれる（Javaとは違った挙動をするよ）: : </p>"
 
 #. type: Plain text
 #: chapter-1.html:156
@@ -271,6 +291,11 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-java linenums:0 \">\n"
+"bool isOdd(int i) {\n"
+"  return i % 2 == 1;\n"
+"}\n"
+"</pre>\n"
 
 #. type: Plain text
 #: chapter-1.html:161
@@ -348,15 +373,14 @@ msgid ""
 "<p> This raises the question, should Dart support decimal floating point "
 "arithmetic natively? There are many who would argue that it should.  One man "
 "(Mike Cowlishaw, former IBM Fellow)  devoted a good chunk of his life to "
-"this: <a "
-"href=\"http://speleotrove.com/decimal\">http://speleotrove.com/decimal</a>.  "
-"C# does support 128-bit floating decimals, for what it’s worth.  But if "
-"you’re deploying to JavaScript, floating-point decimal arithmetic will be "
-"ungodly slow, and it won’t be fast anywhere (except, perhaps, on IBM’s "
-"Power6 chip, which supports floating decimal natively, due to the efforts of "
-"the aforementioned Mike Cowlishaw).  Incidentally, Cowlishaw was on the "
-"EcmaScript committee, and did get decimal arithmetic into the ill-fated "
-"EcmaScript 4.  </p>"
+"this: <a href=\"http://speleotrove.com/decimal\">http://speleotrove.com/"
+"decimal</a>.  C# does support 128-bit floating decimals, for what it’s "
+"worth.  But if you’re deploying to JavaScript, floating-point decimal "
+"arithmetic will be ungodly slow, and it won’t be fast anywhere (except, "
+"perhaps, on IBM’s Power6 chip, which supports floating decimal natively, due "
+"to the efforts of the aforementioned Mike Cowlishaw).  Incidentally, "
+"Cowlishaw was on the EcmaScript committee, and did get decimal arithmetic "
+"into the ill-fated EcmaScript 4.  </p>"
 msgstr ""
 
 #. type: Plain text
@@ -738,7 +762,7 @@ msgstr ""
 #. type: Plain text
 #: chapter-1.html:485
 msgid "</section>"
-msgstr ""
+msgstr "</section>"
 
 #. type: Plain text
 #: chapter-1.html:494
@@ -752,7 +776,7 @@ msgid ""
 "  prettyPrint();\n"
 "})\n"
 "</script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:497
@@ -760,7 +784,7 @@ msgstr ""
 msgid ""
 "\t\t\t</article>\n"
 "\t\t</div>\n"
-msgstr ""
+msgstr "</article>\n"
 
 #. type: Plain text
 #: chapter-1.html:507
@@ -768,28 +792,35 @@ msgstr ""
 msgid ""
 "\t\t<footer>\n"
 "\t\t\t<p>\n"
-"\t\t\t  Except as otherwise <a "
-"href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the "
-"content of this page is licensed under the <a "
-"\t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons "
-"Attribution 3.0 License</a>, and code samples are licensed under the <a "
-"href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
+"\t\t\t  Except as otherwise <a href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the content of this page is licensed under the <a \t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
 "\t\t\t</p>\n"
 "\t\t\t<p>\n"
-"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; "
-"padding-right: 5px\">Terms of Service</a>\n"
-"\t\t\t\t<a "
-"href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy "
-"Policy</a>\n"
+"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; padding-right: 5px\">Terms of Service</a>\n"
+"\t\t\t\t<a href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy Policy</a>\n"
 "\t\t\t</p>\n"
 "\t</footer>\n"
 msgstr ""
+"<footer>\n"
+"  <p>\n"
+"    ライセンス:\n"
+"      ページ <a href=\"http://creativecommons.org/licenses/by/3.0/\">CC-BY(3.0)</a>\n"
+"      コード <a href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>\n"
+"  </p>\n"
+"  <p>\n"
+"    この記事は\n"
+"    <a href=\"http://www.dartlang.org/articles/puzzlers/chapter-1.html\">Dart Puzzlers Chapter 1</a>\n"
+"    を元に\n"
+"    <a href=\"https://sites.google.com/site/dartrefjp/\">dartrefjp</a> / \n"
+"    <a href=\"usagi@WonderRabbitProject.net\">伊藤 兎</a>\n"
+"    が邦訳したものです。\n"
+"  </p>\n"
+"</footer>\n"
 
 #. type: Plain text
 #: chapter-1.html:509
 #, no-wrap
 msgid "\t</div>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:514
@@ -799,7 +830,7 @@ msgid ""
 "\t<script src=\"js/dd_belatedpng.js\"></script>\n"
 "\t<script> DD_belatedPNG.fix('img, .png_bg');</script>\n"
 "\t<![endif]-->\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:522
@@ -807,16 +838,14 @@ msgstr ""
 msgid ""
 "\t<script>\n"
 "    (function() {\n"
-"      var po = document.createElement('script'); po.type = "
-"'text/javascript'; po.async = true;\n"
+"      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;\n"
 "      po.src = 'https://apis.google.com/js/plusone.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; "
-"s.parentNode.insertBefore(po, s);\n"
+"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);\n"
 "    })();\n"
 "\t</script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: chapter-1.html:525
 msgid "</body> </html>"
-msgstr ""
+msgstr " "

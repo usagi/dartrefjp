@@ -1,136 +1,61 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Dart Puzzlers 1 : Dart : Structured web programming</title>
-	<link rel="stylesheet" href="/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<title>Dart ぱずらーず 1 : Dart : 構造化ウェブプログラミング</title>
 	
-	<link rel="author" href="/authors/joshua-bloch.html">
+ 
 	
-	<link rel="alternate" type="application/atom+xml" href="http://news.dartlang.org/feeds/posts/default" title="Atom feed">
-    <link href="https://plus.google.com/109866369054280216564" rel="publisher">
-	<script src="/js/modernizr.custom.02548.js"></script>
+ 
   
-  <script type="text/javascript">
+ 
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-26406144-4']);
-    _gaq.push(['_setDomainName', 'dartlang.org']);
-    _gaq.push(['_trackPageview']);
+ 
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+ 
 
-  </script>
+ 
 
-  <script type="text/javascript">
-	window.___gcfg = {lang: 'en'};
-	(function() 
-	{var po = document.createElement("script");
-	po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(po, s);
-	})();
-  </script>
-</head>
-<body>
-	<div id="container">
-		<header>
-		  	<div id="plus1"><div class="g-plusone" data-size="standard" data-count="true"></div></div>
-      	<a href="/"><img src="/imgs/dart-logo.png" width="268" height="116" alt="Dart"></a>
-			  <span id="tagline">Structured web apps</span>
-		</header>
+ 
 
 		
-		<nav>
-  <form action="/search.html" id="cse-search-box">
-    <div id="search">
-      <input type="hidden" name="cx" value="011220921317074318178:i4mscbaxtru" />
-      <input type="hidden" name="ie" value="UTF-8" />
-      <input type="hidden" name="hl" value="en" />
-      <input type="search" name="q" id="q" autocomplete="off" placeholder="Search"/>
-    </div>
-  </form>
+ 
 
-  <ul>
-    <li><a href="/downloads.html">Downloads</a></li>
-    <li><a href="http://news.dartlang.org">News &amp; Updates</a></li>
-    <li>Getting Started
-      <ul>
-        <li><a href="/language-tour/index.html">Language Tour</a></li>
-        <li><a href="/docs/technical-overview/index.html">Technical Overview</a></li>
-        <li><a href="http://synonym.dartlang.org">Translations from JavaScript</a></li>
-      </ul>
-    </li>
-    <li>Language &amp; Libraries
-      <ul>
-        <li><a href="/docs/spec/index.html">Language Spec</a></li>
-        <li><a href="http://api.dartlang.org/">API Reference</a></li>
-      </ul>
-     </li>
-    <li>Tools
-      <ul>
-        <li><a href="http://try.dartlang.org">Dartboard</a></li>
-        <li><a href="/docs/getting-started/editor/index.html">Dart Editor</a></li>
-        <li><a href="/dartium/index.html">Chromium with the Dart VM</a></li>
-        <li><a href="/docs/getting-started/sdk/index.html">SDK</a></li>
-      </ul>
-    <li><a href="/samples/index.html">Code Samples</a></li>
-    <li><a href="/articles/index.html">Articles</a></li>
-    <li><a href="/resources/index.html">Resources</a></li>
-    <li><a href="/support/faq.html">FAQ</a></li>
-    <li><a href="/slides/index.html">Presentations</a></li>
-    <li><a href="/support/index.html">Discuss</a></li>
-  </ul>
+ 
 
-  <div id="pluspage"><div class="g-plus" data-href="https://plus.google.com/109866369054280216564" data-width="100" data-height="131" data-theme="light"></div></div>
-</nav>
+ 
 
 
-		<div id="main" role="main">
-			<article>
-				<h1> Dart Puzzlers 1</h1>
-<em>Written by Joshua Bloch <br />
-January 2012</em>
+<article>
+<h1> Dart ぱずらーず 1</h1>
+<em>著 Joshua Bloch 訳 Usagi Ito <br />
+2012年 1月（訳 2012年 3月）</em>
 
 <section>
 
-<p> Years ago I co-wrote a book called <em>Java Puzzlers: Traps, Pitfalls,
-and Corner Cases</em>.  Now that I’m on the Dart team, I'm translating all
-of these puzzlers to Dart to see if they still puzzle, and if they have
-anything useful to tell us about the Dart design.  Here's the first
-chapter's worth.  </p>
+<p> もう何年も前に、私は<em>Java ぱずらーず: ワナと落とし穴と重箱の隅と</em>（訳註: ）という本を共同執筆した。 そして今、私は
+Dart チームに居て、その Java ぱずらーずの全てを Dart へと翻訳しようとしている。この試みがパズルを求める誰かさんや、Dart
+の設計に関する有用な知見としてお役に立てれば幸いである。 それでは、さっそく最初の章へと迷い込むとしよう。  </p>
 
 <section id="toc">
-<h4> Contents </h4>
+<h4> もくじ </h4>
 <ol class="toc">
-  <li> <a href="#1">Puzzler 1: Oddity</a> </li>
-  <li> <a href="#2">Puzzler 2: Time for a Change</a> </li>
-  <li> <a href="#3">Puzzler 3: Long Division</a> </li>
-  <li> <a href="#4">Puzzler 4: It's Elementary</a> </li>
-  <li> <a href="#5">Puzzler 5: The Joy of Hex</a> </li>
-  <li> <a href="#6">Puzzler 6: Multicast</a> </li>
-  <li> <a href="#7">Puzzler 7: Swap Meat</a> </li>
-  <li> <a href="#8">Puzzler 8: Dos Equis</a> </li>
-  <li> <a href="#9">Puzzler 9: Tweedledum</a> </li>
-  <li> <a href="#10">Puzzler 10: Tweedledee</a> </li>
-  <li> <a href="#summary">Summary</a> </li>
+  <li> <a href="#1">ぱずらー 1: 奇数かな</a> </li>
+  <li> <a href="#2">ぱずらー 2: 変革の時</a> </li>
+  <li> <a href="#3">ぱずらー 3: 割り算の筆算</a> </li>
+  <li> <a href="#4">ぱずらー 4: このくらい基礎だよね</a> </li>
+  <li> <a href="#5">ぱずらー 5: １６進あそび</a> </li>
+  <li> <a href="#6">ぱずらー 6: マルチキャスト</a> </li>
+  <li> <a href="#7">ぱずらー 7: お肉の交換</a> </li>
+  <li> <a href="#8">ぱずらー 8: ドス エキス(訳註: Dos Equis; スペイン語で２つのエックス)</a> </li>
+  <li> <a href="#9">ぱずらー 9: トゥィードルダム(訳註: 鏡の国のアリアス)</a> </li>
+  <li> <a href="#10">ぱずらー 10: トゥィードルディー(訳註: 鏡の国のアリアス)</a> </li>
+  <li> <a href="#summary">まとめ！</a> </li>
 </ol>
 </section>
 
-<h2 id="1"> Puzzler 1: Oddity </h2>
+<h2 id="1"> ぱずらー 1: 奇数かな </h2>
 
-<p> This method appears to tell you whether its argument is odd or even, but
-fails on negative odd arguments: </p>
+<p> 次に示すJavaのメソッドでは引数が偶数か奇数かを表示するよ。でも、引数が負の奇数だと失敗しちゃうんだ。: </p>
 
 <pre class="prettyprint lang-java linenums:0 ">
 public static boolean isOdd(int i) {
@@ -138,8 +63,8 @@ public static boolean isOdd(int i) {
 }
 </pre>
 
-<p> The puzzler was fixed in Dart: The following function <em>does</em>
-identify odd numbers in Dart (unlike Java): </p>
+<p> このパズルをDartにしてみよう:
+Dartではこの様な関数も<em>きっちり</em>と奇数を判定してくれる（Javaとは違った挙動をするよ）: : </p>
 
 <pre class="prettyprint lang-java linenums:0 ">
 bool isOdd(int i) {
@@ -408,42 +333,31 @@ troubles), and one doesn't really indicate a language problem (Puzzler 7).
 
 </section>
 
-<link href="/css/style.css" type="text/css" rel="stylesheet">
-<link href="/css/prettify.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="/js/prettify.js"></script>
-<script>
-window.addEventListener("load", function() {
-  prettyPrint();
-})
-</script>
+ 
 
-			</article>
-		</div>
+</article>
 		
-		<footer>
-			<p>
-			  Except as otherwise <a href="http://code.google.com/policies.html#restrictions">noted</a>, the content of this page is licensed under the <a 		href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://code.google.com/google_bsd_license.html">BSD License</a>.
-			</p>
-			<p>
-				<a href="/tos.html" style="border-right: 1px solid black; padding-right: 5px">Terms of Service</a>
-				<a href="http://www.google.com/intl/en/privacy/privacy-policy.html">Privacy Policy</a>
-			</p>
-	</footer>
+<footer>
+  <p>
+    ライセンス:
+      ページ <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY(3.0)</a>
+      コード <a href="http://code.google.com/google_bsd_license.html">BSD License</a>
+  </p>
+  <p>
+    この記事は
+    <a href="http://www.dartlang.org/articles/puzzlers/chapter-1.html">Dart Puzzlers Chapter 1</a>
+    を元に
+    <a href="https://sites.google.com/site/dartrefjp/">dartrefjp</a> / 
+    <a href="usagi@WonderRabbitProject.net">伊藤 兎</a>
+    が邦訳したものです。
+  </p>
+</footer>
 
-	</div>
+ 
 
-	<!--[if lt IE 7 ]>
-	<script src="js/dd_belatedpng.js"></script>
-	<script> DD_belatedPNG.fix('img, .png_bg');</script>
-	<![endif]-->
+ 
 	
-	<script>
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-	</script>
+ 
 
-</body> </html>
+ 
 
