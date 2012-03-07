@@ -1,0 +1,8 @@
+#!/bin/sh
+echo '[alternative spec] download'
+curl -O "http://www.dartlang.org/docs/spec/dartLangSpec.pdf"
+echo '[alternative spec] pdf2ps'
+pdf2ps dartLangSpec.pdf
+echo '[alternative spec] ps2ascii'
+ps2ascii dartLangSpec.ps > dartLangSpec.txt
+

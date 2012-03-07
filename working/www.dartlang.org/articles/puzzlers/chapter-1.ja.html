@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Dart Puzzlers 1 : Dart : Structured web programming</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="author" href="/authors/joshua-bloch.html">
+	
+	<link rel="alternate" type="application/atom+xml" href="http://news.dartlang.org/feeds/posts/default" title="Atom feed">
+    <link href="https://plus.google.com/109866369054280216564" rel="publisher">
+	<script src="/js/modernizr.custom.02548.js"></script>
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26406144-4']);
+    _gaq.push(['_setDomainName', 'dartlang.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+  <script type="text/javascript">
+	window.___gcfg = {lang: 'en'};
+	(function() 
+	{var po = document.createElement("script");
+	po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(po, s);
+	})();
+  </script>
+</head>
+<body>
+	<div id="container">
+		<header>
+		  	<div id="plus1"><div class="g-plusone" data-size="standard" data-count="true"></div></div>
+      	<a href="/"><img src="/imgs/dart-logo.png" width="268" height="116" alt="Dart"></a>
+			  <span id="tagline">Structured web apps</span>
+		</header>
+
+		
+		<nav>
+  <form action="/search.html" id="cse-search-box">
+    <div id="search">
+      <input type="hidden" name="cx" value="011220921317074318178:i4mscbaxtru" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="hidden" name="hl" value="en" />
+      <input type="search" name="q" id="q" autocomplete="off" placeholder="Search"/>
+    </div>
+  </form>
+
+  <ul>
+    <li><a href="/downloads.html">Downloads</a></li>
+    <li><a href="http://news.dartlang.org">News &amp; Updates</a></li>
+    <li>Getting Started
+      <ul>
+        <li><a href="/language-tour/index.html">Language Tour</a></li>
+        <li><a href="/docs/technical-overview/index.html">Technical Overview</a></li>
+        <li><a href="http://synonym.dartlang.org">Translations from JavaScript</a></li>
+      </ul>
+    </li>
+    <li>Language &amp; Libraries
+      <ul>
+        <li><a href="/docs/spec/index.html">Language Spec</a></li>
+        <li><a href="http://api.dartlang.org/">API Reference</a></li>
+      </ul>
+     </li>
+    <li>Tools
+      <ul>
+        <li><a href="http://try.dartlang.org">Dartboard</a></li>
+        <li><a href="/docs/getting-started/editor/index.html">Dart Editor</a></li>
+        <li><a href="/dartium/index.html">Chromium with the Dart VM</a></li>
+        <li><a href="/docs/getting-started/sdk/index.html">SDK</a></li>
+      </ul>
+    <li><a href="/samples/index.html">Code Samples</a></li>
+    <li><a href="/articles/index.html">Articles</a></li>
+    <li><a href="/resources/index.html">Resources</a></li>
+    <li><a href="/support/faq.html">FAQ</a></li>
+    <li><a href="/slides/index.html">Presentations</a></li>
+    <li><a href="/support/index.html">Discuss</a></li>
+  </ul>
+
+  <div id="pluspage"><div class="g-plus" data-href="https://plus.google.com/109866369054280216564" data-width="100" data-height="131" data-theme="light"></div></div>
+</nav>
+
+
+		<div id="main" role="main">
+			<article>
+				<h1> Dart Puzzlers 1</h1>
+<em>Written by Joshua Bloch <br />
+January 2012</em>
+
+<section>
+
+<p> Years ago I co-wrote a book called <em>Java Puzzlers: Traps, Pitfalls,
+and Corner Cases</em>.  Now that I’m on the Dart team, I'm translating all
+of these puzzlers to Dart to see if they still puzzle, and if they have
+anything useful to tell us about the Dart design.  Here's the first
+chapter's worth.  </p>
+
+<section id="toc">
+<h4> Contents </h4>
+<ol class="toc">
+  <li> <a href="#1">Puzzler 1: Oddity</a> </li>
+  <li> <a href="#2">Puzzler 2: Time for a Change</a> </li>
+  <li> <a href="#3">Puzzler 3: Long Division</a> </li>
+  <li> <a href="#4">Puzzler 4: It's Elementary</a> </li>
+  <li> <a href="#5">Puzzler 5: The Joy of Hex</a> </li>
+  <li> <a href="#6">Puzzler 6: Multicast</a> </li>
+  <li> <a href="#7">Puzzler 7: Swap Meat</a> </li>
+  <li> <a href="#8">Puzzler 8: Dos Equis</a> </li>
+  <li> <a href="#9">Puzzler 9: Tweedledum</a> </li>
+  <li> <a href="#10">Puzzler 10: Tweedledee</a> </li>
+  <li> <a href="#summary">Summary</a> </li>
+</ol>
+</section>
+
+<h2 id="1"> Puzzler 1: Oddity </h2>
+
+<p> This method appears to tell you whether its argument is odd or even, but
+fails on negative odd arguments: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public static boolean isOdd(int i) {
+  return i % 2 == 1;
+}
+</pre>
+
+<p> The puzzler was fixed in Dart: The following function <em>does</em>
+identify odd numbers in Dart (unlike Java): </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+bool isOdd(int i) {
+  return i % 2 == 1;
+}
+</pre>
+
+<p> That said, I'm not so sure the cure is any better than the disease; the
+resulting arithmetic violates the "Division Rule": </p>
+
+<blockquote> D = d * (D div d) + D mod d </blockquote>
+
+<p> It’s also incompatible with JavaScript, Java, C, C++, and C#.  I've been
+discussing this issue with <a href="/authors/florian-loitsch.html">Florian
+Loitsch</a>.  </p>
+
+
+<h2 id="2"> Puzzler 2: Time for a Change </h2>
+
+<p> This program appears to calculate the change when $2.00 is paid for a
+$0.90 purchase.  </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class Change {
+  public static void main(String args[]) {
+    System.out.println(2.00 - 1.10);
+  }
+}
+</pre>
+
+<p> Here it is translated into Dart: </p>
+
+<pre class="prettyprint lang-dart linenums:0 ">
+main() {
+  print(2.00 - 1.10);
+}
+</pre>
+
+<p> In Java and Dartboard, it prints 0.8999999999999999.  Using the Dart VM,
+it (currently) prints 0.9, but this is because we’re currently using C’s
+formatting functions; in the near future, the Dart VM will display the same
+(puzzling) behavior as Dartboard.  </p>
+
+<p> This raises the question, should Dart support decimal floating point
+arithmetic natively? There are many who would argue that it should.  One man
+(Mike Cowlishaw, former IBM Fellow)  devoted a good chunk of his life to
+this: <a
+href="http://speleotrove.com/decimal">http://speleotrove.com/decimal</a>.
+C# does support 128-bit floating decimals, for what it’s worth.  But if
+you’re deploying to JavaScript, floating-point decimal arithmetic will be
+ungodly slow, and it won’t be fast anywhere (except, perhaps, on IBM’s
+Power6 chip, which supports floating decimal natively, due to the efforts of
+the aforementioned Mike Cowlishaw).  Incidentally, Cowlishaw was on the
+EcmaScript committee, and did get decimal arithmetic into the ill-fated
+EcmaScript 4.  </p>
+
+<p> If Dart does provide library support for floating point decimal
+arithmetic, should we provide linguistic support for decimal literals? </p>
+
+<p> As you’re doubtless aware, the floating point binary problem is worse in
+Dart than when you compile to JavaScript.  In Java, most programmers know
+enough to use int rather than double to avoid these problems.  But consider
+the following Dart program: </p>
+
+<pre class="prettyprint lang-dart linenums:0 ">
+main() {
+  int i = 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000;
+  print(i == i + 1);
+}
+</pre>
+
+<p> When you run it on Dartboard, it prints true, which is <em>really</em>
+confusing.  I don’t think we can, in good conscience, support this
+behavior.  But I understand that this is a hard, over-constrained problem.
+</p>
+
+
+<h2 id="3"> Puzzler 3: Long Division </h2>
+
+<p> This Java program would appear to print the number of microseconds per
+millisecond, which is 1000.  In fact, it prints 5: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class LongDivision {
+  public static void main(String[] args) {
+    final long MICROS_PER_DAY = 24 * 60 * 60 * 1000 * 1000;
+    final long MILLIS_PER_DAY = 24 * 60 * 60 * 1000;
+
+    System.out.println(MICROS_PER_DAY / MILLIS_PER_DAY);
+  }
+}
+</pre>
+
+<p> This puzzler doesn’t apply directly to Dart because it has no long type,
+and was fixed because Dart's int type is arbitrary-precision.  If you label
+the variables as int, the correct answer is printed (1000).  Dartboard
+happens to calculate the correct value in this case, but there's no
+guarantee that it will do so in general.  </p>
+
+
+<h2 id="4"> Puzzler 4: It's Elementary </h2>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class Elementary {
+  public static void main(String[] args) {
+    System.out.println(12345 + 5432l); // Lowercase L masquerades as 1!
+  }
+}
+</pre>
+
+<p> This puzzler doesn’t apply to Dart, as there are no long (64-bit)
+literals in Dart.  </p>
+
+
+<h2 id="5"> Puzzler 5: The Joy of Hex </h2>
+
+<p> This Java program looks like it should print <code>1cafebabe</code> but
+actually prints <code>cafebabe</code> due to unexpected sign extension
+(<code>0xcafebabe</code> is a negative number).
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class JoyOfHex {
+  public static void main(String[] args) {
+    System.out.println(
+      Long.toHexString(0x100000000L + 0xcafebabe));
+  }
+}
+</pre>
+
+<p> This was fixed in Dart, by the use of arbitrary-precision integer
+arithmetic.  This Dart program prints <code>1cafebabe</code>: </p>
+
+<pre class="prettyprint lang-dart linenums:0 ">
+main() {
+  print((0x100000000 + 0xcafebabe).toRadixString(16));
+}
+</pre>
+
+
+<h2 class="6"> Puzzler 6: Multicast </h2>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class Multicast {
+  public static void main(String[] args) {
+    System.out.println((int) (char) (byte) -1);
+  }
+}
+</pre>
+
+<p> This puzzle doesn't apply in Dart as it has no casts.  </p>
+
+
+<h2 class="7"> Puzzler 7: Swap Meat </h2>
+
+<p> This program attempts to use a hideous hack to swap the contents of two
+int variables: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class CleverSwap {
+  public static void main(String[] args) {
+    int x = 1984;
+    int y = 2001;
+    x ^= y ^= x ^= y;
+    System.out.println("x = " + x + "; y = " + y);
+  }
+}
+</pre>
+
+<p> In Dart: </p>
+
+<pre class="prettyprint lang-dart linenums:0 ">
+main() {
+  int x = 1984;
+  int y = 2001;
+  x ^= y ^= x ^= y;
+  print("x = ${x}; y = ${y}");
+}
+</pre>
+
+<p> This puzzler behaves exactly the same in Java and Dart.  Luckily, it
+doesn't indicate a language problem: It's just a cautionary tale regarding
+overly clever programming and premature optimization.  (For what it’s worth,
+the Rube Goldberg “fix” in the book also applies equally well to Dart and
+Java.)  </p>
+
+
+<h2 id="8"> Puzzler 8: Dos Equis </h2>
+
+<p> This program would appear to print <code>XX</code>, but actually prints
+<code>X88</code> in Java: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class DosEquis {
+  public static void main(String[] args) {
+    char x = 'X';
+    int i = 0;
+    System.out.print(true  ? x : 0);
+    System.out.print(false ? i : x);
+  }
+}
+</pre>
+
+<p> In Dart: </p>
+
+<pre class="prettyprint lang-dart linenums:0 ">
+main() {
+  string x = 'X';
+  int i = 0;
+  print(true  ? x : 0);
+  print(false ? i : x);
+}
+</pre>
+
+<p> This puzzle is fixed in Dart, because Dart doesn’t have a char type that
+is a (barely) glorified int type, doesn’t do primitive widening conversions
+on ternary expressions, and doesn't have weird rules concerning small int
+values (don't ask; read the book if you’re morbidly curious).  </p>
+
+
+<h2 id="#9"> Puzzler 9: Tweedledum </h2>
+
+<p> In this puzzle, you’re asked to provide declarations to cause the
+indicated behavior: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+Public class Tweedledum {
+  public static void main(String[] args) {
+    // Put your declarations for x and i here
+
+    x += i;     // Must be LEGAL
+    x = x + i;  // Must be ILLEGAL
+  }
+}
+</pre>
+
+<p> Fixed in Dart: no short type, no implicit narrowing conversion on
+compound assignment expressions.  </p>
+
+
+<h2 id="10"> Puzzler 10: Tweedledee </h2>
+
+<p> Again, you’re asked to provide declarations to cause the indicated
+behavior: </p>
+
+<pre class="prettyprint lang-java linenums:0 ">
+public class Tweedledee {
+  public static void main(String[] args) {
+    // Put your declarations for x and i here
+
+    x = x + i;  // Must be LEGAL
+    x += i;     // Must be ILLEGAL
+  }
+}
+</pre>
+
+<p> This one is fixed in Dart; in fact, it’s even fixed in Java, as of 1.6.
+It had to do with peculiarities of Java's String concatenation operator and
+its corresponding compound assignment operator.  </p>
+
+<h2 id="summary"> Summary </h2>
+
+<p> Out of ten Java puzzlers, eight have been fixed in Dart, one (Puzzler 3)
+arguably made worse (it's easier to get into floating point binary
+troubles), and one doesn't really indicate a language problem (Puzzler 7).
+</p>
+
+</section>
+
+<link href="/css/style.css" type="text/css" rel="stylesheet">
+<link href="/css/prettify.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/js/prettify.js"></script>
+<script>
+window.addEventListener("load", function() {
+  prettyPrint();
+})
+</script>
+
+			</article>
+		</div>
+		
+		<footer>
+			<p>
+			  Except as otherwise <a href="http://code.google.com/policies.html#restrictions">noted</a>, the content of this page is licensed under the <a 		href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://code.google.com/google_bsd_license.html">BSD License</a>.
+			</p>
+			<p>
+				<a href="/tos.html" style="border-right: 1px solid black; padding-right: 5px">Terms of Service</a>
+				<a href="http://www.google.com/intl/en/privacy/privacy-policy.html">Privacy Policy</a>
+			</p>
+	</footer>
+
+	</div>
+
+	<!--[if lt IE 7 ]>
+	<script src="js/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg');</script>
+	<![endif]-->
+	
+	<script>
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+	</script>
+
+</body> </html>
+
