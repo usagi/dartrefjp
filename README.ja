@@ -1,0 +1,39 @@
+* これはなに？
+
+これは dartrefjp の為の翻訳リソースの一部です。内容として dartlang.org のリソースやその翻訳を含みます。
+
+
+* 管理方法は？
+
+このリポジトリは Git と auto-po4a で管理しているよ。 auto-po4a は po4a
+を使ったローカライズプロジェクトの為のフリーな補助ツールだよ。
+
+こちらの情報もどうぞ:
+  auto-po4a / github
+  https://github.com/usagi/auto-po4a
+
+* もっと詳しく！
+
+ここらへんを見てね！:
+  dartrefjp - プロジェクトの公式サイト
+  https://sites.google.com/site/dartrefjp/
+  dartrefjp - ディスカッショングループ（メーリングリスト）
+  https://groups.google.com/forum/#!forum/dartrefjp
+  DartJP - Facebookの日本の Dart コミュニティ
+  https://www.facebook.com/groups/dartjp/
+
+
+* 著作権と連絡先
+
+(C) 2012 dartrefjp.
+  Yuto Marisaki(@yutopp),
+  東 悟大(@godai_0519),
+  伊藤 兎(@USAGI_WRP, usagi@WonderRabbitProject.net).
+
+  ノート: @xxxx は Twitter アカウントです。主に日本語の Dart についての話題に興味があれば是非フォローしてみて下さい。
+
+* ライセンス
+
+CC-BY(3.0)  英語 : http://creativecommons.org/licenses/by/3.0/ 日本語:
+http://creativecommons.org/licenses/by/3.0/deed.ja
+

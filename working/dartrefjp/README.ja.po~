@@ -1,0 +1,102 @@
+# dartrefjp README.L10N
+# Copyright (C) 2012 dartrefjp.
+# This file is distributed under the same license as the dartrefjp package.
+# Usagi Ito <usagi@WonderRabbitProject.net>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dartrefjp README.L10N tunk\n"
+"POT-Creation-Date: 2012-03-08 15:22+0900\n"
+"PO-Revision-Date: 2012-03-08 15:22+0900\n"
+"Last-Translator: Usagi Ito <usagi@WonderRabbitProject.net>\n"
+"Language-Team: dartrefjp <dartrefjp@googlegroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Bullet: '* '
+#: ../README:2
+msgid "What's this"
+msgstr "これはなに"
+
+#. type: Plain text
+#: ../README:4
+msgid ""
+"This is a part of translation resources for dartrefjp. It's include from "
+"dartlang.org resources and these translation resources."
+msgstr "これは dartrefjp の為の翻訳リソースの一部です。内容として dartlang.org のリソースやその翻訳を含みます。"
+
+#. type: Bullet: '* '
+#: ../README:7
+msgid "How to management"
+msgstr "管理方法は？"
+
+#. type: Plain text
+#: ../README:9
+msgid ""
+"The repository managed by Git. And, it's using auto-po4a. auto-po4a is a "
+"free assist tool for localization project using po4a to automation."
+msgstr "このリポジトリは Git と auto-po4a で管理しているよ。 auto-po4a は po4a を使ったローカライズプロジェクトの為のフリーな補助ツールだよ。"
+
+#. type: Plain text
+#: ../README:13
+#, no-wrap
+msgid ""
+"See also:\n"
+"  auto-po4a / github\n"
+"  https://github.com/usagi/auto-po4a\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../README:15
+msgid "And more informations"
+msgstr ""
+
+#. type: Plain text
+#: ../README:23
+#, no-wrap
+msgid ""
+"See also:\n"
+"  dartrefjp - official site\n"
+"  https://sites.google.com/site/dartrefjp/\n"
+"  dartrefjp - discussion group\n"
+"  https://groups.google.com/forum/#!forum/dartrefjp\n"
+"  DartJP - Japanese Dart Community in Facebook\n"
+"  https://www.facebook.com/groups/dartjp/\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../README:26
+msgid "Copyright & Contacts"
+msgstr ""
+
+#. type: Plain text
+#: ../README:31
+#, no-wrap
+msgid ""
+"(C) 2012 dartrefjp.\n"
+"  Yuto Marisaki(@yutopp),\n"
+"  Godai Azuma(@godai_0519),\n"
+"  and Usagi Ito(@USAGI_WRP, usagi@WonderRabbitProject.net).\n"
+msgstr ""
+
+#. type: Plain text
+#: ../README:33
+#, no-wrap
+msgid ""
+"  note: @xxxx is Twitter account, please follow us if you want about talking "
+"Dart in Japanese mainly.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: ../README:35
+msgid "License"
+msgstr ""
+
+#. type: Plain text
+#: ../README:39
+msgid ""
+"CC-BY(3.0)  English : http://creativecommons.org/licenses/by/3.0/ Japanese: "
+"http://creativecommons.org/licenses/by/3.0/deed.ja"
+msgstr ""

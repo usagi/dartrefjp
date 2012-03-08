@@ -2,6 +2,7 @@ configure(){
 
   date=`date --rfc-2822`
 
+  sources="$sources null://dartrefjp/README"
   sources="$sources http://www.dartlang.org/articles/puzzlers/chapter-1.html"
   sources="$sources http://www.dartlang.org/articles/puzzlers/chapter-2.html"
   sources="$sources alternative://spec/dartLangSpec.txt"
@@ -24,6 +25,8 @@ configure(){
   po_translate_keep_ratio=0
 
   working_directory='working'
+
+  auto_git=TRUE
 
   additional_paths="$additional_paths /usr/bin/vendor_perl"
 
