@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
-"POT-Creation-Date: 2012-03-10 03:58+0900\n"
+"POT-Creation-Date: 2012-03-08 06:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,13 +26,16 @@ msgid ""
 "<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
 "<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
 "<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
-"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> "
+"<!--<![endif]-->\n"
 "<head>\n"
 "\t<meta charset=\"UTF-8\">\n"
 "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
-"\t<title>Dart Puzzlers: Chapter 2 : Dart : Structured web programming</title>\n"
+"\t<title>Dart Puzzlers: Chapter 2 : Dart : Structured web "
+"programming</title>\n"
 "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
-"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
+"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' "
+"rel='stylesheet' type='text/css'>\n"
 msgstr ""
 
 #. type: Plain text
@@ -45,8 +48,10 @@ msgstr ""
 #: chapter-2.html:19
 #, no-wrap
 msgid ""
-"\t<link rel=\"alternate\" type=\"application/atom+xml\" href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
-"    <link href=\"https://plus.google.com/109866369054280216564\" rel=\"publisher\">\n"
+"\t<link rel=\"alternate\" type=\"application/atom+xml\" "
+"href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
+"    <link href=\"https://plus.google.com/109866369054280216564\" "
+"rel=\"publisher\">\n"
 "\t<script src=\"/js/modernizr.custom.02548.js\"></script>\n"
 msgstr ""
 
@@ -71,9 +76,12 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    (function() {\n"
-"      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n"
-"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n"
+"      var ga = document.createElement('script'); ga.type = "
+"'text/javascript'; ga.async = true;\n"
+"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : "
+"'http://www') + '.google-analytics.com/ga.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(ga, s);\n"
 "    })();\n"
 msgstr ""
 
@@ -91,7 +99,8 @@ msgid ""
 "\twindow.___gcfg = {lang: 'en'};\n"
 "\t(function() \n"
 "\t{var po = document.createElement(\"script\");\n"
-"\tpo.type = \"text/javascript\"; po.async = true;po.src = \"https://apis.google.com/js/plusone.js\";\n"
+"\tpo.type = \"text/javascript\"; po.async = true;po.src = "
+"\"https://apis.google.com/js/plusone.js\";\n"
 "\tvar s = document.getElementsByTagName(\"script\")[0];\n"
 "\ts.parentNode.insertBefore(po, s);\n"
 "\t})();\n"
@@ -100,8 +109,10 @@ msgid ""
 "<body>\n"
 "\t<div id=\"container\">\n"
 "\t\t<header>\n"
-"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" data-count=\"true\"></div></div>\n"
-"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" height=\"116\" alt=\"Dart\"></a>\n"
+"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" "
+"data-count=\"true\"></div></div>\n"
+"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" "
+"height=\"116\" alt=\"Dart\"></a>\n"
 "\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
 "\t\t</header>\n"
 msgstr ""
@@ -113,16 +124,18 @@ msgid ""
 "\t\t<nav>\n"
 "  <form action=\"/search.html\" id=\"cse-search-box\">\n"
 "    <div id=\"search\">\n"
-"      <input type=\"hidden\" name=\"cx\" value=\"011220921317074318178:i4mscbaxtru\" />\n"
+"      <input type=\"hidden\" name=\"cx\" "
+"value=\"011220921317074318178:i4mscbaxtru\" />\n"
 "      <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\n"
 "      <input type=\"hidden\" name=\"hl\" value=\"en\" />\n"
-"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" placeholder=\"Search\"/>\n"
+"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" "
+"placeholder=\"Search\"/>\n"
 "    </div>\n"
 "  </form>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:95
+#: chapter-2.html:94
 #, no-wrap
 msgid ""
 "  <ul>\n"
@@ -130,44 +143,49 @@ msgid ""
 "    <li><a href=\"http://news.dartlang.org\">News &amp; Updates</a></li>\n"
 "    <li>Getting Started\n"
 "      <ul>\n"
-"        <li><a href=\"/language-tour/\">Language Tour</a></li>\n"
-"        <li><a href=\"/docs/technical-overview/\">Technical Overview</a></li>\n"
-"        <li><a href=\"http://synonym.dartlang.org\">Translations from JavaScript</a></li>\n"
-"      </ul> </li>\n"
+"        <li><a href=\"/language-tour/index.html\">Language Tour</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/index.html\">Technical "
+"Overview</a></li>\n"
+"        <li><a href=\"http://synonym.dartlang.org\">Translations from "
+"JavaScript</a></li>\n"
+"      </ul>\n"
+"    </li>\n"
 "    <li>Language &amp; Libraries\n"
 "      <ul>\n"
-"        <li><a href=\"/docs/spec/\">Language Spec</a></li>\n"
+"        <li><a href=\"/docs/spec/index.html\">Language Spec</a></li>\n"
 "        <li><a href=\"http://api.dartlang.org/\">API Reference</a></li>\n"
-"      </ul> </li>\n"
+"      </ul>\n"
+"     </li>\n"
 "    <li>Tools\n"
 "      <ul>\n"
 "        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
-"        <li><a href=\"/docs/getting-started/editor/\">Dart Editor</a></li>\n"
-"        <li><a href=\"/dartium/\">Chromium with the Dart VM</a></li>\n"
-"        <li><a href=\"/docs/getting-started/sdk/\">SDK</a></li>\n"
-"      </ul> </li>\n"
-"    <li>Resources\n"
-"      <ul>\n"
-"        <li><a href=\"/samples/\">Code Samples</a></li>\n"
-"        <li><a href=\"/articles/\">Articles</a></li>\n"
-"        <li><a href=\"/slides/\">Presentations</a></li>\n"
-"        <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
-"        <li><a href=\"/resources/\">More</a></li>\n"
-"      </ul> </li>\n"
-"    <li><a href=\"/support/\">Contact Us</a></li>\n"
+"        <li><a href=\"/docs/getting-started/editor/index.html\">Dart "
+"Editor</a></li>\n"
+"        <li><a href=\"/dartium/index.html\">Chromium with the Dart "
+"VM</a></li>\n"
+"        <li><a href=\"/docs/getting-started/sdk/index.html\">SDK</a></li>\n"
+"      </ul>\n"
+"    <li><a href=\"/samples/index.html\">Code Samples</a></li>\n"
+"    <li><a href=\"/articles/index.html\">Articles</a></li>\n"
+"    <li><a href=\"/resources/index.html\">Resources</a></li>\n"
+"    <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
+"    <li><a href=\"/slides/index.html\">Presentations</a></li>\n"
+"    <li><a href=\"/support/index.html\">Discuss</a></li>\n"
 "  </ul>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:98
+#: chapter-2.html:97
 #, no-wrap
 msgid ""
-"  <div id=\"pluspage\"><div class=\"g-plus\" data-href=\"https://plus.google.com/109866369054280216564\" data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
+"  <div id=\"pluspage\"><div class=\"g-plus\" "
+"data-href=\"https://plus.google.com/109866369054280216564\" "
+"data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
 "</nav>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:103
+#: chapter-2.html:102
 #, no-wrap
 msgid ""
 "\t\t<div id=\"main\" role=\"main\">\n"
@@ -176,35 +194,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:106
+#: chapter-2.html:105
 msgid "<p><em>Written by Joshua Bloch <br /> February 2012</em></p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:108
+#: chapter-2.html:107
 msgid "<p><section></p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:112
+#: chapter-2.html:111
 msgid ""
 "<p>The second chapter of <em>Java Puzzlers</em> is entitled \"Puzzlers with "
-"Character,\" and concerns \"strings, characters, and other textual data.\"</"
-"p>"
+"Character,\" and concerns \"strings, characters, and other textual "
+"data.\"</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:114
+#: chapter-2.html:113
 msgid "<p><section id=\"toc\"></p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:116
+#: chapter-2.html:115
 msgid "<h4>Contents</h4>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:133
+#: chapter-2.html:132
 #, no-wrap
 msgid ""
 "<ol class=\"toc\">\n"
@@ -226,24 +244,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:136
+#: chapter-2.html:135
 msgid "<p></section></p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:138
+#: chapter-2.html:137
 msgid "<h2 id=\"11\"> Puzzle 11: The Last Laugh </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:141
+#: chapter-2.html:140
 msgid ""
 "<p>In Java, this program that appears to print <code>HaHa</code> actually "
 "prints <code>Ha169</code>.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:150
+#: chapter-2.html:149
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -257,59 +275,59 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:154
+#: chapter-2.html:153
 msgid ""
 "<p>The puzzler is fixed by Dart's lack of a (deficient) char type; there is "
 "no direct Dart equivalent of the program.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:158
+#: chapter-2.html:157
 msgid ""
 "<p>In the book (<em>Java Puzzlers</em>), the solution to this puzzle "
-"contains a related puzzle: Can you guess what the following statement prints?"
-"</p>"
+"contains a related puzzle: Can you guess what the following statement "
+"prints?</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:162
+#: chapter-2.html:161
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \"> System.out.println(\"2 + 2 "
 "= \" + 2+2); </pre>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:165
+#: chapter-2.html:164
 msgid "<p>Translating this mini-puzzle into Dart, we get:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:169
+#: chapter-2.html:168
 msgid ""
-"<pre class=\"prettyprint lang-dart linenums:0 \"> print('2 + 2 = ' + 2+2); </"
-"pre>"
+"<pre class=\"prettyprint lang-dart linenums:0 \"> print('2 + 2 = ' + 2+2); "
+"</pre>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:179
+#: chapter-2.html:178
 msgid ""
 "<p>Both the Java and Dart versions print <code>2 + 2 = 22</code>, which may "
-"not be what you expected.  Given Dart's support for \"string interpolation,"
-"\" the easiest way to fix this puzzler would be to eliminate the string "
-"concatenation operator from Dart.  I suspect that, after a brief period of "
-"mourning, no one would miss it.  It's just as easy, and arguably clearer, to "
-"say:</p>"
+"not be what you expected.  Given Dart's support for \"string "
+"interpolation,\" the easiest way to fix this puzzler would be to eliminate "
+"the string concatenation operator from Dart.  I suspect that, after a brief "
+"period of mourning, no one would miss it.  It's just as easy, and arguably "
+"clearer, to say:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:183
+#: chapter-2.html:182
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \"> print('2 + 2 = ${2 + 2}'); "
 "</pre>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:191
+#: chapter-2.html:190
 msgid ""
 "<p>This version does print <code>2 + 2 = 4</code>, just as you were taught "
 "in elementary school.  String interpolation is even nicer when you're "
@@ -318,7 +336,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:195
+#: chapter-2.html:194
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -327,7 +345,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:204
+#: chapter-2.html:203
 msgid ""
 "<p>Although it might seem that you'd get less compile-time checking, Dart "
 "Editor picks up the slack.  Another reason for getting rid of the String "
@@ -337,7 +355,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:216
+#: chapter-2.html:215
 msgid ""
 "<p>Note that eliminating the string concatenation operator from Dart has no "
 "effect on the language; it is merely a library change.  It consists of "
@@ -348,17 +366,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:218
+#: chapter-2.html:217
 msgid "<h2 id=\"12\">Puzzle 12: ABC</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:221
+#: chapter-2.html:220
 msgid "<p>Consider this Java program:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:231
+#: chapter-2.html:230
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -373,7 +391,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:240
+#: chapter-2.html:239
 msgid ""
 "<p>Sadly, it prints <code>ABC easy as [C@16f0472</code> (or some such), "
 "because Java's arrays don't override the toString method they inherit from "
@@ -382,7 +400,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:248
+#: chapter-2.html:247
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -395,12 +413,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:251
+#: chapter-2.html:250
 msgid "<p>or if you don't like types:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:259
+#: chapter-2.html:258
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -413,29 +431,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:273
+#: chapter-2.html:272
 msgid ""
-"<p>Because the Dart equivalent of Java’s array is a List, which is a full-"
-"fledged Collection, I expected the Dart version to work just fine.  It "
+"<p>Because the Dart equivalent of Java’s array is a List, which is a "
+"full-fledged Collection, I expected the Dart version to work just fine.  It "
 "didn’t.  It printed <code>ABC easy as Object</code>, essentially replicating "
-"the Java behavior.  So I <a href=\"http://blog.sethladd.com/2012/02/pretty-"
-"print-dart-collections.html\">fixed it</a>! Now the Dart version prints "
-"<code>ABC easy as [1, 2, 3]</code> and all is well (assuming you’re running "
-"the \"bleeding edge\" build).  This is true for the VM and for DartBoard.</p>"
+"the Java behavior.  So I <a "
+"href=\"http://blog.sethladd.com/2012/02/pretty-print-dart-collections.html\">fixed "
+"it</a>! Now the Dart version prints <code>ABC easy as [1, 2, 3]</code> and "
+"all is well (assuming you’re running the \"bleeding edge\" build).  This is "
+"true for the VM and for DartBoard.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:275
+#: chapter-2.html:274
 msgid "<h2 id=\"13\">Puzzle 13: Animal Farm</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:278 chapter-2.html:319
+#: chapter-2.html:277 chapter-2.html:318
 msgid "<p>Here’s the Java program:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:284
+#: chapter-2.html:283
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -446,7 +465,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:290
+#: chapter-2.html:289
 #, no-wrap
 msgid ""
 "    System.out.println(\"Animals are equal: \"\n"
@@ -457,16 +476,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:298
+#: chapter-2.html:297
 msgid ""
 "<p>It doesn’t print <code>Animals are equal: true</code>.  It doesn’t print "
-"<code>Animals are equal: false</code>, either.  It just prints <code>false</"
-"code>. Why? Because the + operator binds tighter than the == operator.  "
-"Here’s the Dart version:</p>"
+"<code>Animals are equal: false</code>, either.  It just prints "
+"<code>false</code>. Why? Because the + operator binds tighter than the == "
+"operator.  Here’s the Dart version:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:303
+#: chapter-2.html:302
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -476,7 +495,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:308
+#: chapter-2.html:307
 #, no-wrap
 msgid ""
 "  print('Animals are equal: '\n"
@@ -486,7 +505,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:314
+#: chapter-2.html:313
 msgid ""
 "<p>Sadly, it fails in exactly the same fashion as the Java version.  "
 "Happily, we’re hard at work eliminating the string concatenation operator "
@@ -494,12 +513,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:316
+#: chapter-2.html:315
 msgid "<h2 id=\"14\">Puzzle 14: Escape Rout</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:328
+#: chapter-2.html:327
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -513,7 +532,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:338
+#: chapter-2.html:337
 msgid ""
 "<p>A cursory glance suggests that it should print <code>26</code>, the "
 "number of characters between the quotation marks.  A deeper analysis "
@@ -524,7 +543,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:347
+#: chapter-2.html:346
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -538,12 +557,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:350
+#: chapter-2.html:349
 msgid "<p>Here’s the program translated into Dart:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:357
+#: chapter-2.html:356
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -555,7 +574,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:365
+#: chapter-2.html:364
 msgid ""
 "<p>It prints <code>14</code> as per the \"deeper analysis\" above.  Why 14 "
 "instead of 16? Because Dart doesn’t use parens to get the length of an "
@@ -565,19 +584,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:367
+#: chapter-2.html:366
 msgid "<h2 id=\"15\">Puzzle 15: Hello Whirled</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:371
+#: chapter-2.html:370
 msgid ""
 "<p>Here’s the original Java program, which would appear to print <code>Hello "
 "world</code>:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:385
+#: chapter-2.html:384
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -596,23 +615,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:397
+#: chapter-2.html:396
 msgid ""
 "<p>Sadly, it doesn’t compile, due to a malformed Unicode escape.  Where is "
-"it? In the comment, of course.  It’s hidden in the file name: <code>\\units</"
-"code>.  As soon as the compiler sees a character that isn’t a hex digit "
-"after the <code>\\u</code>, it’s all over.  You might think the compiler "
-"would ignore Unicode escapes in comments, but it doesn’t know it’s in a "
-"comment because it hasn’t parsed the program yet.</p>"
+"it? In the comment, of course.  It’s hidden in the file name: "
+"<code>\\units</code>.  As soon as the compiler sees a character that isn’t a "
+"hex digit after the <code>\\u</code>, it’s all over.  You might think the "
+"compiler would ignore Unicode escapes in comments, but it doesn’t know it’s "
+"in a comment because it hasn’t parsed the program yet.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:399
+#: chapter-2.html:398
 msgid "<p>Here’s the (rough) Dart equivalent:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:411
+#: chapter-2.html:410
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -629,17 +648,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:414
+#: chapter-2.html:413
 msgid "<p>This program prints:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:418
+#: chapter-2.html:417
 msgid "<pre><code>Hell o world </code></pre>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:428
+#: chapter-2.html:427
 msgid ""
 "<p>demonstrating that Dart has fixed the puzzler.  It does, however, raise "
 "the issue that Dart doesn’t have a way to print a string without a trailing "
@@ -649,19 +668,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:430
+#: chapter-2.html:429
 msgid "<h2 id=\"16\">Puzzle 16: Line Printer</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:435
+#: chapter-2.html:434
 msgid ""
 "<p>Here’s the Java program, which looks like it ought to print a couple of "
 "newline characters:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:445
+#: chapter-2.html:444
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -676,7 +695,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:454
+#: chapter-2.html:453
 msgid ""
 "<p>Sadly, it doesn’t compile, as the Unicode escape in the single-line "
 "comment (\\u000A)  terminates the comment, leaving the remainder of the line "
@@ -686,7 +705,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:462
+#: chapter-2.html:461
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -699,7 +718,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:469
+#: chapter-2.html:468
 msgid ""
 "<p>It prints two newline characters, exactly as you’d expect.  Its verbosity "
 "does suggest that String should perhaps have a constructor that takes a "
@@ -707,19 +726,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:471
+#: chapter-2.html:470
 msgid "<h2 id=\"17\">Puzzle 17: Huh?</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:475
+#: chapter-2.html:474
 msgid ""
-"<p>Here’s the Java program (and I hope you have your barf bag near at hand):"
-"</p>"
+"<p>Here’s the Java program (and I hope you have your barf bag near at "
+"hand):</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:489
+#: chapter-2.html:488
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \"> "
 "\\u0070\\u0075\\u0062\\u006c\\u0069\\u0063\\u0020\\u0020\\u0020\\u0020 "
@@ -732,11 +751,12 @@ msgid ""
 "\\u0053\\u0079\\u0073\\u0074\\u0065\\u006d\\u002e\\u006f\\u0075\\u0074 "
 "\\u002e\\u0070\\u0072\\u0069\\u006e\\u0074\\u006c\\u006e\\u0028\\u0020 "
 "\\u0022\\u0048\\u0065\\u006c\\u006c\\u006f\\u0020\\u0077\\u0022\\u002b "
-"\\u0022\\u006f\\u0072\\u006c\\u0064\\u0022\\u0029\\u003b\\u007d\\u007d </pre>"
+"\\u0022\\u006f\\u0072\\u006c\\u0064\\u0022\\u0029\\u003b\\u007d\\u007d "
+"</pre>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:496
+#: chapter-2.html:495
 msgid ""
 "<p>If you have any doubts that it’s a legitimate Java program copy it, paste "
 "it into a file named Ugly.java, and run it.  Nothing like this will run in "
@@ -745,19 +765,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:498
+#: chapter-2.html:497
 msgid "<h2 id=\"18\">Puzzle 18: String Cheese</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:503
+#: chapter-2.html:502
 msgid ""
 "<p>Here’s the original program, which translates a sequence of bytes into a "
 "string and then prints every character code in the string:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:516
+#: chapter-2.html:515
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:1 \">\n"
@@ -775,7 +795,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:531
+#: chapter-2.html:530
 msgid ""
 "<p>You might expect it to print the byte values it started with, but the "
 "behavior turns out to be unspecified.  It depends on the Java Runtime "
@@ -790,17 +810,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:533
+#: chapter-2.html:532
 msgid "<h2 id=\"19\">Puzzle 19: Classy Fire</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:537
+#: chapter-2.html:536
 msgid "<p>Here’s the Java program, which appears to classify characters:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:544
+#: chapter-2.html:543
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:1 \">\n"
@@ -812,7 +832,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:558
+#: chapter-2.html:557
 #, no-wrap
 msgid ""
 "  static String classify(char ch) {\n"
@@ -831,14 +851,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:562
+#: chapter-2.html:561
 msgid ""
 "<p>In fact, it doesn’t compile as the multi-line comment is terminated "
 "\"accidentally\" in the middle of this line:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:565
+#: chapter-2.html:564
 #, no-wrap
 msgid ""
 "<pre> *      if (\"+-<b>*/</b>&|!=\".indexOf(ch) >= 0)\n"
@@ -846,12 +866,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:568
+#: chapter-2.html:567
 msgid "<p>Here is the Dart equivalent:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:573
+#: chapter-2.html:572
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:1 \">\n"
@@ -861,7 +881,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:587
+#: chapter-2.html:586
 #, no-wrap
 msgid ""
 "String classify(String ch) {\n"
@@ -880,7 +900,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:599
+#: chapter-2.html:598
 msgid ""
 "<p>This puzzler behaves exactly the same in Dart as it does in Java, which "
 "is to say it won’t compile in Dart, either.  But that’s not such a bad "
@@ -891,7 +911,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:612
+#: chapter-2.html:611
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:1 \">\n"
@@ -909,30 +929,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:617 chapter-2.html:701
+#: chapter-2.html:616 chapter-2.html:700
 msgid "<br>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:620
+#: chapter-2.html:619
 msgid "<h2 id=\"20\">Puzzle 20: What’s My Class?</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:624
+#: chapter-2.html:623
 msgid ""
 "<p>This Java puzzler can’t be be directly translated into Dart, as Dart "
 "lacks the required reflection facilities:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:627
-msgid ""
-"<pre class=\"prettyprint lang-java linenums:0 \"> package com.javapuzzlers;"
+#: chapter-2.html:626
+msgid "<pre class=\"prettyprint lang-java linenums:0 \"> package com.javapuzzlers;"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:635
+#: chapter-2.html:634
 #, no-wrap
 msgid ""
 "public class Me {\n"
@@ -945,7 +964,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:644
+#: chapter-2.html:643
 msgid ""
 "<p>But the real problem has nothing to do with reflection.  The program "
 "prints <code>///////////////////.class</code> due to surprising behavior in "
@@ -955,7 +974,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:650
+#: chapter-2.html:649
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -966,18 +985,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:654
-msgid ""
-"<p>This program prints <code>I/like/cheese</code>, just as you’d hope.</p>"
+#: chapter-2.html:653
+msgid "<p>This program prints <code>I/like/cheese</code>, just as you’d hope.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:656
+#: chapter-2.html:655
 msgid "<h2 id=\"21\">Puzzle 21: What’s My Class, Take 2</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:663
+#: chapter-2.html:662
 msgid ""
 "<p>This puzzle is similar to the previous one, in that it uses Java’s basic "
 "reflection facilities, but it’s really about the <code>replaceAll</code> "
@@ -986,14 +1004,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:667
+#: chapter-2.html:666
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \"> package com.javapuzzlers; "
 "import java.io.File;"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:675
+#: chapter-2.html:674
 #, no-wrap
 msgid ""
 "public class MeToo {\n"
@@ -1006,7 +1024,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:682
+#: chapter-2.html:681
 msgid ""
 "<p>It works on Linux but on Windows, it fails with a "
 "<code>StringIndexOutOfBoundsException</code>, because the second parameter "
@@ -1015,7 +1033,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:692
+#: chapter-2.html:691
 msgid ""
 "<p>Again, we can’t exactly port the program to Dart, because Dart lacks a "
 "reflection facility (for now), but the underlying problem (with "
@@ -1027,7 +1045,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:698
+#: chapter-2.html:697
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -1038,19 +1056,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:706
+#: chapter-2.html:705
 msgid "<h2 id=\"22\">Puzzle 22: Dupe of URL</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:711
+#: chapter-2.html:710
 msgid ""
 "<p>Here’s a very strange Java program.  It looks like it shouldn’t compile, "
 "but it does.  It even runs:</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:721
+#: chapter-2.html:720
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -1065,14 +1083,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:726
+#: chapter-2.html:725
 msgid ""
-"<p>So what does it do? Nothing much.  It just prints <code>:iexplore::"
-"maximize</code>.  Here it is ported to Dart.</p>"
+"<p>So what does it do? Nothing much.  It just prints "
+"<code>:iexplore::maximize</code>.  Here it is ported to Dart.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:734
+#: chapter-2.html:733
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -1085,26 +1103,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:750
+#: chapter-2.html:749
 msgid ""
-"<p>Amazingly, it still compiles and runs.  Again it just prints <code>chrome:"
-"</code> and <code>maximize:</code>.  Why can you drop URLs into the middle "
-"of Java and Dart programs? If you put the program into a syntax-highlighting "
-"IDE or text editor, all will become apparent.  The URL is parsed as a label "
-"(<code>http:</code>)  followed by a single line comment (<code>//www.google."
-"com;</code>).  So why is it legal to put a label at an arbitrary position in "
-"a language without a <b>goto</b> statement? Search me.  If it were up to me, "
-"it wouldn’t be.  That said, this is not a very important puzzler.  I can’t "
-"imagine a serious bug popping up because this is legal.</p>"
+"<p>Amazingly, it still compiles and runs.  Again it just prints "
+"<code>chrome:</code> and <code>maximize:</code>.  Why can you drop URLs into "
+"the middle of Java and Dart programs? If you put the program into a "
+"syntax-highlighting IDE or text editor, all will become apparent.  The URL "
+"is parsed as a label (<code>http:</code>)  followed by a single line comment "
+"(<code>//www.google.com;</code>).  So why is it legal to put a label at an "
+"arbitrary position in a language without a <b>goto</b> statement? Search "
+"me.  If it were up to me, it wouldn’t be.  That said, this is not a very "
+"important puzzler.  I can’t imagine a serious bug popping up because this is "
+"legal.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:752
+#: chapter-2.html:751
 msgid "<h2 id=\"23\">Puzzle 23: No Pain, No Gain</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:760
+#: chapter-2.html:759
 msgid ""
 "<p>Here’s a Java program that might appear to print one of three words: "
 "<code>Pain</code>, <code>Gain</code>, and <code>Main</code> chosen randomly, "
@@ -1113,12 +1132,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:763
+#: chapter-2.html:762
 msgid "<pre class=\"prettyprint lang-java linenums:0 \"> import java.util.*;"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:766
+#: chapter-2.html:765
 #, no-wrap
 msgid ""
 "public class Rhymes {\n"
@@ -1126,7 +1145,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:781
+#: chapter-2.html:780
 #, no-wrap
 msgid ""
 "  public static void main(String[] args) {\n"
@@ -1146,23 +1165,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:786
+#: chapter-2.html:785
 msgid ""
 "<p>In fact, the program prints the non-word <code>ain</code> every time you "
 "run it.  And why is that? The program contains 3 (!) bugs.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:792
+#: chapter-2.html:791
 msgid ""
-"<p>First there’s a “fencepost error” in the expression <code>rnd.nextInt(2)</"
-"code>.  The argument is the <em>modulus</em>: the random number generator "
-"returns 0 or 1, never 2.  This is a programming error, pure and simple, not "
-"a platform problem.</p>"
+"<p>First there’s a “fencepost error” in the expression "
+"<code>rnd.nextInt(2)</code>.  The argument is the <em>modulus</em>: the "
+"random number generator returns 0 or 1, never 2.  This is a programming "
+"error, pure and simple, not a platform problem.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:798
+#: chapter-2.html:797
 msgid ""
 "<p>Second, the switch statement is missing a break after the first two "
 "cases, so the first two cases fall through, and word is always set to "
@@ -1171,7 +1190,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:819
+#: chapter-2.html:818
 msgid ""
 "<p>At this point, you might suspect that the string buffer would contain "
 "<code>Main</code>, but it doesn’t; it contains <code>ain</code>.  Why? The "
@@ -1183,17 +1202,17 @@ msgid ""
 "<code>int</code> (a primitive widening conversion).  And what does the "
 "<code>int</code> represent? The <em>initial</em> capacity of the string "
 "buffer, or the length of the <code>char</code> array backing the buffer.  "
-"But the buffer is initially empty.  So the mysterious behavior is explained."
-"</p>"
+"But the buffer is initially empty.  So the mysterious behavior is "
+"explained.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:821
+#: chapter-2.html:820
 msgid "<p>What happens when we do a naive translation to Dart?</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:836
+#: chapter-2.html:835
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -1213,7 +1232,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:842
+#: chapter-2.html:841
 msgid ""
 "<p>Of course the fencepost error remains, but that’s OK; it’s “pilot error,” "
 "and we know enough not to make that error.  The most serious trap has been "
@@ -1221,7 +1240,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:864
+#: chapter-2.html:863
 msgid ""
 "<p>Sadly, the fallthrough problem has not been eliminated.  If you run this "
 "program with the 2 changed to a 3 on Dartboard, you’ll find that ⅓ of the "
@@ -1241,7 +1260,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:888
+#: chapter-2.html:887
 msgid ""
 "<p>But wait, there’s more: If you run the program on the VM, you’ll find "
 "that it <em>always</em> prints <code>Main</code>, whether or not you put "
@@ -1253,50 +1272,50 @@ msgid ""
 "support for integers (not just doubles).  Oh, one more thing about the "
 "behavior of this program under the VM: if you put the body of the main "
 "method in a loop, you’ll see that the runtime fallthrough behavior is "
-"slightly different in the VM and on Dartboard: in the VM, you get a <a href="
-"\"http://api.dartlang.org/dart_core/FallThroughError.html\">“Switch case "
-"fall-through” exception</a> (with stack trace) at runtime, rather a simple "
-"error message.</p>"
+"slightly different in the VM and on Dartboard: in the VM, you get a <a "
+"href=\"http://api.dartlang.org/dart_core/FallThroughError.html\">“Switch "
+"case fall-through” exception</a> (with stack trace) at runtime, rather a "
+"simple error message.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:890
+#: chapter-2.html:889
 msgid "<h2 id=\"summary\">Summary</h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:895
+#: chapter-2.html:894
 msgid ""
 "<p>That’s it for Chapter 2.  Now the moment you’ve all been waiting for: how "
 "does Dart stack up against Java?</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:907
+#: chapter-2.html:906
 msgid ""
 "<p>Well, the chapter has 13 puzzles.  Nine are clear wins for Dart, in that "
 "the trap has been eliminated (11, 12, 14, 15, 16, 17, 18, 20, and 21).  One "
 "trap will be eliminated from Dart when ongoing work is complete (13).  Two "
 "haven't been fixed, but aren't really worth fixing either (19 and 22).  And "
 "one (23) is every bit as bad in Dart as it was in Java.  But with a little "
-"luck, maybe we'll fix it.  See you soon for another chapter of Puzzler fun.</"
-"p>"
+"luck, maybe we'll fix it.  See you soon for another chapter of Puzzler "
+"fun.</p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:910
+#: chapter-2.html:909
 msgid ""
 "<p><link href=\"/css/style.css\" type=\"text/css\" rel=\"stylesheet\"> <link "
 "href=\"/css/prettify.css\" type=\"text/css\" rel=\"stylesheet\"></p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:912
+#: chapter-2.html:911
 msgid "<script type=\"text/javascript\" src=\"/js/prettify.js\"></script>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:919
+#: chapter-2.html:918
 #, no-wrap
 msgid ""
 "<script>\n"
@@ -1307,7 +1326,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:923
+#: chapter-2.html:922
 #, no-wrap
 msgid ""
 "\t\t\t</article>\n"
@@ -1315,28 +1334,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:933
+#: chapter-2.html:932
 #, no-wrap
 msgid ""
 "\t\t<footer>\n"
 "\t\t\t<p>\n"
-"\t\t\t  Except as otherwise <a href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the content of this page is licensed under the <a \t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
+"\t\t\t  Except as otherwise <a "
+"href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the "
+"content of this page is licensed under the <a "
+"\t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons "
+"Attribution 3.0 License</a>, and code samples are licensed under the <a "
+"href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
 "\t\t\t</p>\n"
 "\t\t\t<p>\n"
-"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; padding-right: 5px\">Terms of Service</a>\n"
-"\t\t\t\t<a href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy Policy</a>\n"
+"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; "
+"padding-right: 5px\">Terms of Service</a>\n"
+"\t\t\t\t<a "
+"href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy "
+"Policy</a>\n"
 "\t\t\t</p>\n"
 "\t</footer>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:935
+#: chapter-2.html:934
 #, no-wrap
 msgid "\t</div>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:940
+#: chapter-2.html:939
 #, no-wrap
 msgid ""
 "\t<!--[if lt IE 7 ]>\n"
@@ -1346,19 +1373,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:948
+#: chapter-2.html:947
 #, no-wrap
 msgid ""
 "\t<script>\n"
 "    (function() {\n"
-"      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;\n"
+"      var po = document.createElement('script'); po.type = "
+"'text/javascript'; po.async = true;\n"
 "      po.src = 'https://apis.google.com/js/plusone.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(po, s);\n"
 "    })();\n"
 "\t</script>\n"
 msgstr ""
 
 #. type: Plain text
-#: chapter-2.html:951
+#: chapter-2.html:950
 msgid "</body> </html>"
 msgstr ""

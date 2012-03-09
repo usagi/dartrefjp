@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-08 06:39+0900\n"
-"PO-Revision-Date: 2012-03-08 07:10+0900\n"
+"PO-Revision-Date: 2012-03-10 00:19+0900\n"
 "Last-Translator: Usagi Ito <usagi@WonderRabbitProject.net>\n"
 "Language-Team: dartrefjp <dartrefjp@googlegroups.com>\n"
 "Language: \n"
@@ -46,7 +46,8 @@ msgid ""
 "5"
 msgstr ""
 "1.1 ライセンス . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
-"5 1.2 更新履歴 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5"
+"5 \n"
+"1.2 更新履歴 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5"
 
 #. type: Plain text
 #: dartLangSpec.txt:21
@@ -57,16 +58,18 @@ msgid ""
 "Version 0.05 . . . . . . . . . . . . . . . . . 6 1.2.5 Changes Since Version "
 "0.06 . . . . . . . . . . . . . . . . . 6"
 msgstr ""
-"1.2.1 Version 0.02 からの変更点 . . . . . . . . . . . . . . . . . 5 1.2.2 "
-"Version 0.03 からの変更点 . . . . . . . . . . . . . . . . . 5 1.2.3 Version "
-"0.04 からの変更点 . . . . . . . . . . . . . . . . . 6 1.2.4 Version 0.05 から"
-"の変更点 . . . . . . . . . . . . . . . . . 6 1.2.5 Version 0.06 からの変更"
-"点 . . . . . . . . . . . . . . . . . 6"
+"1.2.1 Version 0.02 からの変更点 . . . . . . . . . . . . . . . . . 5 \n"
+"1.2.2 Version 0.03 からの変更点 . . . . . . . . . . . . . . . . . 5 \n"
+"1.2.3 Version 0.04 からの変更点 . . . . . . . . . . . . . . . . . 6 \n"
+"1.2.4 Version 0.05 からの変更点 . . . . . . . . . . . . . . . . . 6 \n"
+"1.2.5 Version 0.06 からの変更点 . . . . . . . . . . . . . . . . . 6"
 
 #. type: Plain text
 #: dartLangSpec.txt:24
 msgid "2 Notation 7 3 Overview 9"
 msgstr ""
+"2 記法 7 \n"
+"3 概要 9"
 
 #. type: Plain text
 #: dartLangSpec.txt:28
@@ -76,11 +79,19 @@ msgid ""
 "Privacy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 "
 "3.3 Concurrency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10"
 msgstr ""
+"3.1 スコープ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+"9 \n"
+"3.2 プライバ"
+"シー . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 \n"
+"3.3 並行性 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10"
 
 #. type: Plain text
 #: dartLangSpec.txt:32
 msgid "4 Errors and Warnings 10 5 Variables 11 6 Functions 12"
 msgstr ""
+"4 警告とエラー 10 \n"
+"5 変数 11 \n"
+"6 関数 12"
 
 #. type: Plain text
 #: dartLangSpec.txt:35
@@ -88,6 +99,8 @@ msgid ""
 "6.1 Function Declarations . . . . . . . . . . . . . . . . . . . . . . . . 13 "
 "6.2 Formal Parameters . . . . . . . . . . . . . . . . . . . . . . . . . . 14"
 msgstr ""
+"6.1 関数の宣言 . . . . . . . . . . . . . . . . . . . . . . . . 13 \n"
+"6.2 仮引数 . . . . . . . . . . . . . . . . . . . . . . . . . . 14"
 
 #. type: Plain text
 #: dartLangSpec.txt:39

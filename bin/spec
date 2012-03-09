@@ -1,8 +1,32 @@
 #!/bin/sh
+
+target_source='http://www.dartlang.org/docs/spec/dartLangSpec.pdf'
+target_file_no_extension='dartLangSpec'
+target_file=$target_file_no_extension'.pdf'
+target_old_file=$target_file'.old'
+target_ps_file=$target_file_no_extension'.ps'
+target_txt_file=$target_file_no_extension'.txt'
+
+if [ -f $target_file ]
+then
+  echo "[alternative spec] move to ${target_file} --> ${target_old_file}"
+  mv $target_file ${target_old_file}
+fi
 echo '[alternative spec] download'
-curl -O "http://www.dartlang.org/docs/spec/dartLangSpec.pdf"
-echo '[alternative spec] pdf2ps'
-pdf2ps dartLangSpec.pdf
-echo '[alternative spec] ps2ascii'
-ps2ascii dartLangSpec.ps > dartLangSpec.txt
+curl -O "$target_source"
+if ! cmp -s ${target_file} ${target_old_file}
+then
+  echo '[alternative spec] the source is updated. refresh source resources'
+  echo "[alternative spec] pdf2ps $target_file --> $target_ps_file"
+  pdf2ps $target_file
+  echo "[alternative spec] ps2ascii $target_ps_file --> $target_txt_file"
+  ps2ascii $target_ps_file > $target_txt_file
+else
+  echo '[alternative spec] the source is not updated.'
+fi
+if [ -f ${target_old_file} ]
+then
+  echo "[alternative spec] remove old file --> ${target_old_file}"
+  rm $target_old_file
+fi
 
