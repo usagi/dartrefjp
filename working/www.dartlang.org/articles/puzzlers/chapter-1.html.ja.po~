@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-08 06:38+0900\n"
-"PO-Revision-Date: 2012-03-10 16:23+0900\n"
+"PO-Revision-Date: 2012-03-10 17:29+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -328,7 +328,7 @@ msgstr ""
 #. type: Plain text
 #: chapter-1.html:174
 msgid "<h2 id=\"2\"> Puzzler 2: Time for a Change </h2>"
-msgstr ""
+msgstr "<h2 id=\"2\"> ぱずらー 2: 変革の時 </h2>"
 
 #. type: Plain text
 #: chapter-1.html:179
@@ -336,6 +336,8 @@ msgid ""
 "<p> This program appears to calculate the change when $2.00 is paid for a "
 "$0.90 purchase.  </p>"
 msgstr ""
+"<p> このプログラムは $2.00 から $0.90 支払った結果を計算して表示している。  "
+"</p>"
 
 #. type: Plain text
 #: chapter-1.html:187
@@ -349,11 +351,18 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-java linenums:0 \">\n"
+"public class Change {\n"
+"  public static void main(String args[]) {\n"
+"    System.out.println(2.00 - 1.10);\n"
+"  }\n"
+"}\n"
+"</pre>\n"
 
 #. type: Plain text
 #: chapter-1.html:191
 msgid "<p> Here it is translated into Dart: </p>"
-msgstr ""
+msgstr "<p> これを Dart に翻訳するとこうなる: </p>"
 
 #. type: Plain text
 #: chapter-1.html:197
@@ -365,6 +374,11 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-dart linenums:0 \">\n"
+"main() {\n"
+"  print(2.00 - 1.10);\n"
+"}\n"
+"</pre>\n"
 
 #. type: Plain text
 #: chapter-1.html:205
@@ -374,6 +388,13 @@ msgid ""
 "formatting functions; in the near future, the Dart VM will display the same "
 "(puzzling) behavior as Dartboard.  </p>"
 msgstr ""
+"<p> Java（訳註: <a href=\"http://ideone.com/MIiQ5\">こんな感じ</a>） でも "
+"Dartboard でも、これを実行すると 0.8999999999999999 と表示されてしまう。 "
+"Dart 仮想マシンを使うなら、この通貨表示は 0.9 となるのだけど、それは今のとこ"
+"ろはCの整形機能を通貨に適用しているからに過ぎないんだ（訳註: <a href="
+"\"http://ideone.com/wPeby\">こんな感じ</a>）。この点は将来、 Dart 仮想マシン"
+"でも Dartboard での実行結果と同様に表示されパズルの課題となるようにしないとい"
+"けないね。</p>"
 
 #. type: Plain text
 #: chapter-1.html:223
@@ -390,6 +411,16 @@ msgid ""
 "Cowlishaw was on the EcmaScript committee, and did get decimal arithmetic "
 "into the ill-fated EcmaScript 4.  </p>"
 msgstr ""
+"<p> この問題に対応する為に、 Dart は10進浮動小数点演算をサポートすべきでしょ"
+"うか？ した方がいいって意見も沢山聞こえてきます。 例えば、 Mike Cowlishaw "
+"(IBM Fellow) はこうした問題に人生を掛けて取り組みました（<a href=\"http://"
+"speleotrove.com/decimal\">http://speleotrove.com/decimal</a>）。また、C#では "
+"128-bit の10進浮動小数点をサポートする事でこの問題を避けました。でも、 "
+"JavaScript をデプロイしなければならない場合、10進浮動小数点の数値処理はとって"
+"も遅くて、何か他にもっと速くていい方法を使いたくなるでしょう(いやまあ、もしか"
+"したら、IBMの Power6 チップなら前述の Mike Cowlishaw の尽力によってネイティブ"
+"に10進浮動小数点をサポートしていたりもするんだけど)。ちなみに、 Cowlishaw が "
+"EcmaScript の委員だった頃、10進の算術は EcmaScript 4 の失敗を齎しました。</p>"
 
 #. type: Plain text
 #: chapter-1.html:228
@@ -397,6 +428,8 @@ msgid ""
 "<p> If Dart does provide library support for floating point decimal "
 "arithmetic, should we provide linguistic support for decimal literals? </p>"
 msgstr ""
+"<p> はてさて、10進浮動小数点の計算の為のライブラリを Dart が提供し、10進リテ"
+"ラルを言語サポートとすべきでしょうか？ </p>"
 
 #. type: Plain text
 #: chapter-1.html:237
@@ -406,6 +439,10 @@ msgid ""
 "enough to use int rather than double to avoid these problems.  But consider "
 "the following Dart program: </p>"
 msgstr ""
+"<p> 実は、この浮動小数点と2進数の問題は JavaScript へコンパイルするよりも "
+"Dart の方が深刻だったりする。Javaならば、大抵のプログラマーはこの問題に取り組"
+"むとなれば double の使用を避け、 int を使えば良い事を知っています。でも、次"
+"の Dart のプログラムを考えてみましょう: </p>"
 
 #. type: Plain text
 #: chapter-1.html:244
@@ -418,6 +455,12 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-dart linenums:0 \">\n"
+"main() {\n"
+"  int i = 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000;\n"
+"  print(i == i + 1);\n"
+"}\n"
+"</pre>\n"
 
 #. type: Plain text
 #: chapter-1.html:251
@@ -427,6 +470,10 @@ msgid ""
 "behavior.  But I understand that this is a hard, over-constrained problem.  "
 "</p>"
 msgstr ""
+"<p> これを Dartboard で実行してみてご覧よ、 true って表示しちゃうから。<em>"
+"とっても</em>混乱しちゃったかい？ いやはや、私が思うにこれではこの問題には良"
+"い答えを出せないだろう。勿論、これが一時的な現状であって、やがては解決される"
+"問題だと思いたいけどね。</p>"
 
 #. type: Plain text
 #: chapter-1.html:254
