@@ -7,27 +7,31 @@ target_old_file=$target_file'.old'
 target_ps_file=$target_file_no_extension'.ps'
 target_txt_file=$target_file_no_extension'.txt'
 
+cout(){
+  echo '20m50m33m[alternative spec]0m '$1
+}
+
 if [ -f $target_file ]
 then
-  echo "[alternative spec] move to ${target_file} --> ${target_old_file}"
+  cout "move to ${target_file} --> ${target_old_file}"
   mv $target_file ${target_old_file}
 fi
-echo '[alternative spec] download'
+cout 'download'
 curl -O "$target_source"
 if ! cmp -s ${target_file} ${target_old_file}
 then
-  echo '[alternative spec] the source is updated. refresh source resources'
-  echo "[alternative spec] pdf2ps $target_file --> $target_ps_file"
+  cout 'the source is updated. refresh source resources'
+  cout "pdf2ps $target_file --> $target_ps_file"
   pdf2ps $target_file
-  echo "[alternative spec] ps2ascii $target_ps_file --> $target_txt_file"
+  cout "ps2ascii $target_ps_file --> $target_txt_file"
   ps2ascii $target_ps_file > $target_txt_file
 else
-  echo '[alternative spec] the source is not updated.'
+  cout 'the source is not updated.'
   ln ${target_txt_file}.old ${target_txt_file}
 fi
 if [ -f ${target_old_file} ]
 then
-  echo "[alternative spec] remove old file --> ${target_old_file}"
+  cout "remove old file --> ${target_old_file}"
   rm $target_old_file
 fi
 
