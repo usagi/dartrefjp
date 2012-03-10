@@ -31,7 +31,7 @@ configure(){
 
   working_directory='working'
 
-  auto_git=TRUE
+  auto_git=true
 
   additional_paths="$additional_paths /usr/bin/vendor_perl"
 
