@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
-"POT-Creation-Date: 2012-03-10 14:27+0900\n"
-"PO-Revision-Date: 2012-03-08 08:40+0900\n"
+"POT-Creation-Date: 2012-03-10 16:23+0900\n"
+"PO-Revision-Date: 2012-03-10 16:23+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -331,8 +331,8 @@ msgid ""
 "<p> The puzzler was fixed in Dart: The following function <em>does</em> "
 "identify odd numbers in Dart (unlike Java): </p>"
 msgstr ""
-"<p> このパズルをDartにしてみよう: Dartではこの様な関数も<em>きっちり</em>と奇"
-"数を判定してくれる（Javaとは違った挙動をするよ）: : </p>"
+"<p> このパズルをDartで考えてみよう: Dartではこの様な関数も<em>きっちり</em>と"
+"奇数を判定してくれる（Javaとは違った挙動をするよ）: </p>"
 
 #. type: Plain text
 #: chapter-1.html:168
@@ -356,11 +356,15 @@ msgid ""
 "<p> That said, I'm not so sure the cure is any better than the disease; the "
 "resulting arithmetic violates the \"Division Rule\": </p>"
 msgstr ""
+"<p>この問題を解決するこれ以上の答えは無いよね。でも、これは数学の「割り算の規"
+"則」を犯してしまっているんだ:</p>"
 
 #. type: Plain text
 #: chapter-1.html:177
 msgid "<blockquote> D = d * (D div d) + D mod d </blockquote>"
 msgstr ""
+"<blockquote> D = d * (D div d) + D mod d </blockquote>\n"
+"<p>（訳註: 数学的には割られる数が負であっても剰余は正）</p>"
 
 #. type: Plain text
 #: chapter-1.html:183
@@ -369,6 +373,10 @@ msgid ""
 "discussing this issue with <a href=\"/authors/florian-loitsch.html\">Florian "
 "Loitsch</a>.  </p>"
 msgstr ""
+"<p> C#、C++、C、Java、そしてJavaScript(訳註:<a href=\"http://ideone.com/JlUIP"
+"\">こんな感じ</a>)なんかとは互換性が無いね。この点については<a href=\"http://"
+"www.dartlang.org/authors/florian-loitsch.html\">Florian Loitsch</a>(訳註:リン"
+"ク先はdartlang.org本家)と議論しているよ。  </p>"
 
 #. type: Plain text
 #: chapter-1.html:186

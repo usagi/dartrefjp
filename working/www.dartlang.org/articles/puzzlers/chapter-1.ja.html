@@ -112,8 +112,8 @@ public static boolean isOdd(int i) {
 }
 </pre>
 
-<p> このパズルをDartにしてみよう:
-Dartではこの様な関数も<em>きっちり</em>と奇数を判定してくれる（Javaとは違った挙動をするよ）: : </p>
+<p> このパズルをDartで考えてみよう:
+Dartではこの様な関数も<em>きっちり</em>と奇数を判定してくれる（Javaとは違った挙動をするよ）: </p>
 
 <pre class="prettyprint lang-java linenums:0 ">
 bool isOdd(int i) {
@@ -121,14 +121,15 @@ bool isOdd(int i) {
 }
 </pre>
 
-<p> That said, I'm not so sure the cure is any better than the disease; the
-resulting arithmetic violates the "Division Rule": </p>
+<p>この問題を解決するこれ以上の答えは無いよね。でも、これは数学の「割り算の規則」を犯してしまっているんだ:</p>
 
 <blockquote> D = d * (D div d) + D mod d </blockquote>
+<p>（訳註: 数学的には割られる数が負であっても剰余は正）</p>
 
-<p> It’s also incompatible with JavaScript, Java, C, C++, and C#.  I've been
-discussing this issue with <a href="/authors/florian-loitsch.html">Florian
-Loitsch</a>.  </p>
+<p> C#、C++、C、Java、そしてJavaScript(訳註:<a
+href="http://ideone.com/JlUIP">こんな感じ</a>)なんかとは互換性が無いね。この点については<a
+href="http://www.dartlang.org/authors/florian-loitsch.html">Florian
+Loitsch</a>(訳註:リンク先はdartlang.org本家)と議論しているよ。  </p>
 
 
 <h2 id="2"> Puzzler 2: Time for a Change </h2>
