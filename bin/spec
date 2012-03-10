@@ -8,7 +8,7 @@ target_ps_file=$target_file_no_extension'.ps'
 target_txt_file=$target_file_no_extension'.txt'
 
 cout(){
-  echo '20m50m33m[alternative spec]0m '$1
+  echo '[20m[50m[33m[alternative spec][0m '$1
 }
 
 if [ -f $target_file ]
