@@ -1,0 +1,1220 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Usagi Ito
+# This file is distributed under the same license as the dartrefjp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
+"Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
+"POT-Creation-Date: 2012-03-10 14:43+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: index-macos.html:15
+#, no-wrap
+msgid ""
+"<!DOCTYPE html>\n"
+"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<!--<![endif]-->\n"
+"<head>\n"
+"\t<meta charset=\"UTF-8\">\n"
+"\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:17
+#, no-wrap
+msgid "  <!-- Title & Google+ description -->\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:21
+#, no-wrap
+msgid ""
+"  <title>Tutorial: Dart Editor (Mac) | DartLang.org</title> \n"
+"  <meta itemprop=\"name\" content=\"Tutorial: Dart Editor (Mac) | "
+"DartLang.org\">\n"
+"  <meta itemprop=\"description\" content=\"Dart is a new platform for "
+"building structured web apps for modern browsers. It includes a language, a "
+"virtual machine, libraries, a UI framework, an editor, and browser "
+"integration. Try Dart today!\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:24
+#, no-wrap
+msgid ""
+"\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
+"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' "
+"rel='stylesheet' type='text/css'>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:30
+#, no-wrap
+msgid ""
+"\t<link rel=\"alternate\" type=\"application/atom+xml\" "
+"href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
+"    <link href=\"https://plus.google.com/109866369054280216564\" "
+"rel=\"publisher\">\n"
+"\t<script src=\"/js/modernizr.custom.02548.js\"></script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:32
+#, no-wrap
+msgid "  <script type=\"text/javascript\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:37
+#, no-wrap
+msgid ""
+"    var _gaq = _gaq || [];\n"
+"    _gaq.push(['_setAccount', 'UA-26406144-4']);\n"
+"    _gaq.push(['_setDomainName', 'dartlang.org']);\n"
+"    _gaq.push(['_trackPageview']);\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:43
+#, no-wrap
+msgid ""
+"    (function() {\n"
+"      var ga = document.createElement('script'); ga.type = "
+"'text/javascript'; ga.async = true;\n"
+"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : "
+"'http://www') + '.google-analytics.com/ga.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(ga, s);\n"
+"    })();\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:45
+#, no-wrap
+msgid "  </script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:63
+#, no-wrap
+msgid ""
+"  <script type=\"text/javascript\">\n"
+"\twindow.___gcfg = {lang: 'en'};\n"
+"\t(function() \n"
+"\t{var po = document.createElement(\"script\");\n"
+"\tpo.type = \"text/javascript\"; po.async = true;po.src = "
+"\"https://apis.google.com/js/plusone.js\";\n"
+"\tvar s = document.getElementsByTagName(\"script\")[0];\n"
+"\ts.parentNode.insertBefore(po, s);\n"
+"\t})();\n"
+"  </script>\n"
+"</head>\n"
+"<body>\n"
+"\t<div id=\"container\">\n"
+"\t\t<header>\n"
+"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" "
+"data-count=\"true\"></div></div>\n"
+"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" "
+"height=\"116\" alt=\"Dart\"></a>\n"
+"\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
+"\t\t</header>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:74
+#, no-wrap
+msgid ""
+"\t\t<nav>\n"
+"  <form action=\"/search.html\" id=\"cse-search-box\">\n"
+"    <div id=\"search\">\n"
+"      <input type=\"hidden\" name=\"cx\" "
+"value=\"011220921317074318178:i4mscbaxtru\" />\n"
+"      <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\n"
+"      <input type=\"hidden\" name=\"hl\" value=\"en\" />\n"
+"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" "
+"placeholder=\"Search\"/>\n"
+"    </div>\n"
+"  </form>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:106
+#, no-wrap
+msgid ""
+"  <ul>\n"
+"    <li><a href=\"/downloads.html\">Downloads</a></li>\n"
+"    <li><a href=\"http://news.dartlang.org\">News &amp; Updates</a></li>\n"
+"    <li>Getting Started\n"
+"      <ul>\n"
+"        <li><a href=\"/language-tour/\">Language Tour</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/\">Technical "
+"Overview</a></li>\n"
+"        <li><a href=\"http://synonym.dartlang.org\">Translations from "
+"JavaScript</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Language &amp; Libraries\n"
+"      <ul>\n"
+"        <li><a href=\"/docs/spec/\">Language Spec</a></li>\n"
+"        <li><a href=\"http://api.dartlang.org/\">API Reference</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Tools\n"
+"      <ul>\n"
+"        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
+"        <li><a href=\"/docs/getting-started/editor/\">Dart Editor</a></li>\n"
+"        <li><a href=\"/dartium/\">Chromium with the Dart VM</a></li>\n"
+"        <li><a href=\"/docs/getting-started/sdk/\">SDK</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Resources\n"
+"      <ul>\n"
+"        <li><a href=\"/samples/\">Code Samples</a></li>\n"
+"        <li><a href=\"/articles/\">Articles</a></li>\n"
+"        <li><a href=\"/slides/\">Presentations</a></li>\n"
+"        <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
+"        <li><a href=\"/resources/\">More</a></li>\n"
+"      </ul> </li>\n"
+"    <li><a href=\"/support/\">Contact Us</a></li>\n"
+"  </ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:109
+#, no-wrap
+msgid ""
+"  <div id=\"pluspage\"><div class=\"g-plus\" "
+"data-href=\"https://plus.google.com/109866369054280216564\" "
+"data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
+"</nav>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:113
+#, no-wrap
+msgid ""
+"\t\t<div id=\"main\" role=\"main\">\n"
+"\t\t\t<article>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:124
+msgid "<h1> Tutorial: Dart Editor (Mac) </h1>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:130
+msgid ""
+"<section> <p> Follow this tutorial to install and use Dart Editor on Mac OS "
+"X.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:138
+msgid ""
+"<p> Dart Editor is a lightweight, open-source editor based on Eclipse "
+"components.  In addition to editing Dart programs, you can use Dart Editor "
+"to invoke the Dart-to-JavaScript compiler and launch Dart-based web apps.  "
+"</p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:143
+msgid ""
+"<aside class=\"note\"> <strong>Note:</strong> These instructions are also "
+"available for: <ul>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:145
+msgid "<li> <a href=\"index-win.html\">Windows</a> </li>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:149
+msgid "<li> <a href=\"index-linux.html\">Linux</a> </li>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:153
+msgid "</ul> </aside> </section>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:168
+#, no-wrap
+msgid ""
+"<section>\n"
+"<h4> Contents </h4>\n"
+"<ul>\n"
+"  <li> <a href=\"#download\">Step 1: Download and install the software</a> "
+"</li>\n"
+"  <li> <a href=\"#launch\">Step 2: Launch the editor</a> </li>\n"
+"  <li> <a href=\"#sample\">Step 3: Open a sample</a> </li>\n"
+"  <li> <a href=\"#run\">Step 4: Run the sample</a> </li>\n"
+"  <li> <a href=\"#features\">Step 5: Try some Dart Editor features</a> "
+"</li>\n"
+"  <li> <a href=\"#code\">Step 6: Create a new web app</a> </li>\n"
+"  <li> <a href=\"#feedback\">Give us feedback!</a> </li>\n"
+"</ul>\n"
+"</section>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:171
+msgid ""
+"<section id=\"download\"> <h2> Step 1: Download and install the software "
+"</h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:176
+msgid ""
+"<p> In this step, you'll install Dart Editor and, if necessary, a Java "
+"runtime environment.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:180
+#, no-wrap
+msgid ""
+"<ol>\n"
+"  <li> \n"
+"  Download the Dart Editor ZIP file:\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:184
+#, no-wrap
+msgid ""
+"  <blockquote>\n"
+"    <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-macosx.cocoa.x86_64.zip\">Dart "
+"Editor ZIP file</a>\n"
+"  </blockquote>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:194
+#, no-wrap
+msgid ""
+"    <aside class=\"note\">\n"
+"      <b>Version note:</b>\n"
+"      For information about this Dart Editor version, see the\n"
+"      <a target=\"_blank\"\n"
+"        "
+"href=\"http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html\">change "
+"log</a>.\n"
+"      If you want to try out the most recent, untested version of Dart "
+"Editor,\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:199
+#, no-wrap
+msgid ""
+"  use this ZIP file instead:\n"
+"  <div style=\"margin-left:2em; margin-top:1em\">\n"
+"  <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-macosx.cocoa.x86_64.zip\">Dart "
+"Editor ZIP file (latest)</a>\n"
+"  </div>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:202
+#, no-wrap
+msgid ""
+"    </aside>\n"
+"  </li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:204
+#, no-wrap
+msgid "  <li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:208
+#, no-wrap
+msgid ""
+"  <p>\n"
+"  Unarchive the ZIP file by double-clicking it.\n"
+"  </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:210
+#, no-wrap
+msgid "  </li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:214
+#, no-wrap
+msgid ""
+"  <li>\n"
+"    <p>\n"
+"    Put the resulting directory somewhere convenient, such as\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:216
+#, no-wrap
+msgid "  <code>/Users/me/dart</code>.\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:218
+#, no-wrap
+msgid "    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:225
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    We'll call this your <b>Dart installation directory</b>.\n"
+"    This installation directory contains\n"
+"    the <code>DartEditor</code> executable file and several "
+"subdirectories,\n"
+"    including a <code>samples</code> directory.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:237
+#, no-wrap
+msgid ""
+"    <aside class=\"note\">\n"
+"    <strong>Important:</strong>\n"
+"    Do <b>not</b> use the Dart installation directory\n"
+"    for any other Eclipse-based software.\n"
+"    If Dart Editor and Eclipse\n"
+"    share the same <code>workspace</code> directory,\n"
+"    they'll save conflicting settings,\n"
+"    resulting in warnings and errors from both\n"
+"    Dart Editor and Eclipse.\n"
+"    </aside>\n"
+"  </li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:241
+#, no-wrap
+msgid ""
+"  <li> <p>\n"
+"    If you don't already have a Java runtime,\n"
+"    download and install it.\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:253
+#, no-wrap
+msgid ""
+"  </p>\n"
+"  <ul>\n"
+"    <li> If you're using OS X Lion,\n"
+"      see the download instructions at\n"
+"      <a href=\"http://support.apple.com/kb/dl1421\">Java for OS X "
+"Lion</a>.\n"
+"      </li>\n"
+"    <li> If not, you're fine;\n"
+"      Java is pre-installed on OS versions before Lion.\n"
+"      </li>\n"
+"  </ul>\n"
+"</li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:257
+#, no-wrap
+msgid ""
+"  </li>\n"
+"</ol>\n"
+"</section>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:260
+msgid "<section id=\"launch\"> <h2> Step 2: Launch the editor </h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:265
+msgid ""
+"<p> Go to your Dart installation directory, and double-click "
+"<b>DartEditor</b>.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:271
+#, no-wrap
+msgid ""
+"<blockquote>\n"
+"<img src=\"images/DartEditor-icon.png\"\n"
+"  alt=\"DartEditor icon\"\n"
+"  width=\"78\" height=\"92\">\n"
+"</blockquote>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:276
+msgid ""
+"<p> You should see the Dart Editor application window appear, looking "
+"something like this: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:280
+#, no-wrap
+msgid ""
+"<img src=\"images/DartEditor-initial.png\"\n"
+"  alt=\"screenshot of empty Dart Editor window\"\n"
+"  width=\"599\" height=\"454\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:282 index-macos.html:309 index-macos.html:335 index-macos.html:407 index-macos.html:454 index-macos.html:719
+msgid "</section>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:286
+msgid "<section id=\"avstartup\"> <h3>Is startup slow?</h3>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:294
+msgid ""
+"<p> If you use Sophos Anti-Virus, Dart Editor (like most Java applications)  "
+"starts up 10-15 times slower than normal.  The fix is to turn off scanning "
+"of the app's JAR files.  For example: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:307
+#, no-wrap
+msgid ""
+"<ol>\n"
+"  <li> In Sophos Anti-Virus preferences,\n"
+"    choose <b>On-access Scanning</b>. </li>\n"
+"  <li> If the preferences are locked,\n"
+"    click the lock and enter your password. </li>\n"
+"  <li> Click <b>Excluded Items</b> and then the <b>+</b> sign. </li>\n"
+"  <li> Navigate to the directory that contains "
+"<code>DartEditor</code>. </li>\n"
+"  <li> Search for files under that directory\n"
+"    with names that end in <code>.jar</code>. </li>\n"
+"  <li> Select all these <code>.jar</code> files,\n"
+"    and click Open. </li>\n"
+"</ol>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:313
+msgid "<section id=\"32bit\"> <h3>Does the app fail to launch, at all?</h3>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:319
+msgid ""
+"<p> If you're using one of the increasingly rare 32-bit Macs, you can't "
+"launch the normal version of Dart Editor.  Instead, you see a warning like "
+"this: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:324
+#, no-wrap
+msgid ""
+"<img src=\"images/mac-installerror.png\"\n"
+"  alt=\"Dialog text: You can't open the application DartEditor.app because "
+"it's not supported on this type of Mac.\"\n"
+"  style=\"border: 1px solid black\"\n"
+"  width=\"419\" height=\"161\" >\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:328
+msgid "<p> To fix the problem, download a 32-bit version of Dart Editor: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:333
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-macosx.cocoa.x86.zip\">32-bit "
+"Dart Editor ZIP file</a></li>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-macosx.cocoa.x86.zip\">32-bit "
+"Dart Editor ZIP file (latest)</a></li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:340
+msgid "<section id=\"sample\"> <h2>Step 3: Open a sample</h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:345
+msgid ""
+"<p> The Dart Editor bundle comes with several samples.  In this step, you'll "
+"open one and run it.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:361
+#, no-wrap
+msgid ""
+"<ol>\n"
+"  <li> <p>\n"
+"    Go to the <b>File</b> menu,\n"
+"    and choose <b>Open...</b>.\n"
+"    Or use the keyboard shortcut\n"
+"    (<b>Ctl+O</b> or, on Mac, <b>Option+O</b>).\n"
+"    </p>\n"
+"  </li>\n"
+"  <li> <p>\n"
+"    Navigate to your Dart installation directory,\n"
+"    then to <b>samples</b>,\n"
+"    and then to <b>sunflower</b>.\n"
+"    Double-click <b>Sunflower.dart</b>.\n"
+"    </p>\n"
+"</ol>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:365
+msgid "<p> Your Dart Editor should now look something like this: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:369
+#, no-wrap
+msgid ""
+"<img src=\"images/DartEditor-sunflower.png\"\n"
+"  alt=\"screenshot of Dart Editor displaying the Sunflower sample's code\"\n"
+"  width=\"600\" height=\"454\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:377
+msgid ""
+"<p> Dart Editor not only displays the contents of "
+"<code>Sunflower.dart</code>, but also updates the Libraries view to list "
+"important files for the sample.  This list includes the resources that "
+"<code>Sunflower.dart</code> refers to, plus any HTML files in the Dart "
+"file's directory that refer to the app's code,"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:379
+msgid "</p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:386
+msgid ""
+"<p> The Libraries view puts this list under a node called "
+"<code>sunflower</code>, corresponding to the following line of code in "
+"<code>Sunflower.dart</code>: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:390
+msgid ""
+"<pre class=\"prettyprint lang-dart linenums:1 \"> #library('sunflower'); "
+"</pre>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:398
+msgid ""
+"<p> The Libraries view displays entries for the Dart <b>core</b> and "
+"<b>dom</b> libraries.  The <b>core</b> library is there because every Dart "
+"program uses it.  The <b>dom</b> library is there because of this program's "
+"reference to it in the following statement: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:400
+msgid "<pre>#import('dart:dom');</pre>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:405
+msgid ""
+"<p> For more information about the Sunflower example, read the <a "
+"href=\"/samples/sunflower/index.html\">Sunflower Code Walkthrough</a>.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:410
+msgid "<section id=\"run\"> <h2> Step 4: Run the sample </h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:422
+#, no-wrap
+msgid ""
+"<p>\n"
+"To run any program in Dart Editor,\n"
+"just click the Run button\n"
+"<img src=\"images/run.png\" alt=\"Run\" width=\"16\" height=\"16\"\n"
+"  style=\"vertical-align:top\">\n"
+"while any item in that program's library is selected.\n"
+"Dart Editor compiles your Dart program to JavaScript.\n"
+"It then brings up a browser window that displays\n"
+"the program's HTML page,\n"
+"with the JavaScript version of the program running inside it.\n"
+"</p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:430
+#, no-wrap
+msgid ""
+"<aside class=\"note\">\n"
+"  <strong>Tip:</strong>\n"
+"  Sometimes the automatic compilation doesn't work.\n"
+"  If you get a message that the JavaScript output was not generated,\n"
+"  try using\n"
+"  <strong>Tools&nbsp;&gt;&nbsp;Force&nbsp;Recompile</strong>.\n"
+"</aside>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:436
+msgid ""
+"<p> For example, to run Sunflower, click <b>Sunflower.dart</b> and then the "
+"<b>Run</b> button.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:441
+#, no-wrap
+msgid ""
+"<img src=\"images/sunflower-run.png\"\n"
+"  alt=\"Snapshot of Libraries view and Run button\"\n"
+"  style=\"border: 1px solid black\"\n"
+"  width=\"302\" height=\"157\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:447
+msgid ""
+"<p> In the browser window that comes up, move the slider to display the "
+"sunflower.  It should look something like this: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:452
+#, no-wrap
+msgid ""
+"<img src=\"images/sunflower.png\"\n"
+"  alt=\"screenshot of Sunflower app running\"\n"
+"  style=\"border: 1px solid black\"\n"
+"  width=\"559\" height=\"489\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:458
+msgid "<section id=\"features\"> <h2> Step 5: Try some Dart Editor features </h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:466
+msgid ""
+"<p> This section introduces you to some of Dart Editor's features, such as "
+"finding where APIs are declared, outlining the contents of a Dart file, and "
+"auto-completing references to APIs.  We expect to add many more features "
+"over time.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:476
+#, no-wrap
+msgid ""
+"<ol>\n"
+"  <li>\n"
+"    <p>\n"
+"    In the Editor view of <code>Sunflower.dart</code>,\n"
+"    select anywhere within the string <b>Math</b>\n"
+"    (at the top of the <code>Sunflower()</code> constructor).\n"
+"    Then either press <b>F3</b>\n"
+"    or right-click and choose <b>Open Declaration</b>.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:481
+#, no-wrap
+msgid ""
+"    <img src=\"images/sunflower-f3.png\"\n"
+"      alt=\"screenshot of right-click on Math\"\n"
+"      style=\"border: 1px solid black\"\n"
+"      width=\"423\" height=\"255\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:486
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    The editor opens a new tab that displays the file that declares the\n"
+"    <a "
+"href=\"http://api.dartlang.org/dart_core/Math.html\"><code>Math</code></a> "
+"type.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:506
+#, no-wrap
+msgid ""
+"    <aside class=\"note\">\n"
+"    <b>Tip:</b>\n"
+"    You can also use this trick to find declarations within the same file.\n"
+"    </aside>\n"
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    Click the left arrow button\n"
+"    <img src=\"images/leftarrow.png\" alt=\"left arrow\" width=\"16\" "
+"height=\"16\"\n"
+"      style=\"vertical-align:top\">\n"
+"    (to the left of the Run button)\n"
+"    to go back to <code>Sunflower.dart</code>.\n"
+"    </p>\n"
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    Either press <b>Alt+O</b> (<b>Option+O</b> on Mac) or\n"
+"    right-click and choose <b>Quick Outline</b>.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:513
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    A panel comes up displaying\n"
+"    the classes, methods, and fields\n"
+"    declared in <code>Sunflower.dart</code>.\n"
+"    It looks something like this:\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:517
+#, no-wrap
+msgid ""
+"    <img src=\"images/sunflower-outline.png\"\n"
+"      alt=\"screenshot of outline panel\"\n"
+"      width=\"383\" height=\"339\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:523
+#, no-wrap
+msgid ""
+"    <br>\n"
+"    You can reduce the size of the list\n"
+"    by typing one or more characters.\n"
+"    For example, if you type <b>x</b>,\n"
+"    only the <b>xc</b> variable appears.\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:528
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    Choose an item from the list&mdash;for example, <b>xc</b>.\n"
+"    You'll be taken to its declaration in <code>Sunflower.dart</code>.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:534
+#, no-wrap
+msgid ""
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    Now it's time to use Dart Editor's auto-complete feature.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:551
+#, no-wrap
+msgid ""
+"    <ol style=\"list-style-type: lower-alpha\">\n"
+"      <li> <p>\n"
+"        Find the declaration of <b>TAU</b>,\n"
+"        near the end of <code>Sunflower.dart</code>:\n"
+"        </p>\n"
+"<pre class=\"prettyprint lang-dart linenums:1 \">\n"
+"static final TAU = Math.PI * 2;\n"
+"</pre>\n"
+"        </li>\n"
+"      <li> <p>\n"
+"        Delete everything to the right of <code>Math</code>,\n"
+"        and then type a period (<b>.</b>).\n"
+"        After a short pause,\n"
+"        a list of autocomplete suggestions comes up,\n"
+"        looking something like this:\n"
+"        </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:567
+#, no-wrap
+msgid ""
+"        <img src=\"images/sunflower-dotcomplete.png\"\n"
+"          alt=\"snapshot of autocomplete for Math.\"\n"
+"          style=\"border: 1px solid black\"\n"
+"          width=\"450\" height=\"234\">\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        Type or use the arrow keys to select <code>PI</code>,\n"
+"        and then press Enter or Return to dismiss the panel.\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        Complete your changes&mdash;for\n"
+"        example, if you think sunflower seeds should be semi-circular,\n"
+"        use <code>Math.PI</code> instead of "
+"<code>Math.PI*2</code>&mdash;and\n"
+"        then save the file.\n"
+"        </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:578
+#, no-wrap
+msgid ""
+"        <p>\n"
+"        If Dart Editor displays an error after you save,\n"
+"        you've made a syntax error.\n"
+"        Fix it or undo your typing,\n"
+"        and then save again.\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        Click the <b>Run</b> button to run your changed\n"
+"        version.\n"
+"        </p> </li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:585
+#, no-wrap
+msgid ""
+"      <li> <p>\n"
+"        Back in Dart Editor,\n"
+"        edit the Dart code again.\n"
+"        This time use <b>Ctl+Space</b>\n"
+"        to bring up the auto-complete suggestions.\n"
+"        </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:595
+#, no-wrap
+msgid ""
+"        <p>\n"
+"        For example, type <code>Mat</code>, then Ctl+Space\n"
+"        to see a list of classes and interfaces\n"
+"        that start with \"Mat\".\n"
+"        </p> </li>\n"
+"    </ol>\n"
+"  </li>\n"
+"</ol>\n"
+"</section>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:599
+msgid "<section id=\"code\"> <h2> Step 6: Create a new web app </h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:604
+msgid ""
+"<p> Now that you're familiar with Dart Editor, you can create a web app from "
+"scratch.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:615
+#, no-wrap
+msgid ""
+"<ol>\n"
+"  <li> <p>\n"
+"    Click the New Application\n"
+"    <img src=\"images/newapp.png\" alt=\"New App\" width=\"16\" "
+"height=\"16\"\n"
+"     style=\"vertical-align:top\"> button\n"
+"    (at the upper left of Dart Editor)\n"
+"    to create a new app.\n"
+"    Alternatively, choose <b>File > New Application...</b>\n"
+"    from the Dart Editor menu.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:619
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    A dialog comes up, looking something like this:\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:631
+#, no-wrap
+msgid ""
+"    <img src=\"images/DartEditor-newapp.png\"\n"
+"      alt=\"screenshot of the New Application dialog\"\n"
+"      width=\"538\" height=\"304\">\n"
+"    </li>\n"
+"  <li> <p>\n"
+"    Type in a name for your application&mdash;for\n"
+"    example, <code>HelloWorld</code>.\n"
+"    If you don't like the default directory,\n"
+"    type in a new location or browse to choose the location.\n"
+"    Click <b>Finish</b> to create the initial files for the app.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:638
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    A default Dart file appears in the Edit view,\n"
+"    and a few additional items appear\n"
+"    in the Libraries view.\n"
+"    Your Dart Editor window should look something like this:\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:642
+#, no-wrap
+msgid ""
+"    <img src=\"images/DartEditor-helloworld.png\"\n"
+"      alt=\"screenshot of Dart Editor just after New Application...\"\n"
+"      width=\"599\" height=\"454\" >\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:650
+#, no-wrap
+msgid ""
+"    </li>\n"
+"  <li> <p>\n"
+"    Click the\n"
+"    <img src=\"images/run.png\" alt=\"Run\" width=\"16\" height=\"16\"\n"
+"     style=\"vertical-align:top\">\n"
+"    button to run your new app.\n"
+"    </p> </li>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:655
+#, no-wrap
+msgid ""
+"  <li> <p>\n"
+"    View the HTML file in Dart Editor\n"
+"    by double-clicking it in the Libraries view.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:666
+#, no-wrap
+msgid ""
+"    <p>\n"
+"    Note that the HTML file's &lt;script> tag\n"
+"    refers to a file that ends with\n"
+"    <code>.dart.app.js</code>.\n"
+"    You can't see this file in Dart Editor,\n"
+"    but this JavaScript file is automatically created\n"
+"    from your Dart code.\n"
+"    Compiling to JavaScript allows browsers that know nothing about Dart\n"
+"    to execute your app.\n"
+"    </p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:672
+#, no-wrap
+msgid ""
+"    <aside class=\"note\">\n"
+"    <b>Note:</b>\n"
+"    The generated JavaScript is rather huge right now.\n"
+"    Don't worry, we'll fix that.\n"
+"    </aside>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:683
+#, no-wrap
+msgid ""
+"    </p> </li>\n"
+"  <li> <p>\n"
+"    Modify the default Dart and HTML files as you like,\n"
+"    using auto-completion,\n"
+"    <a href=\"/samples/index.html\">samples</a>, and \n"
+"    <a href=\"http://api.dartlang.org/\">API reference documentation</a>\n"
+"    to figure out which APIs you can use.\n"
+"    </p> </li>\n"
+"</ol>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:686
+msgid "<section> <h2 id=\"feedback\">Give us feedback!</h2>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:692
+msgid ""
+"<p> We've released Dart Editor at a very early stage.  Please help us "
+"improve it! To see known bugs in Dart Editor, look at the issue list: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:696
+msgid ""
+"<blockquote> <a "
+"href=\"http://code.google.com/p/dart/issues/list?can=2&q=label%3AArea-Editor\">Dart "
+"Editor issue list</a> </blockquote>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:701
+msgid ""
+"<p> You can star bugs to receive updates about them, and you can add "
+"comments to bugs.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:705
+msgid "<p> Here are two other ways to give us feedback: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:717
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li> Use the <b>SEND FEEDBACK</b> link\n"
+"    at the upper right of the Dart Editor window.\n"
+"    <br>\n"
+"    We'll open a new issue for you, if appropriate,\n"
+"    without disclosing your sensitive or personally identifiable "
+"information.\n"
+"    </li>\n"
+"  <li> <a "
+"href=\"http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium\">Create\n"
+"    a new Dart Editor issue.</a>\n"
+"    </li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:724
+#, no-wrap
+msgid ""
+"\t\t\t</article>\n"
+"\t\t</div>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:734
+#, no-wrap
+msgid ""
+"\t\t<footer>\n"
+"\t\t\t<p>\n"
+"\t\t\t  Except as otherwise <a "
+"href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the "
+"content of this page is licensed under the <a "
+"\t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons "
+"Attribution 3.0 License</a>, and code samples are licensed under the <a "
+"href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
+"\t\t\t</p>\n"
+"\t\t\t<p>\n"
+"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; "
+"padding-right: 5px\">Terms of Service</a>\n"
+"\t\t\t\t<a "
+"href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy "
+"Policy</a>\n"
+"\t\t\t</p>\n"
+"\t</footer>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:736
+#, no-wrap
+msgid "\t</div>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:741
+#, no-wrap
+msgid ""
+"\t<!--[if lt IE 7 ]>\n"
+"\t<script src=\"js/dd_belatedpng.js\"></script>\n"
+"\t<script> DD_belatedPNG.fix('img, .png_bg');</script>\n"
+"\t<![endif]-->\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:749
+#, no-wrap
+msgid ""
+"\t<script>\n"
+"    (function() {\n"
+"      var po = document.createElement('script'); po.type = "
+"'text/javascript'; po.async = true;\n"
+"      po.src = 'https://apis.google.com/js/plusone.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(po, s);\n"
+"    })();\n"
+"\t</script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index-macos.html:752
+msgid "</body> </html>"
+msgstr ""

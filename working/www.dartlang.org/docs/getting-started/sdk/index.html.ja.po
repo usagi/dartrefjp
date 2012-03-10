@@ -1,0 +1,540 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Usagi Ito
+# This file is distributed under the same license as the dartrefjp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
+"Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
+"POT-Creation-Date: 2012-03-10 14:43+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: index.html:15
+#, no-wrap
+msgid ""
+"<!DOCTYPE html>\n"
+"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> "
+"<!--<![endif]-->\n"
+"<head>\n"
+"\t<meta charset=\"UTF-8\">\n"
+"\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:17
+#, no-wrap
+msgid "  <!-- Title & Google+ description -->\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:21
+#, no-wrap
+msgid ""
+"  <title>SDK | DartLang.org</title> \n"
+"  <meta itemprop=\"name\" content=\"SDK | DartLang.org\">\n"
+"  <meta itemprop=\"description\" content=\"Dart is a new platform for "
+"building structured web apps for modern browsers. It includes a language, a "
+"virtual machine, libraries, a UI framework, an editor, and browser "
+"integration. Try Dart today!\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:24
+#, no-wrap
+msgid ""
+"\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
+"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' "
+"rel='stylesheet' type='text/css'>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:30
+#, no-wrap
+msgid ""
+"\t<link rel=\"alternate\" type=\"application/atom+xml\" "
+"href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
+"    <link href=\"https://plus.google.com/109866369054280216564\" "
+"rel=\"publisher\">\n"
+"\t<script src=\"/js/modernizr.custom.02548.js\"></script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:32
+#, no-wrap
+msgid "  <script type=\"text/javascript\">\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:37
+#, no-wrap
+msgid ""
+"    var _gaq = _gaq || [];\n"
+"    _gaq.push(['_setAccount', 'UA-26406144-4']);\n"
+"    _gaq.push(['_setDomainName', 'dartlang.org']);\n"
+"    _gaq.push(['_trackPageview']);\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:43
+#, no-wrap
+msgid ""
+"    (function() {\n"
+"      var ga = document.createElement('script'); ga.type = "
+"'text/javascript'; ga.async = true;\n"
+"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : "
+"'http://www') + '.google-analytics.com/ga.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(ga, s);\n"
+"    })();\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:45
+#, no-wrap
+msgid "  </script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:63
+#, no-wrap
+msgid ""
+"  <script type=\"text/javascript\">\n"
+"\twindow.___gcfg = {lang: 'en'};\n"
+"\t(function() \n"
+"\t{var po = document.createElement(\"script\");\n"
+"\tpo.type = \"text/javascript\"; po.async = true;po.src = "
+"\"https://apis.google.com/js/plusone.js\";\n"
+"\tvar s = document.getElementsByTagName(\"script\")[0];\n"
+"\ts.parentNode.insertBefore(po, s);\n"
+"\t})();\n"
+"  </script>\n"
+"</head>\n"
+"<body>\n"
+"\t<div id=\"container\">\n"
+"\t\t<header>\n"
+"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" "
+"data-count=\"true\"></div></div>\n"
+"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" "
+"height=\"116\" alt=\"Dart\"></a>\n"
+"\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
+"\t\t</header>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:74
+#, no-wrap
+msgid ""
+"\t\t<nav>\n"
+"  <form action=\"/search.html\" id=\"cse-search-box\">\n"
+"    <div id=\"search\">\n"
+"      <input type=\"hidden\" name=\"cx\" "
+"value=\"011220921317074318178:i4mscbaxtru\" />\n"
+"      <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\n"
+"      <input type=\"hidden\" name=\"hl\" value=\"en\" />\n"
+"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" "
+"placeholder=\"Search\"/>\n"
+"    </div>\n"
+"  </form>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:106
+#, no-wrap
+msgid ""
+"  <ul>\n"
+"    <li><a href=\"/downloads.html\">Downloads</a></li>\n"
+"    <li><a href=\"http://news.dartlang.org\">News &amp; Updates</a></li>\n"
+"    <li>Getting Started\n"
+"      <ul>\n"
+"        <li><a href=\"/language-tour/\">Language Tour</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/\">Technical "
+"Overview</a></li>\n"
+"        <li><a href=\"http://synonym.dartlang.org\">Translations from "
+"JavaScript</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Language &amp; Libraries\n"
+"      <ul>\n"
+"        <li><a href=\"/docs/spec/\">Language Spec</a></li>\n"
+"        <li><a href=\"http://api.dartlang.org/\">API Reference</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Tools\n"
+"      <ul>\n"
+"        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
+"        <li><a href=\"/docs/getting-started/editor/\">Dart Editor</a></li>\n"
+"        <li><a href=\"/dartium/\">Chromium with the Dart VM</a></li>\n"
+"        <li><a href=\"/docs/getting-started/sdk/\">SDK</a></li>\n"
+"      </ul> </li>\n"
+"    <li>Resources\n"
+"      <ul>\n"
+"        <li><a href=\"/samples/\">Code Samples</a></li>\n"
+"        <li><a href=\"/articles/\">Articles</a></li>\n"
+"        <li><a href=\"/slides/\">Presentations</a></li>\n"
+"        <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
+"        <li><a href=\"/resources/\">More</a></li>\n"
+"      </ul> </li>\n"
+"    <li><a href=\"/support/\">Contact Us</a></li>\n"
+"  </ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:109
+#, no-wrap
+msgid ""
+"  <div id=\"pluspage\"><div class=\"g-plus\" "
+"data-href=\"https://plus.google.com/109866369054280216564\" "
+"data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
+"</nav>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:114
+#, no-wrap
+msgid ""
+"\t\t<div id=\"main\" role=\"main\">\n"
+"\t\t\t<article>\n"
+"\t\t\t\t<h1> SDK </h1>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:117
+msgid "<section>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:123
+msgid ""
+"<p> This page tells you how to find and use prerelease versions of the Dart "
+"SDK.  The SDK includes the following tools: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:129
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li> Dart-to-JavaScript compiler (aka <em>frog</em>)</li>\n"
+"  <li> Dart VM </li>\n"
+"  <li> Dart libraries </li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:134
+msgid ""
+"<p> For more information about the SDK, see the blog post <a "
+"href=\"http://blog.sethladd.com/2012/01/dart-sdk-quick-tour.html\">Dart SDK "
+"Quick Tour</a>.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:143
+msgid ""
+"<aside class=\"note\"> <b>Note:</b> The SDK is in very early days, and it "
+"might not always work.  If you just want to play with Dart, try <a "
+"href=\"/docs/getting-started/index.html\">Dartboard</a>.  For a real "
+"development environment, use <a "
+"href=\"/docs/getting-started/editor/index.html\">Dart Editor</a>.  </aside>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:152
+#, no-wrap
+msgid ""
+"<section>\n"
+"<h4> Contents </h4>\n"
+"<ul>\n"
+"  <li> <a href=\"#download\">Getting the SDK</a> </li>\n"
+"  <li> <a href=\"#frog\">Using frog</a> </li>\n"
+"  <li> <a href=\"#vm\">Using the VM</a> </li>\n"
+"</ul>\n"
+"</section>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:160
+msgid ""
+"<section id=\"download\"> <h2> Getting the SDK </h2> <p> You can download "
+"integration releases of the SDK.  They've been tested, to some extent, and "
+"are expected to work.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:166
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/dart-win32.zip\">Windows "
+"SDK</a> </li>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/dart-macos.zip\">Mac "
+"SDK</a> </li>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/dart-linux.zip\">Linux "
+"SDK</a> </li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:172
+msgid ""
+"<p> Or live dangerously: download the latest, untested build of the SDK.  "
+"These continuous builds are updated at least daily, and sometimes much more "
+"often.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:178
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/dart-win32.zip\">Windows "
+"SDK (latest)</a> </li>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/dart-macos.zip\">Mac "
+"SDK (latest)</a> </li>\n"
+"  <li> <a "
+"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/dart-linux.zip\">Linux "
+"SDK (latest)</a> </li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:186
+msgid ""
+"<p> After you download and unzip the SDK, you'll have a directory named "
+"<code>dart-sdk</code>.  Its <code>bin</code> directory has "
+"<code>frogc</code> (the Dart-to-JavaScript compiler) and <code>dart</code> "
+"(the Dart VM).  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:188 index.html:208
+msgid "</section>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:192
+msgid "<section id=\"frog\"> <h2>Using frog</h2>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:197
+msgid ""
+"<p> To compile a Dart file to JavaScript, use <code>bin/frogc</code>.  For "
+"example: </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:201
+msgid ""
+"<pre class=\"prettyprint lang-dart linenums:1 \"> $DART_SDK/bin/frogc "
+"test.dart </pre>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:206
+msgid ""
+"<p> This command produces a <code>.js</code> file that contains the "
+"JavaScript equivalent of your Dart code.  </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:212
+msgid "<section id=\"vm\"> <h2>Using the VM</h2>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:216
+msgid ""
+"<p> To run a Dart file in the Dart VM, use <code>bin/dart</code>.  For "
+"example:"
+msgstr ""
+
+#. type: Plain text
+#: index.html:221
+msgid ""
+"<pre class=\"prettyprint lang-dart linenums:1 \"> $DART_SDK/bin/dart "
+"test.dart </pre> </p>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:223
+msgid "<h3>Enabling type checks</h3>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:231
+#, no-wrap
+msgid ""
+"<p>\n"
+"  Dart programs run in one of two modes: checked or production.\n"
+"  In checked mode, assignments are dynamically checked, and\n"
+"  certain violations of the type system raise exceptions at run time.\n"
+"  In production mode, static type annotations have no\n"
+"  effect.\n"
+"</p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:235
+#, no-wrap
+msgid ""
+"<p>\n"
+"  During development, we recommend using checked mode. You can\n"
+"  run in checked mode with a command-line flag:\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:240
+#, no-wrap
+msgid ""
+"  <pre class=\"prettyprint lang-dart linenums:1 \">\n"
+"  $DART_SDK/bin/dart --enable_type_checks test.dart\n"
+"  </pre>\n"
+"</p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:242
+msgid "<h3>Enabling assertions</h3>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:248
+#, no-wrap
+msgid ""
+"<p>\n"
+"  An assertion checks a boolean condition and, if false, raises an "
+"exception.\n"
+"  The <code>assert()</code> statements do not run in production mode.\n"
+"  We recommend that you enable assertions during development.\n"
+"</p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:251
+#, no-wrap
+msgid ""
+"<p>\n"
+"  You can enable assertions with a command-line flag:\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:256
+#, no-wrap
+msgid ""
+"  <pre class=\"prettyprint lang-dart linenums:1 \">\n"
+"  $DART_SDK/bin/dart --enable_asserts test.dart\n"
+"  </pre>\n"
+"</p>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:259
+msgid "</section> </section>"
+msgstr ""
+
+#. type: Plain text
+#: index.html:268
+#, no-wrap
+msgid ""
+"<link href=\"/css/style.css\" type=\"text/css\" rel=\"stylesheet\">\n"
+"<link href=\"/css/prettify.css\" type=\"text/css\" rel=\"stylesheet\">\n"
+"<script type=\"text/javascript\" src=\"/js/prettify.js\"></script>\n"
+"<script>\n"
+"window.addEventListener(\"load\", function() {\n"
+"  prettyPrint();\n"
+"})\n"
+"</script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:271
+#, no-wrap
+msgid ""
+"\t\t\t</article>\n"
+"\t\t</div>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:281
+#, no-wrap
+msgid ""
+"\t\t<footer>\n"
+"\t\t\t<p>\n"
+"\t\t\t  Except as otherwise <a "
+"href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the "
+"content of this page is licensed under the <a "
+"\t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons "
+"Attribution 3.0 License</a>, and code samples are licensed under the <a "
+"href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
+"\t\t\t</p>\n"
+"\t\t\t<p>\n"
+"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; "
+"padding-right: 5px\">Terms of Service</a>\n"
+"\t\t\t\t<a "
+"href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy "
+"Policy</a>\n"
+"\t\t\t</p>\n"
+"\t</footer>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:283
+#, no-wrap
+msgid "\t</div>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:288
+#, no-wrap
+msgid ""
+"\t<!--[if lt IE 7 ]>\n"
+"\t<script src=\"js/dd_belatedpng.js\"></script>\n"
+"\t<script> DD_belatedPNG.fix('img, .png_bg');</script>\n"
+"\t<![endif]-->\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:296
+#, no-wrap
+msgid ""
+"\t<script>\n"
+"    (function() {\n"
+"      var po = document.createElement('script'); po.type = "
+"'text/javascript'; po.async = true;\n"
+"      po.src = 'https://apis.google.com/js/plusone.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; "
+"s.parentNode.insertBefore(po, s);\n"
+"    })();\n"
+"\t</script>\n"
+msgstr ""
+
+#. type: Plain text
+#: index.html:299
+msgid "</body> </html>"
+msgstr ""

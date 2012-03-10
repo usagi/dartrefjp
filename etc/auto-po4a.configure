@@ -3,7 +3,11 @@ configure(){
   date=`date --rfc-2822`
 
   sources="$sources null://dartrefjp/README"
+  sources="$sources http://www.dartlang.org/docs/getting-started/editor/index-linux.html"
+  sources="$sources http://www.dartlang.org/docs/getting-started/editor/index-win.html"
+  sources="$sources http://www.dartlang.org/docs/getting-started/editor/index-macos.html"
   sources="$sources http://www.dartlang.org/dartium/index.html"
+  sources="$sources http://www.dartlang.org/docs/getting-started/sdk/index.html"
   sources="$sources http://www.dartlang.org/articles/puzzlers/chapter-1.html"
   sources="$sources http://www.dartlang.org/articles/puzzlers/chapter-2.html"
   sources="$sources alternative://spec/dartLangSpec.txt"
