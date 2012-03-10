@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
-"POT-Creation-Date: 2012-03-10 20:07+0900\n"
-"PO-Revision-Date: 2012-03-10 20:07+0900\n"
+"POT-Creation-Date: 2012-03-08 06:38+0900\n"
+"PO-Revision-Date: 2012-03-10 23:09+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,56 +18,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: chapter-1.html:15
+#: chapter-1.html:13
 #, no-wrap
 msgid ""
 "<!DOCTYPE html>\n"
-"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
-"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
-"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
-"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
-"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> <!--<![endif]-->\n"
+"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"> <![endif]-->\n"
+"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
+"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
+"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
 "<head>\n"
 "\t<meta charset=\"UTF-8\">\n"
 "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
-msgstr ""
-
-#. type: Plain text
-#: chapter-1.html:17
-#, no-wrap
-msgid "  <!-- Title & Google+ description -->\n"
-msgstr ""
-
-#. type: Plain text
-#: chapter-1.html:21
-#, no-wrap
-msgid ""
-"  <title>Dart Puzzlers 1 | DartLang.org</title> \n"
-"  <meta itemprop=\"name\" content=\"Dart Puzzlers 1 | DartLang.org\">\n"
-"  <meta itemprop=\"description\" content=\"Dart is a new platform for building structured web apps for modern browsers. It includes a language, a virtual machine, libraries, a UI framework, an editor, and browser integration. Try Dart today!\">\n"
-msgstr ""
-
-#. type: Plain text
-#: chapter-1.html:24
-#, no-wrap
-msgid ""
+"\t<title>Dart Puzzlers 1 : Dart : Structured web programming</title>\n"
 "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
 "\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
 msgstr ""
+"<!DOCTYPE html>\n"
+"<head>\n"
+"\t<meta charset=\"UTF-8\">\n"
+"\t<title>Dart ぱずらーず 第1章</title>\n"
 
 #. type: Plain text
-#: chapter-1.html:26
+#: chapter-1.html:15
 #, no-wrap
 msgid "\t<link rel=\"author\" href=\"/authors/joshua-bloch.html\">\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:30
+#: chapter-1.html:19
 #, no-wrap
 msgid ""
 "\t<link rel=\"alternate\" type=\"application/atom+xml\" href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
@@ -76,13 +55,13 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:32
+#: chapter-1.html:21
 #, no-wrap
 msgid "  <script type=\"text/javascript\">\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:37
+#: chapter-1.html:26
 #, no-wrap
 msgid ""
 "    var _gaq = _gaq || [];\n"
@@ -92,7 +71,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:43
+#: chapter-1.html:32
 #, no-wrap
 msgid ""
 "    (function() {\n"
@@ -103,13 +82,13 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:45
+#: chapter-1.html:34
 #, no-wrap
 msgid "  </script>\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:63
+#: chapter-1.html:52
 #, no-wrap
 msgid ""
 "  <script type=\"text/javascript\">\n"
@@ -132,7 +111,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:74
+#: chapter-1.html:63
 #, no-wrap
 msgid ""
 "\t\t<nav>\n"
@@ -147,75 +126,43 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:106
-#, fuzzy, no-wrap
-#| msgid ""
-#| "  <ul>\n"
-#| "    <li><a href=\"/downloads.html\">Downloads</a></li>\n"
-#| "    <li><a href=\"http://news.dartlang.org\">News &amp; Updates</a></li>\n"
-#| "    <li>Getting Started\n"
-#| "      <ul>\n"
-#| "        <li><a href=\"/language-tour/index.html\">Language Tour</a></li>\n"
-#| "        <li><a href=\"/docs/technical-overview/index.html\">Technical Overview</a></li>\n"
-#| "        <li><a href=\"http://synonym.dartlang.org\">Translations from JavaScript</a></li>\n"
-#| "      </ul>\n"
-#| "    </li>\n"
-#| "    <li>Language &amp; Libraries\n"
-#| "      <ul>\n"
-#| "        <li><a href=\"/docs/spec/index.html\">Language Spec</a></li>\n"
-#| "        <li><a href=\"http://api.dartlang.org/\">API Reference</a></li>\n"
-#| "      </ul>\n"
-#| "     </li>\n"
-#| "    <li>Tools\n"
-#| "      <ul>\n"
-#| "        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
-#| "        <li><a href=\"/docs/getting-started/editor/index.html\">Dart Editor</a></li>\n"
-#| "        <li><a href=\"/dartium/index.html\">Chromium with the Dart VM</a></li>\n"
-#| "        <li><a href=\"/docs/getting-started/sdk/index.html\">SDK</a></li>\n"
-#| "      </ul>\n"
-#| "    <li><a href=\"/samples/index.html\">Code Samples</a></li>\n"
-#| "    <li><a href=\"/articles/index.html\">Articles</a></li>\n"
-#| "    <li><a href=\"/resources/index.html\">Resources</a></li>\n"
-#| "    <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
-#| "    <li><a href=\"/slides/index.html\">Presentations</a></li>\n"
-#| "    <li><a href=\"/support/index.html\">Discuss</a></li>\n"
-#| "  </ul>\n"
+#: chapter-1.html:94
+#, no-wrap
 msgid ""
 "  <ul>\n"
 "    <li><a href=\"/downloads.html\">Downloads</a></li>\n"
 "    <li><a href=\"http://news.dartlang.org\">News &amp; Updates</a></li>\n"
 "    <li>Getting Started\n"
 "      <ul>\n"
-"        <li><a href=\"/language-tour/\">Language Tour</a></li>\n"
-"        <li><a href=\"/docs/technical-overview/\">Technical Overview</a></li>\n"
+"        <li><a href=\"/language-tour/index.html\">Language Tour</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/index.html\">Technical Overview</a></li>\n"
 "        <li><a href=\"http://synonym.dartlang.org\">Translations from JavaScript</a></li>\n"
-"      </ul> </li>\n"
+"      </ul>\n"
+"    </li>\n"
 "    <li>Language &amp; Libraries\n"
 "      <ul>\n"
-"        <li><a href=\"/docs/spec/\">Language Spec</a></li>\n"
+"        <li><a href=\"/docs/spec/index.html\">Language Spec</a></li>\n"
 "        <li><a href=\"http://api.dartlang.org/\">API Reference</a></li>\n"
-"      </ul> </li>\n"
+"      </ul>\n"
+"     </li>\n"
 "    <li>Tools\n"
 "      <ul>\n"
 "        <li><a href=\"http://try.dartlang.org\">Dartboard</a></li>\n"
-"        <li><a href=\"/docs/getting-started/editor/\">Dart Editor</a></li>\n"
-"        <li><a href=\"/dartium/\">Chromium with the Dart VM</a></li>\n"
-"        <li><a href=\"/docs/getting-started/sdk/\">SDK</a></li>\n"
-"      </ul> </li>\n"
-"    <li>Resources\n"
-"      <ul>\n"
-"        <li><a href=\"/samples/\">Code Samples</a></li>\n"
-"        <li><a href=\"/articles/\">Articles</a></li>\n"
-"        <li><a href=\"/slides/\">Presentations</a></li>\n"
-"        <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
-"        <li><a href=\"/resources/\">More</a></li>\n"
-"      </ul> </li>\n"
-"    <li><a href=\"/support/\">Contact Us</a></li>\n"
+"        <li><a href=\"/docs/getting-started/editor/index.html\">Dart Editor</a></li>\n"
+"        <li><a href=\"/dartium/index.html\">Chromium with the Dart VM</a></li>\n"
+"        <li><a href=\"/docs/getting-started/sdk/index.html\">SDK</a></li>\n"
+"      </ul>\n"
+"    <li><a href=\"/samples/index.html\">Code Samples</a></li>\n"
+"    <li><a href=\"/articles/index.html\">Articles</a></li>\n"
+"    <li><a href=\"/resources/index.html\">Resources</a></li>\n"
+"    <li><a href=\"/support/faq.html\">FAQ</a></li>\n"
+"    <li><a href=\"/slides/index.html\">Presentations</a></li>\n"
+"    <li><a href=\"/support/index.html\">Discuss</a></li>\n"
 "  </ul>\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:109
+#: chapter-1.html:97
 #, no-wrap
 msgid ""
 "  <div id=\"pluspage\"><div class=\"g-plus\" data-href=\"https://plus.google.com/109866369054280216564\" data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
@@ -223,7 +170,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:116
+#: chapter-1.html:104
 #, no-wrap
 msgid ""
 "\t\t<div id=\"main\" role=\"main\">\n"
@@ -233,17 +180,17 @@ msgid ""
 "January 2012</em>\n"
 msgstr ""
 "<article>\n"
-"<h1> Dart ぱずらーず 1</h1>\n"
-"<em>著 Joshua Bloch 訳 Usagi Ito <br />\n"
+"<h1> Dart ぱずらーず 第1章</h1>\n"
+"<em>著 Joshua Bloch 訳 <a href=\"mailto:usagi@WonderRabbitProject.net\">Usagi Ito</a> <br />\n"
 "2012年 1月（訳 2012年 3月）</em>\n"
 
 #. type: Plain text
-#: chapter-1.html:118
+#: chapter-1.html:106
 msgid "<section>"
 msgstr "<section>"
 
 #. type: Plain text
-#: chapter-1.html:127
+#: chapter-1.html:115
 msgid ""
 "<p> Years ago I co-wrote a book called <em>Java Puzzlers: Traps, Pitfalls, "
 "and Corner Cases</em>.  Now that I’m on the Dart team, I'm translating all "
@@ -261,7 +208,7 @@ msgstr ""
 "込むとしよう。  </p>"
 
 #. type: Plain text
-#: chapter-1.html:144
+#: chapter-1.html:132
 #, no-wrap
 msgid ""
 "<section id=\"toc\">\n"
@@ -299,12 +246,12 @@ msgstr ""
 "</section>\n"
 
 #. type: Plain text
-#: chapter-1.html:146
+#: chapter-1.html:134
 msgid "<h2 id=\"1\"> Puzzler 1: Oddity </h2>"
-msgstr "<h2 id=\"1\"> ぱずらー 1: 奇数かな </h2>"
+msgstr "<a name=\"1\"><h2 id=\"1\"> ぱずらー 1: 奇数かな </h2></a>"
 
 #. type: Plain text
-#: chapter-1.html:151
+#: chapter-1.html:139
 msgid ""
 "<p> This method appears to tell you whether its argument is odd or even, but "
 "fails on negative odd arguments: </p>"
@@ -313,7 +260,7 @@ msgstr ""
 "の奇数だと失敗しちゃうんだ。: </p>"
 
 #. type: Plain text
-#: chapter-1.html:157
+#: chapter-1.html:145
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -327,7 +274,7 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:162
+#: chapter-1.html:150
 msgid ""
 "<p> The puzzler was fixed in Dart: The following function <em>does</em> "
 "identify odd numbers in Dart (unlike Java): </p>"
@@ -336,7 +283,7 @@ msgstr ""
 "奇数を判定してくれる（Javaとは違った挙動をするよ）: </p>"
 
 #. type: Plain text
-#: chapter-1.html:168
+#: chapter-1.html:156
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -350,7 +297,7 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:173
+#: chapter-1.html:161
 msgid ""
 "<p> That said, I'm not so sure the cure is any better than the disease; the "
 "resulting arithmetic violates the \"Division Rule\": </p>"
@@ -359,14 +306,14 @@ msgstr ""
 "則」を犯してしまっているんだ:</p>"
 
 #. type: Plain text
-#: chapter-1.html:177
+#: chapter-1.html:165
 msgid "<blockquote> D = d * (D div d) + D mod d </blockquote>"
 msgstr ""
 "<blockquote> D = d * (D div d) + D mod d </blockquote>\n"
 "<p>（訳註: 数学的には割られる数が負であっても剰余は正）</p>"
 
 #. type: Plain text
-#: chapter-1.html:183
+#: chapter-1.html:171
 msgid ""
 "<p> It’s also incompatible with JavaScript, Java, C, C++, and C#.  I've been "
 "discussing this issue with <a href=\"/authors/florian-loitsch.html\">Florian "
@@ -378,12 +325,12 @@ msgstr ""
 "ク先はdartlang.org本家)と議論しているよ。  </p>"
 
 #. type: Plain text
-#: chapter-1.html:186
+#: chapter-1.html:174
 msgid "<h2 id=\"2\"> Puzzler 2: Time for a Change </h2>"
-msgstr "<h2 id=\"2\"> ぱずらー 2: 変革の時 </h2>"
+msgstr "<a name=\"2\"><h2 id=\"2\"> ぱずらー 2: 変革の時 </h2><a/>"
 
 #. type: Plain text
-#: chapter-1.html:191
+#: chapter-1.html:179
 msgid ""
 "<p> This program appears to calculate the change when $2.00 is paid for a "
 "$0.90 purchase.  </p>"
@@ -392,7 +339,7 @@ msgstr ""
 "</p>"
 
 #. type: Plain text
-#: chapter-1.html:199
+#: chapter-1.html:187
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -410,12 +357,12 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:203
+#: chapter-1.html:191
 msgid "<p> Here it is translated into Dart: </p>"
 msgstr "<p> これを Dart に翻訳するとこうなる: </p>"
 
 #. type: Plain text
-#: chapter-1.html:209
+#: chapter-1.html:197
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -429,7 +376,7 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:217
+#: chapter-1.html:205
 msgid ""
 "<p> In Java and Dartboard, it prints 0.8999999999999999.  Using the Dart VM, "
 "it (currently) prints 0.9, but this is because we’re currently using C’s "
@@ -445,7 +392,7 @@ msgstr ""
 "けないね。</p>"
 
 #. type: Plain text
-#: chapter-1.html:235
+#: chapter-1.html:223
 msgid ""
 "<p> This raises the question, should Dart support decimal floating point "
 "arithmetic natively? There are many who would argue that it should.  One man "
@@ -471,7 +418,7 @@ msgstr ""
 "EcmaScript の委員だった頃、10進の算術は EcmaScript 4 の失敗を齎しました。</p>"
 
 #. type: Plain text
-#: chapter-1.html:240
+#: chapter-1.html:228
 msgid ""
 "<p> If Dart does provide library support for floating point decimal "
 "arithmetic, should we provide linguistic support for decimal literals? </p>"
@@ -480,7 +427,7 @@ msgstr ""
 "ラルを言語サポートとすべきでしょうか？ </p>"
 
 #. type: Plain text
-#: chapter-1.html:249
+#: chapter-1.html:237
 msgid ""
 "<p> As you’re doubtless aware, the floating point binary problem is worse in "
 "Dart than when you compile to JavaScript.  In Java, most programmers know "
@@ -493,7 +440,7 @@ msgstr ""
 "の Dart のプログラムを考えてみましょう: </p>"
 
 #. type: Plain text
-#: chapter-1.html:256
+#: chapter-1.html:244
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -509,7 +456,7 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:263
+#: chapter-1.html:251
 msgid ""
 "<p> When you run it on Dartboard, it prints true, which is <em>really</em> "
 "confusing.  I don’t think we can, in good conscience, support this "
@@ -522,12 +469,12 @@ msgstr ""
 "問題だと思いたいけどね。</p>"
 
 #. type: Plain text
-#: chapter-1.html:266
+#: chapter-1.html:254
 msgid "<h2 id=\"3\"> Puzzler 3: Long Division </h2>"
-msgstr "<h2 id=\"3\"> ぱずらー 3: 割り算の筆算 </h2>"
+msgstr "<a name=\"3\"><h2 id=\"3\"> ぱずらー 3: 割り算の筆算 </h2></a>"
 
 #. type: Plain text
-#: chapter-1.html:273
+#: chapter-1.html:261
 msgid ""
 "<p> This Java program would appear to print the number of microseconds per "
 "millisecond, which is 1000.  In fact, it prints 5: </p>"
@@ -538,7 +485,7 @@ msgstr ""
 "</p>"
 
 #. type: Plain text
-#: chapter-1.html:279
+#: chapter-1.html:267
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -557,7 +504,7 @@ msgstr ""
 "</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:284
+#: chapter-1.html:272
 #, no-wrap
 msgid ""
 "    System.out.println(MICROS_PER_DAY / MILLIS_PER_DAY);\n"
@@ -567,7 +514,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:294
+#: chapter-1.html:282
 msgid ""
 "<p> This puzzler doesn’t apply directly to Dart because it has no long type, "
 "and was fixed because Dart's int type is arbitrary-precision.  If you label "
@@ -582,12 +529,12 @@ msgstr ""
 "処理系が常に正しい答えを返してくれるとは限らないよ。 </p>"
 
 #. type: Plain text
-#: chapter-1.html:297
+#: chapter-1.html:285
 msgid "<h2 id=\"4\"> Puzzler 4: It's Elementary </h2>"
-msgstr "<h2 id=\"4\"> ぱずらー 4: このくらい基礎だよね </h2>"
+msgstr "<a name=\"4\"><h2 id=\"4\"> ぱずらー 4: このくらい基礎だよね </h2></a>"
 
 #. type: Plain text
-#: chapter-1.html:305
+#: chapter-1.html:293
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -598,29 +545,41 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-java linenums:0 \" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; white-space: pre-wrap; word-wrap: break-word; border-style: initial; border-color: initial; font: inherit; font-family: monospace, sans-serif; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); color: rgb(68, 68, 68); font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); \"><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">public</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">class</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">Elementary</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">{</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"  </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">public</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">static</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">void</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> main</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">String</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">[]</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> args</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">)</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">{</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"    </span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">System</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">.</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">out</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">.</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">println</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">12345</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">+</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">5432l</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">);</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"com\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 136, 136); \">// Lowercase L masquerades as 1!</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"  </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:310
+#: chapter-1.html:298
 msgid ""
 "<p> This puzzler doesn’t apply to Dart, as there are no long (64-bit) "
 "literals in Dart.  </p>"
 msgstr ""
+"<p> このパズルもまた Dart には持ち込めない。 Dart には long (64-bit) リテラル"
+"が無いからね。 </p>"
 
 #. type: Plain text
-#: chapter-1.html:313
+#: chapter-1.html:301
 msgid "<h2 id=\"5\"> Puzzler 5: The Joy of Hex </h2>"
-msgstr ""
+msgstr "<a name=\"5\"><h2 id=\"5\"> ぱずらー 5: 16進あそび </h2></a>"
 
 #. type: Plain text
-#: chapter-1.html:318
+#: chapter-1.html:306
 msgid ""
 "<p> This Java program looks like it should print <code>1cafebabe</code> but "
 "actually prints <code>cafebabe</code> due to unexpected sign extension "
 "(<code>0xcafebabe</code> is a negative number)."
 msgstr ""
+"<p> 次の Java プログラムでは <code>1cafebabe</code> が表示されると思うだろ"
+"う？でも実際やってみると <code>cafebabe</code> と表示される（訳註: <a href="
+"\"http://ideone.com/OJU8x\">こんな感じ</a>）。予想外の符号拡張（訳註: <a "
+"href=\"http://www.sophia-it.com/content/sign+extension\">符号拡張; sign "
+"extension</a>）によってね(<code>0xcafebabe</code> は負の数だよ)。"
 
 #. type: Plain text
-#: chapter-1.html:327
+#: chapter-1.html:315
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -632,16 +591,24 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-java linenums:0 \" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; white-space: pre-wrap; word-wrap: break-word; border-style: initial; border-color: initial; font: inherit; font-family: monospace, sans-serif; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); color: rgb(68, 68, 68); font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); \"><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">public</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">class</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">JoyOfHex</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">{</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"  </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">public</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">static</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"kwd\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(17, 85, 204); \">void</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> main</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">String</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">[]</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> args</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">)</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">{</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"    </span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">System</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">.</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">out</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">.</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">println</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"      </span><span class=\"typ\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(136, 17, 102); \">Long</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">.</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">toHexString</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">0x100000000L</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">+</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">0xcafebabe</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">));</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"  </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:333
+#: chapter-1.html:321
 msgid ""
 "<p> This was fixed in Dart, by the use of arbitrary-precision integer "
 "arithmetic.  This Dart program prints <code>1cafebabe</code>: </p>"
 msgstr ""
+"<p> この問題について Dart では任意精度の整数処理をしているから心配要らない"
+"よ。次の Dart プログラムは <code>1cafebabe</code> を表示するよ: </p>"
 
 #. type: Plain text
-#: chapter-1.html:339
+#: chapter-1.html:327
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -650,14 +617,17 @@ msgid ""
 "}\n"
 "</pre>\n"
 msgstr ""
+"<pre class=\"prettyprint lang-dart linenums:0 \" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; white-space: pre-wrap; word-wrap: break-word; border-style: initial; border-color: initial; font: inherit; font-family: monospace, sans-serif; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); color: rgb(68, 68, 68); font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); \"><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">main</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">()</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">{</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"  print</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">((</span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">0x100000000</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">+</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \"> </span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">0xcafebabe</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">).</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">toRadixString</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">(</span><span class=\"lit\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(0, 136, 136); \">16</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">));</span><span class=\"pln\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(51, 51, 51); \">\n"
+"</span><span class=\"pun\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; font: inherit; vertical-align: baseline; border-style: initial; border-color: initial; font: inherit; color: rgb(102, 102, 102); \">}</span></pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:342
+#: chapter-1.html:330
 msgid "<h2 class=\"6\"> Puzzler 6: Multicast </h2>"
-msgstr ""
+msgstr "<a name=\"6\"><h2 class=\"6\"> ぱずらー 6: マルチキャスト </h2></a>"
 
 #. type: Plain text
-#: chapter-1.html:350
+#: chapter-1.html:338
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -670,24 +640,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:354
+#: chapter-1.html:342
 msgid "<p> This puzzle doesn't apply in Dart as it has no casts.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:357
+#: chapter-1.html:345
 msgid "<h2 class=\"7\"> Puzzler 7: Swap Meat </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:362
+#: chapter-1.html:350
 msgid ""
 "<p> This program attempts to use a hideous hack to swap the contents of two "
 "int variables: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:373
+#: chapter-1.html:361
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -703,12 +673,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:377 chapter-1.html:418
+#: chapter-1.html:365 chapter-1.html:406
 msgid "<p> In Dart: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:386
+#: chapter-1.html:374
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -722,7 +692,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:395
+#: chapter-1.html:383
 msgid ""
 "<p> This puzzler behaves exactly the same in Java and Dart.  Luckily, it "
 "doesn't indicate a language problem: It's just a cautionary tale regarding "
@@ -732,19 +702,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:398
+#: chapter-1.html:386
 msgid "<h2 id=\"8\"> Puzzler 8: Dos Equis </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:403
+#: chapter-1.html:391
 msgid ""
 "<p> This program would appear to print <code>XX</code>, but actually prints "
 "<code>X88</code> in Java: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:414
+#: chapter-1.html:402
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -760,7 +730,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:427
+#: chapter-1.html:415
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -774,7 +744,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:435
+#: chapter-1.html:423
 msgid ""
 "<p> This puzzle is fixed in Dart, because Dart doesn’t have a char type that "
 "is a (barely) glorified int type, doesn’t do primitive widening conversions "
@@ -783,19 +753,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:438
+#: chapter-1.html:426
 msgid "<h2 id=\"#9\"> Puzzler 9: Tweedledum </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:443
+#: chapter-1.html:431
 msgid ""
 "<p> In this puzzle, you’re asked to provide declarations to cause the "
 "indicated behavior: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:448
+#: chapter-1.html:436
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -805,7 +775,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:454
+#: chapter-1.html:442
 #, no-wrap
 msgid ""
 "    x += i;     // Must be LEGAL\n"
@@ -816,26 +786,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:460
+#: chapter-1.html:448
 msgid ""
 "<p> Fixed in Dart: no short type, no implicit narrowing conversion on "
 "compound assignment expressions.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:463
+#: chapter-1.html:451
 msgid "<h2 id=\"10\"> Puzzler 10: Tweedledee </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:467
+#: chapter-1.html:455
 msgid ""
 "<p> Again, you’re asked to provide declarations to cause the indicated "
 "behavior: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:472
+#: chapter-1.html:460
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -845,7 +815,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:478
+#: chapter-1.html:466
 #, no-wrap
 msgid ""
 "    x = x + i;  // Must be LEGAL\n"
@@ -856,7 +826,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:485
+#: chapter-1.html:473
 msgid ""
 "<p> This one is fixed in Dart; in fact, it’s even fixed in Java, as of 1.6.  "
 "It had to do with peculiarities of Java's String concatenation operator and "
@@ -864,12 +834,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:487
+#: chapter-1.html:475
 msgid "<h2 id=\"summary\"> Summary </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:495
+#: chapter-1.html:483
 msgid ""
 "<p> Out of ten Java puzzlers, eight have been fixed in Dart, one (Puzzler 3) "
 "arguably made worse (it's easier to get into floating point binary "
@@ -878,12 +848,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:497
+#: chapter-1.html:485
 msgid "</section>"
 msgstr "</section>"
 
 #. type: Plain text
-#: chapter-1.html:506
+#: chapter-1.html:494
 #, no-wrap
 msgid ""
 "<link href=\"/css/style.css\" type=\"text/css\" rel=\"stylesheet\">\n"
@@ -897,7 +867,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:509
+#: chapter-1.html:497
 #, no-wrap
 msgid ""
 "\t\t\t</article>\n"
@@ -905,7 +875,7 @@ msgid ""
 msgstr "</article>\n"
 
 #. type: Plain text
-#: chapter-1.html:519
+#: chapter-1.html:507
 #, no-wrap
 msgid ""
 "\t\t<footer>\n"
@@ -935,13 +905,13 @@ msgstr ""
 "</footer>\n"
 
 #. type: Plain text
-#: chapter-1.html:521
+#: chapter-1.html:509
 #, no-wrap
 msgid "\t</div>\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:526
+#: chapter-1.html:514
 #, no-wrap
 msgid ""
 "\t<!--[if lt IE 7 ]>\n"
@@ -951,7 +921,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:534
+#: chapter-1.html:522
 #, no-wrap
 msgid ""
 "\t<script>\n"
@@ -964,25 +934,6 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:537
+#: chapter-1.html:525
 msgid "</body> </html>"
 msgstr " "
-
-#~ msgid ""
-#~ "<!DOCTYPE html>\n"
-#~ "<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"> <![endif]-->\n"
-#~ "<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
-#~ "<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
-#~ "<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
-#~ "<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
-#~ "<head>\n"
-#~ "\t<meta charset=\"UTF-8\">\n"
-#~ "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
-#~ "\t<title>Dart Puzzlers 1 : Dart : Structured web programming</title>\n"
-#~ "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
-#~ "\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
-#~ msgstr ""
-#~ "<!DOCTYPE html>\n"
-#~ "<head>\n"
-#~ "\t<meta charset=\"UTF-8\">\n"
-#~ "\t<title>Dart ぱずらーず 1 : Dart : 構造化ウェブプログラミング</title>\n"
