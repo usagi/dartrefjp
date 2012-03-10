@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Thu, 08 Mar 2012 06:38:47 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
-"POT-Creation-Date: 2012-03-10 03:58+0900\n"
+"POT-Creation-Date: 2012-03-10 14:27+0900\n"
 "PO-Revision-Date: 2012-03-08 08:40+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,35 +18,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Plain text
-#: chapter-1.html:13
+#: chapter-1.html:15
 #, no-wrap
 msgid ""
 "<!DOCTYPE html>\n"
-"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"> <![endif]-->\n"
-"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
-"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
-"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
-"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
+"<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
+"<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
+"<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
+"<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
+"<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <!--<![endif]-->\n"
 "<head>\n"
 "\t<meta charset=\"UTF-8\">\n"
 "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
-"\t<title>Dart Puzzlers 1 : Dart : Structured web programming</title>\n"
+msgstr ""
+
+#. type: Plain text
+#: chapter-1.html:17
+#, no-wrap
+msgid "  <!-- Title & Google+ description -->\n"
+msgstr ""
+
+#. type: Plain text
+#: chapter-1.html:21
+#, no-wrap
+msgid ""
+"  <title>Dart Puzzlers 1 | DartLang.org</title> \n"
+"  <meta itemprop=\"name\" content=\"Dart Puzzlers 1 | DartLang.org\">\n"
+"  <meta itemprop=\"description\" content=\"Dart is a new platform for building structured web apps for modern browsers. It includes a language, a virtual machine, libraries, a UI framework, an editor, and browser integration. Try Dart today!\">\n"
+msgstr ""
+
+#. type: Plain text
+#: chapter-1.html:24
+#, no-wrap
+msgid ""
 "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
 "\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
 msgstr ""
-"<!DOCTYPE html>\n"
-"<head>\n"
-"\t<meta charset=\"UTF-8\">\n"
-"\t<title>Dart ぱずらーず 1 : Dart : 構造化ウェブプログラミング</title>\n"
 
 #. type: Plain text
-#: chapter-1.html:15
+#: chapter-1.html:26
 #, no-wrap
 msgid "\t<link rel=\"author\" href=\"/authors/joshua-bloch.html\">\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:19
+#: chapter-1.html:30
 #, no-wrap
 msgid ""
 "\t<link rel=\"alternate\" type=\"application/atom+xml\" href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
@@ -55,13 +76,13 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:21
+#: chapter-1.html:32
 #, no-wrap
 msgid "  <script type=\"text/javascript\">\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:26
+#: chapter-1.html:37
 #, no-wrap
 msgid ""
 "    var _gaq = _gaq || [];\n"
@@ -71,7 +92,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:32
+#: chapter-1.html:43
 #, no-wrap
 msgid ""
 "    (function() {\n"
@@ -82,13 +103,13 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:34
+#: chapter-1.html:45
 #, no-wrap
 msgid "  </script>\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:52
+#: chapter-1.html:63
 #, no-wrap
 msgid ""
 "  <script type=\"text/javascript\">\n"
@@ -111,7 +132,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:63
+#: chapter-1.html:74
 #, no-wrap
 msgid ""
 "\t\t<nav>\n"
@@ -126,7 +147,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:95
+#: chapter-1.html:106
 #, fuzzy, no-wrap
 #| msgid ""
 #| "  <ul>\n"
@@ -194,7 +215,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:98
+#: chapter-1.html:109
 #, no-wrap
 msgid ""
 "  <div id=\"pluspage\"><div class=\"g-plus\" data-href=\"https://plus.google.com/109866369054280216564\" data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
@@ -202,7 +223,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:105
+#: chapter-1.html:116
 #, no-wrap
 msgid ""
 "\t\t<div id=\"main\" role=\"main\">\n"
@@ -217,12 +238,12 @@ msgstr ""
 "2012年 1月（訳 2012年 3月）</em>\n"
 
 #. type: Plain text
-#: chapter-1.html:107
+#: chapter-1.html:118
 msgid "<section>"
 msgstr "<section>"
 
 #. type: Plain text
-#: chapter-1.html:116
+#: chapter-1.html:127
 msgid ""
 "<p> Years ago I co-wrote a book called <em>Java Puzzlers: Traps, Pitfalls, "
 "and Corner Cases</em>.  Now that I’m on the Dart team, I'm translating all "
@@ -237,7 +258,7 @@ msgstr ""
 "それでは、さっそく最初の章へと迷い込むとしよう。  </p>"
 
 #. type: Plain text
-#: chapter-1.html:133
+#: chapter-1.html:144
 #, no-wrap
 msgid ""
 "<section id=\"toc\">\n"
@@ -275,12 +296,12 @@ msgstr ""
 "</section>\n"
 
 #. type: Plain text
-#: chapter-1.html:135
+#: chapter-1.html:146
 msgid "<h2 id=\"1\"> Puzzler 1: Oddity </h2>"
 msgstr "<h2 id=\"1\"> ぱずらー 1: 奇数かな </h2>"
 
 #. type: Plain text
-#: chapter-1.html:140
+#: chapter-1.html:151
 msgid ""
 "<p> This method appears to tell you whether its argument is odd or even, but "
 "fails on negative odd arguments: </p>"
@@ -289,7 +310,7 @@ msgstr ""
 "の奇数だと失敗しちゃうんだ。: </p>"
 
 #. type: Plain text
-#: chapter-1.html:146
+#: chapter-1.html:157
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -305,7 +326,7 @@ msgstr ""
 "</pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:151
+#: chapter-1.html:162
 msgid ""
 "<p> The puzzler was fixed in Dart: The following function <em>does</em> "
 "identify odd numbers in Dart (unlike Java): </p>"
@@ -314,7 +335,7 @@ msgstr ""
 "数を判定してくれる（Javaとは違った挙動をするよ）: : </p>"
 
 #. type: Plain text
-#: chapter-1.html:157
+#: chapter-1.html:168
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -330,19 +351,19 @@ msgstr ""
 "</pre>\n"
 
 #. type: Plain text
-#: chapter-1.html:162
+#: chapter-1.html:173
 msgid ""
 "<p> That said, I'm not so sure the cure is any better than the disease; the "
 "resulting arithmetic violates the \"Division Rule\": </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:166
+#: chapter-1.html:177
 msgid "<blockquote> D = d * (D div d) + D mod d </blockquote>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:172
+#: chapter-1.html:183
 msgid ""
 "<p> It’s also incompatible with JavaScript, Java, C, C++, and C#.  I've been "
 "discussing this issue with <a href=\"/authors/florian-loitsch.html\">Florian "
@@ -350,19 +371,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:175
+#: chapter-1.html:186
 msgid "<h2 id=\"2\"> Puzzler 2: Time for a Change </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:180
+#: chapter-1.html:191
 msgid ""
 "<p> This program appears to calculate the change when $2.00 is paid for a "
 "$0.90 purchase.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:188
+#: chapter-1.html:199
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -375,12 +396,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:192
+#: chapter-1.html:203
 msgid "<p> Here it is translated into Dart: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:198
+#: chapter-1.html:209
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -391,7 +412,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:206
+#: chapter-1.html:217
 msgid ""
 "<p> In Java and Dartboard, it prints 0.8999999999999999.  Using the Dart VM, "
 "it (currently) prints 0.9, but this is because we’re currently using C’s "
@@ -400,7 +421,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:224
+#: chapter-1.html:235
 msgid ""
 "<p> This raises the question, should Dart support decimal floating point "
 "arithmetic natively? There are many who would argue that it should.  One man "
@@ -416,14 +437,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:229
+#: chapter-1.html:240
 msgid ""
 "<p> If Dart does provide library support for floating point decimal "
 "arithmetic, should we provide linguistic support for decimal literals? </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:238
+#: chapter-1.html:249
 msgid ""
 "<p> As you’re doubtless aware, the floating point binary problem is worse in "
 "Dart than when you compile to JavaScript.  In Java, most programmers know "
@@ -432,7 +453,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:245
+#: chapter-1.html:256
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -444,7 +465,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:252
+#: chapter-1.html:263
 msgid ""
 "<p> When you run it on Dartboard, it prints true, which is <em>really</em> "
 "confusing.  I don’t think we can, in good conscience, support this "
@@ -453,19 +474,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:255
+#: chapter-1.html:266
 msgid "<h2 id=\"3\"> Puzzler 3: Long Division </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:262
+#: chapter-1.html:273
 msgid ""
 "<p> This Java program would appear to print the number of microseconds per "
 "millisecond, which is 1000.  In fact, it prints 5: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:268
+#: chapter-1.html:279
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -476,7 +497,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:273
+#: chapter-1.html:284
 #, no-wrap
 msgid ""
 "    System.out.println(MICROS_PER_DAY / MILLIS_PER_DAY);\n"
@@ -486,7 +507,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:283
+#: chapter-1.html:294
 msgid ""
 "<p> This puzzler doesn’t apply directly to Dart because it has no long type, "
 "and was fixed because Dart's int type is arbitrary-precision.  If you label "
@@ -496,12 +517,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:286
+#: chapter-1.html:297
 msgid "<h2 id=\"4\"> Puzzler 4: It's Elementary </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:294
+#: chapter-1.html:305
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -514,19 +535,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:299
+#: chapter-1.html:310
 msgid ""
 "<p> This puzzler doesn’t apply to Dart, as there are no long (64-bit) "
 "literals in Dart.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:302
+#: chapter-1.html:313
 msgid "<h2 id=\"5\"> Puzzler 5: The Joy of Hex </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:307
+#: chapter-1.html:318
 msgid ""
 "<p> This Java program looks like it should print <code>1cafebabe</code> but "
 "actually prints <code>cafebabe</code> due to unexpected sign extension "
@@ -534,7 +555,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:316
+#: chapter-1.html:327
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -548,14 +569,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:322
+#: chapter-1.html:333
 msgid ""
 "<p> This was fixed in Dart, by the use of arbitrary-precision integer "
 "arithmetic.  This Dart program prints <code>1cafebabe</code>: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:328
+#: chapter-1.html:339
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -566,12 +587,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:331
+#: chapter-1.html:342
 msgid "<h2 class=\"6\"> Puzzler 6: Multicast </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:339
+#: chapter-1.html:350
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -584,24 +605,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:343
+#: chapter-1.html:354
 msgid "<p> This puzzle doesn't apply in Dart as it has no casts.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:346
+#: chapter-1.html:357
 msgid "<h2 class=\"7\"> Puzzler 7: Swap Meat </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:351
+#: chapter-1.html:362
 msgid ""
 "<p> This program attempts to use a hideous hack to swap the contents of two "
 "int variables: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:362
+#: chapter-1.html:373
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -617,12 +638,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:366 chapter-1.html:407
+#: chapter-1.html:377 chapter-1.html:418
 msgid "<p> In Dart: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:375
+#: chapter-1.html:386
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -636,7 +657,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:384
+#: chapter-1.html:395
 msgid ""
 "<p> This puzzler behaves exactly the same in Java and Dart.  Luckily, it "
 "doesn't indicate a language problem: It's just a cautionary tale regarding "
@@ -646,19 +667,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:387
+#: chapter-1.html:398
 msgid "<h2 id=\"8\"> Puzzler 8: Dos Equis </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:392
+#: chapter-1.html:403
 msgid ""
 "<p> This program would appear to print <code>XX</code>, but actually prints "
 "<code>X88</code> in Java: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:403
+#: chapter-1.html:414
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -674,7 +695,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:416
+#: chapter-1.html:427
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-dart linenums:0 \">\n"
@@ -688,7 +709,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:424
+#: chapter-1.html:435
 msgid ""
 "<p> This puzzle is fixed in Dart, because Dart doesn’t have a char type that "
 "is a (barely) glorified int type, doesn’t do primitive widening conversions "
@@ -697,19 +718,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:427
+#: chapter-1.html:438
 msgid "<h2 id=\"#9\"> Puzzler 9: Tweedledum </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:432
+#: chapter-1.html:443
 msgid ""
 "<p> In this puzzle, you’re asked to provide declarations to cause the "
 "indicated behavior: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:437
+#: chapter-1.html:448
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -719,7 +740,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:443
+#: chapter-1.html:454
 #, no-wrap
 msgid ""
 "    x += i;     // Must be LEGAL\n"
@@ -730,26 +751,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:449
+#: chapter-1.html:460
 msgid ""
 "<p> Fixed in Dart: no short type, no implicit narrowing conversion on "
 "compound assignment expressions.  </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:452
+#: chapter-1.html:463
 msgid "<h2 id=\"10\"> Puzzler 10: Tweedledee </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:456
+#: chapter-1.html:467
 msgid ""
 "<p> Again, you’re asked to provide declarations to cause the indicated "
 "behavior: </p>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:461
+#: chapter-1.html:472
 #, no-wrap
 msgid ""
 "<pre class=\"prettyprint lang-java linenums:0 \">\n"
@@ -759,7 +780,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:467
+#: chapter-1.html:478
 #, no-wrap
 msgid ""
 "    x = x + i;  // Must be LEGAL\n"
@@ -770,7 +791,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:474
+#: chapter-1.html:485
 msgid ""
 "<p> This one is fixed in Dart; in fact, it’s even fixed in Java, as of 1.6.  "
 "It had to do with peculiarities of Java's String concatenation operator and "
@@ -778,12 +799,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:476
+#: chapter-1.html:487
 msgid "<h2 id=\"summary\"> Summary </h2>"
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:484
+#: chapter-1.html:495
 msgid ""
 "<p> Out of ten Java puzzlers, eight have been fixed in Dart, one (Puzzler 3) "
 "arguably made worse (it's easier to get into floating point binary "
@@ -792,12 +813,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: chapter-1.html:486
+#: chapter-1.html:497
 msgid "</section>"
 msgstr "</section>"
 
 #. type: Plain text
-#: chapter-1.html:495
+#: chapter-1.html:506
 #, no-wrap
 msgid ""
 "<link href=\"/css/style.css\" type=\"text/css\" rel=\"stylesheet\">\n"
@@ -811,7 +832,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:498
+#: chapter-1.html:509
 #, no-wrap
 msgid ""
 "\t\t\t</article>\n"
@@ -819,7 +840,7 @@ msgid ""
 msgstr "</article>\n"
 
 #. type: Plain text
-#: chapter-1.html:508
+#: chapter-1.html:519
 #, no-wrap
 msgid ""
 "\t\t<footer>\n"
@@ -849,13 +870,13 @@ msgstr ""
 "</footer>\n"
 
 #. type: Plain text
-#: chapter-1.html:510
+#: chapter-1.html:521
 #, no-wrap
 msgid "\t</div>\n"
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:515
+#: chapter-1.html:526
 #, no-wrap
 msgid ""
 "\t<!--[if lt IE 7 ]>\n"
@@ -865,7 +886,7 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:523
+#: chapter-1.html:534
 #, no-wrap
 msgid ""
 "\t<script>\n"
@@ -878,6 +899,25 @@ msgid ""
 msgstr " \n"
 
 #. type: Plain text
-#: chapter-1.html:526
+#: chapter-1.html:537
 msgid "</body> </html>"
 msgstr " "
+
+#~ msgid ""
+#~ "<!DOCTYPE html>\n"
+#~ "<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"> <![endif]-->\n"
+#~ "<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"> <![endif]-->\n"
+#~ "<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"> <![endif]-->\n"
+#~ "<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"> <![endif]-->\n"
+#~ "<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"> <!--<![endif]-->\n"
+#~ "<head>\n"
+#~ "\t<meta charset=\"UTF-8\">\n"
+#~ "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
+#~ "\t<title>Dart Puzzlers 1 : Dart : Structured web programming</title>\n"
+#~ "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
+#~ "\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
+#~ msgstr ""
+#~ "<!DOCTYPE html>\n"
+#~ "<head>\n"
+#~ "\t<meta charset=\"UTF-8\">\n"
+#~ "\t<title>Dart ぱずらーず 1 : Dart : 構造化ウェブプログラミング</title>\n"

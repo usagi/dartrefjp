@@ -23,6 +23,7 @@ then
   ps2ascii $target_ps_file > $target_txt_file
 else
   echo '[alternative spec] the source is not updated.'
+  ln ${target_txt_file}.old ${target_txt_file}
 fi
 if [ -f ${target_old_file} ]
 then

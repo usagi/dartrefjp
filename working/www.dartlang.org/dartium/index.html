@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"
+                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"
+                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"
+                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"
+                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"
+                    itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- Title & Google+ description -->
+  
+  <title>Chromium with the Dart VM | DartLang.org</title> 
+  <meta itemprop="name" content="Chromium with the Dart VM | DartLang.org">
+  <meta itemprop="description" content="Dart is a new platform for building structured web apps for modern browsers. It includes a language, a virtual machine, libraries, a UI framework, an editor, and browser integration. Try Dart today!">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	
+	
+	<link rel="alternate" type="application/atom+xml" href="http://news.dartlang.org/feeds/posts/default" title="Atom feed">
+    <link href="https://plus.google.com/109866369054280216564" rel="publisher">
+	<script src="/js/modernizr.custom.02548.js"></script>
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26406144-4']);
+    _gaq.push(['_setDomainName', 'dartlang.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+  <script type="text/javascript">
+	window.___gcfg = {lang: 'en'};
+	(function() 
+	{var po = document.createElement("script");
+	po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(po, s);
+	})();
+  </script>
+</head>
+<body>
+	<div id="container">
+		<header>
+		  	<div id="plus1"><div class="g-plusone" data-size="standard" data-count="true"></div></div>
+      	<a href="/"><img src="/imgs/dart-logo.png" width="268" height="116" alt="Dart"></a>
+			  <span id="tagline">Structured web apps</span>
+		</header>
+
+		
+		<nav>
+  <form action="/search.html" id="cse-search-box">
+    <div id="search">
+      <input type="hidden" name="cx" value="011220921317074318178:i4mscbaxtru" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="hidden" name="hl" value="en" />
+      <input type="search" name="q" id="q" autocomplete="off" placeholder="Search"/>
+    </div>
+  </form>
+
+  <ul>
+    <li><a href="/downloads.html">Downloads</a></li>
+    <li><a href="http://news.dartlang.org">News &amp; Updates</a></li>
+    <li>Getting Started
+      <ul>
+        <li><a href="/language-tour/">Language Tour</a></li>
+        <li><a href="/docs/technical-overview/">Technical Overview</a></li>
+        <li><a href="http://synonym.dartlang.org">Translations from JavaScript</a></li>
+      </ul> </li>
+    <li>Language &amp; Libraries
+      <ul>
+        <li><a href="/docs/spec/">Language Spec</a></li>
+        <li><a href="http://api.dartlang.org/">API Reference</a></li>
+      </ul> </li>
+    <li>Tools
+      <ul>
+        <li><a href="http://try.dartlang.org">Dartboard</a></li>
+        <li><a href="/docs/getting-started/editor/">Dart Editor</a></li>
+        <li><a href="/dartium/">Chromium with the Dart VM</a></li>
+        <li><a href="/docs/getting-started/sdk/">SDK</a></li>
+      </ul> </li>
+    <li>Resources
+      <ul>
+        <li><a href="/samples/">Code Samples</a></li>
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/slides/">Presentations</a></li>
+        <li><a href="/support/faq.html">FAQ</a></li>
+        <li><a href="/resources/">More</a></li>
+      </ul> </li>
+    <li><a href="/support/">Contact Us</a></li>
+  </ul>
+
+  <div id="pluspage"><div class="g-plus" data-href="https://plus.google.com/109866369054280216564" data-width="100" data-height="131" data-theme="light"></div></div>
+</nav>
+
+
+		<div id="main" role="main">
+			<article>
+				<h1> Chromium with the Dart VM </h1>
+
+<section class="overview">
+
+<p>
+This page tells you how to get and use
+a Chromium-based browser (nicknamed <em>Dartium</em>)
+that includes the Dart virtual machine (VM).
+</p>
+
+<aside class="warning">
+<b>Important:</b>
+This browser is a technical preview,
+and it might have security and stability issues.
+
+<blockquote>
+<b>Do not use Dartium as your primary browser!</b>
+</blockquote>
+</aside>
+
+<h4> Contents </h4>
+<ol class="toc">
+  <li> <a href="#download">Downloading the browser</a>
+    <ol>
+      <li> <a href="#linux">Linux: Installing 32-bit libraries</a> </li>
+    </ol> </li>
+  <li> <a href="#bug">Filing bugs</a> </li>
+  <li> <a href="#detect">Detecting Dart support</a> </li>
+  <li> <a href="#command">Launching from the command line</a> </li>
+</ol>
+</section>
+
+
+<section id="download">
+<h2> Downloading the browser </h2>
+
+<p>
+Download the ZIP file for your platform:
+</p>
+
+<ul>
+  <li> <a href="http://commondatastorage.googleapis.com/dartium-archive/continuous/dartium-mac.zip">Dartium for Mac</a> </li>
+  <li> <a href="http://commondatastorage.googleapis.com/dartium-archive/continuous/dartium-lucid64.zip">Dartium for Linux</a> </li>
+  <li> Dartium for Windows <em>(coming soon!)</em> </li>
+</ul>
+
+<br>
+<aside class="note">
+<b>Note:</b>
+The Dartium binary <b>will expire</b> after a few days.
+When that happens,
+you'll need to download a new copy
+if you want to continue using Dartium.
+</aside>
+
+<p>
+You don't usually need to do anything special to install Dartium:
+just unarchive the ZIP file.
+If you like, move the resulting directory to a convenient location.
+</p>
+
+<p>
+To launch Dartium, navigate to its directory in your finder,
+and double-click the blue logo labeled Chromium.
+Or use the <a href="#command">command line</a>.
+If launching fails and you're using 64-bit Linux,
+you probably need to
+<a href="#linux">install 32-bit libraries</a>.
+</p>
+
+<aside class="note">
+<b>If you already use Chromium:</b>
+If another version of Chromium is open,
+then you could have a profile conflict.
+To avoid this, you can open Dartium or Chromium
+from the command line with the
+<a href="http://www.chromium.org/user-experience/user-data-directory">--user-data-dir flag</a>.
+</aside>
+
+
+<section id="linux">
+<h3> Linux: Installing 32-bit libraries </h3>
+
+<p>
+The Linux Dartium binaries currently require 32-bit libraries.
+If you're using 64-bit Linux without 32-bit libraries,
+then Dartium will fail to launch,
+possibly producing a message like this:
+</p>
+
+<pre>
+!MESSAGE Dartium stderr: <em>path-to-chromium</em>: error while loading shared libraries: libXss.so.1: cannot open shared object file: No such file or directory
+</pre>
+
+<p>
+The workaround is to install 32-bit libraries on your computer.
+You can find instructions at:
+</p>
+
+<blockquote>
+<a href="http://code.google.com/p/chromium/wiki/LinuxBuildInstructionsPrerequisites">LinuxBuildInstructionsPrerequisites</a>
+</blockquote>
+
+
+</section>
+</section>
+
+
+<section id="bug">
+<h2> Filing bugs </h2>
+
+<p>
+If you find a bug in Dartium,
+create an issue in the Dart project
+and use the Dartium bug template:
+</p>
+
+<blockquote>
+<a href="http://code.google.com/p/dart/issues/entry?template=Defect%20report%20for%20Dartium">File a bug against Dartium</a>
+</blockquote>
+
+</section>
+
+
+<section id="detect">
+<h2> Detecting Dart support </h2>
+
+<p>
+Your Dart code will work in Dartium
+without any additional JavaScript code.
+However, you have the option of using JavaScript code
+to test whether the current browser supports Dart.
+To do so,
+look for the function <b>webkitStartDart</b>
+on the window.navigator object.
+For example:
+</p>
+
+<pre class="prettyprint lang-dart linenums:1 ">
+if (!navigator.webkitStartDart) {
+  // No native Dart support.
+  window.addEventListener("DOMContentLoaded", function (e) {
+      // ...Fall back to compiled JS...
+    }
+  }, false);
+}
+</pre>
+
+</section>
+
+
+<section id="command">
+<h2> Launching from the command line </h2>
+
+<p>
+Soon we expect to make it easy to launch Dartium through Dart Editor.
+Until then, you can launch it by double-clicking its icon
+or, if you need to specify flags, by using the command line.
+</p>
+
+<p>
+Because Dartium is based on Chromium, all
+<a href="http://www.chromium.org/developers/how-tos/run-chromium-with-flags">Chromium flags</a>
+should work.
+In some cases, you might want to specify Dart-specific flags
+so that you can tweak the embedded Dart VM’s behavior.
+For example, while developing your web app,
+you might want the VM to perform as many checks as possible.
+To achieve that, you can enable checked mode
+(the VM’s --enable_type_checks flag)
+and assertion checks (--enable_asserts flag).
+</p>
+
+<p>
+On Linux, you can enable specify flags by starting Dartium as follows:
+</p>
+
+<pre class="prettyprint lang-dart linenums:1 ">
+DART_FLAGS='--enable_type_checks --enable_asserts' <em>path</em>/chrome
+</pre>
+
+<p>
+Or on the Mac:
+</p>
+
+<pre class="prettyprint lang-dart linenums:1 ">
+DART_FLAGS='--enable_type_checks --enable_asserts'              \
+  <em>path</em>/Chromium.app/Contents/MacOS/Chromium
+</pre>
+
+<p>
+Or (also on the Mac):
+</p>
+
+<pre class="prettyprint lang-dart linenums:1 ">
+DART_FLAG='--enable_type_checks --enable_asserts'               \
+   <b>open</b> <em>path</em>/Chromium.app
+</pre>
+
+<br>
+<aside class="note">
+<b>Tip:</b>
+You can see the command-line flags and executable path
+of your current Chromium-based browser
+by going to <b>chrome://version/</b>.
+</aside>
+</section>
+
+<link href="/css/style.css" type="text/css" rel="stylesheet">
+<link href="/css/prettify.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/js/prettify.js"></script>
+<script>
+window.addEventListener("load", function() {
+  prettyPrint();
+})
+</script>
+
+			</article>
+		</div>
+		
+		<footer>
+			<p>
+			  Except as otherwise <a href="http://code.google.com/policies.html#restrictions">noted</a>, the content of this page is licensed under the <a 		href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://code.google.com/google_bsd_license.html">BSD License</a>.
+			</p>
+			<p>
+				<a href="/tos.html" style="border-right: 1px solid black; padding-right: 5px">Terms of Service</a>
+				<a href="http://www.google.com/intl/en/privacy/privacy-policy.html">Privacy Policy</a>
+			</p>
+	</footer>
+
+	</div>
+
+	<!--[if lt IE 7 ]>
+	<script src="js/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg');</script>
+	<![endif]-->
+	
+	<script>
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+	</script>
+
+</body>
+</html>
+
