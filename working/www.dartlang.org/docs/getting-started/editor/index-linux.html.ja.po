@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-10 14:43+0900\n"
-"PO-Revision-Date: 2012-03-11 14:26+0900\n"
+"PO-Revision-Date: 2012-03-11 15:04+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -804,8 +804,8 @@ msgstr ""
 msgid ""
 "<section id=\"features\"> <h2> Step 5: Try some Dart Editor features </h2>"
 msgstr ""
-"<section id=\"features\"> <h2> ステップ 5: Dart Editor の機能を幾つか試してみ"
-"る </h2>"
+"<section id=\"features\"> <a name=\"features\"><h2> ステップ 5: Dart Editor "
+"の機能を幾つか試してみる </h2></a>"
 
 #. type: Plain text
 #: index-linux.html:419
@@ -1136,7 +1136,8 @@ msgstr ""
 #: index-linux.html:552
 msgid "<section id=\"code\"> <h2> Step 6: Create a new web app </h2>"
 msgstr ""
-"<section id=\"code\"> <h2> ステップ 6: ウェブアプリケーションの新規作成 </h2>"
+"<section id=\"code\"> <a name=\"code\"><h2> ステップ 6: ウェブアプリケーショ"
+"ンの新規作成 </h2></a>"
 
 #. type: Plain text
 #: index-linux.html:557
@@ -1144,6 +1145,8 @@ msgid ""
 "<p> Now that you're familiar with Dart Editor, you can create a web app from "
 "scratch.  </p>"
 msgstr ""
+"<p> Dart Editor を使ってスクラッチからウェブアプリケーションを作成してみま"
+"しょう。  </p>"
 
 #. type: Plain text
 #: index-linux.html:568
@@ -1160,6 +1163,15 @@ msgid ""
 "    from the Dart Editor menu.\n"
 "    </p>\n"
 msgstr ""
+"<ol>\n"
+"  <li> <p>\n"
+"    (Dart Editor の左上の方の) New Application ボタン\n"
+"    <img src=\"http://www.dartlang.org/images/newapp.png\" alt=\"New App\" width=\"16\" height=\"16\"\n"
+"     style=\"vertical-align:top\"> をクリックし、\n"
+"    新しいアプリケーションを作成しましょう。\n"
+"    Dart Editor のメニューから <b>File > New Application...</b>\n"
+"    と辿っても同じ事です。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:572
@@ -1169,6 +1181,9 @@ msgid ""
 "    A dialog comes up, looking something like this:\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    次の様なダイアログが表示されます:\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:584
@@ -1186,6 +1201,17 @@ msgid ""
 "    Click <b>Finish</b> to create the initial files for the app.\n"
 "    </p>\n"
 msgstr ""
+"    <img src=\"http://www.dartlang.org/images/DartEditor-newapp.png\"\n"
+"      alt=\"screenshot of the New Application dialog\"\n"
+"      width=\"538\" height=\"304\">\n"
+"    </li>\n"
+"  <li> <p>\n"
+"    アプリケーションに適当な名前を付けてあげます &mdash; 例えば、\n"
+"    <code>HelloWorld</code> とか。\n"
+"    もしデフォルトのディレクトリが気に入らなければ、\n"
+"    配置先を適宜に指示すると良いでしょう。\n"
+"    <b>Finish</b> をクリックするとアプリケーションのための初期ファイル群が生成されます。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:591
@@ -1198,6 +1224,11 @@ msgid ""
 "    Your Dart Editor window should look something like this:\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    デフォルトの Dart ファイルが Edit ビューに表示され、\n"
+"    Libraries ビューにも何やら幾つかの項目が表示されます。\n"
+"    Dart Editor ウィンドウは次の様になっている事でしょう:\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:595
@@ -1207,6 +1238,9 @@ msgid ""
 "      alt=\"screenshot of Dart Editor just after New Application...\"\n"
 "      width=\"599\" height=\"454\" >\n"
 msgstr ""
+"    <img src=\"http://www.dartlang.org/images/DartEditor-helloworld.png\"\n"
+"      alt=\"Dart Editor で New Application... した直後のスクリーンショット\"\n"
+"      width=\"599\" height=\"454\" >\n"
 
 #. type: Plain text
 #: index-linux.html:603
@@ -1220,6 +1254,13 @@ msgid ""
 "    button to run your new app.\n"
 "    </p> </li>\n"
 msgstr ""
+"    </li>\n"
+"  <li> <p>\n"
+"    Run ボタン \n"
+"    <img src=\"http://www.dartlang.org/images/run.png\" alt=\"Run\" width=\"16\" height=\"16\"\n"
+"     style=\"vertical-align:top\">\n"
+"    をクリックすると新しいアプリケーションが起動します。\n"
+"    </p> </li>\n"
 
 #. type: Plain text
 #: index-linux.html:608
@@ -1230,6 +1271,10 @@ msgid ""
 "    by double-clicking it in the Libraries view.\n"
 "    </p>\n"
 msgstr ""
+"  <li> <p>\n"
+"    Libraries ビューでダブルクリックして、\n"
+"    Dart Editor に HTML ファイルを表示できます。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:619
@@ -1246,6 +1291,14 @@ msgid ""
 "    to execute your app.\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    この HTML ファイルの末尾の\n"
+"    &lt;script&gt; タグは <code>.dart.app.js</code>\n"
+"    を参照します（訳註: Dart Editor のバージョンによっては MIMEが application/dart のスクリプトが埋め込まれている可能性もある。）。\n"
+"    しかし、 Dart Editor でこのファイルを見ることはできません。\n"
+"    この JavaScript ファイルは Dart コードから自動的に生成されるものだからです。\n"
+"    これは Dart をブラウザーが実行できない場合に JavaScript へコンパイルする仕掛けです。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:625
@@ -1257,6 +1310,11 @@ msgid ""
 "    Don't worry, we'll fix that.\n"
 "    </aside>\n"
 msgstr ""
+"    <aside class=\"note\">\n"
+"    <b>ノート:</b>\n"
+"    現時点では生成される JavaScript は非常に大きい有り様ですが、\n"
+"    これについては修正を予定しているのであまり心配しないで下さい。\n"
+"    </aside>\n"
 
 #. type: Plain text
 #: index-linux.html:636
@@ -1272,11 +1330,23 @@ msgid ""
 "    </p> </li>\n"
 "</ol>\n"
 msgstr ""
+"    </p> </li>\n"
+"  <li> <p>\n"
+"    お好みで Dart や HTML ファイル群を\n"
+"    自動補完や、\n"
+"    <a href=\"http://www.dartlang.org/samples/index.html\">サンプル群</a>、\n"
+"    <a href=\"http://api.dartlang.org/\">API リファレンス文書</a>\n"
+"    などを使いながら編集し、\n"
+"    何ができるのか確かめてみて下さい。\n"
+"    </p> </li>\n"
+"</ol>\n"
 
 #. type: Plain text
 #: index-linux.html:639
 msgid "<section> <h2 id=\"feedback\">Give us feedback!</h2>"
 msgstr ""
+"<section> <a name=\"feedback\"><h2 id=\"feedback\">フィードバックをお待ちして"
+"います！</h2></a>"
 
 #. type: Plain text
 #: index-linux.html:645
@@ -1284,6 +1354,8 @@ msgid ""
 "<p> We've released Dart Editor at a very early stage.  Please help us "
 "improve it! To see known bugs in Dart Editor, look at the issue list: </p>"
 msgstr ""
+"<p> リリースされた Dart Editor はまだまだ発展途上です。改善の手助けをお願いし"
+"ます！ Dart Editor の既知のバグと課題リストは以下にあります: </p>"
 
 #. type: Plain text
 #: index-linux.html:649
@@ -1291,6 +1363,8 @@ msgid ""
 "<blockquote> <a href=\"http://code.google.com/p/dart/issues/list?"
 "can=2&q=label%3AArea-Editor\">Dart Editor issue list</a> </blockquote>"
 msgstr ""
+"<blockquote> <a href=\"http://code.google.com/p/dart/issues/list?"
+"can=2&q=label%3AArea-Editor\">Dart Editor 課題リスト</a> </blockquote>"
 
 #. type: Plain text
 #: index-linux.html:654
@@ -1298,11 +1372,13 @@ msgid ""
 "<p> You can star bugs to receive updates about them, and you can add "
 "comments to bugs.  </p>"
 msgstr ""
+"<p> バグについてのコメントを寄せて頂いたり、バグを把握したり、それについての"
+"更新の通知を受けるなどできます。 </p>"
 
 #. type: Plain text
 #: index-linux.html:658
 msgid "<p> Here are two other ways to give us feedback: </p>"
-msgstr ""
+msgstr "<p> 他にも2つのフィードバック方法を用意しています: </p>"
 
 #. type: Plain text
 #: index-linux.html:670
@@ -1320,6 +1396,16 @@ msgid ""
 "    </li>\n"
 "</ul>\n"
 msgstr ""
+"<ul>\n"
+"  <li> Dart Editor ウィンドウの右上には <b>SEND FEEDBACK</b> \n"
+"    リンクがあります。\n"
+"    <br>\n"
+"    個人を特定可能な情報や機密情報に触れる事無く、\n"
+"    新しい課題を開く事ができます。\n"
+"    </li>\n"
+"  <li> <a href=\"http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium\">Dart Editor の課題を新たに作成する</a>。\n"
+"    </li>\n"
+"</ul>\n"
 
 #. type: Plain text
 #: index-linux.html:676
@@ -1327,7 +1413,7 @@ msgstr ""
 msgid ""
 "\t\t\t</article>\n"
 "\t\t</div>\n"
-msgstr ""
+msgstr "</article>\n"
 
 #. type: Plain text
 #: index-linux.html:686
@@ -1343,12 +1429,28 @@ msgid ""
 "\t\t\t</p>\n"
 "\t</footer>\n"
 msgstr ""
+"<footer>\n"
+"  <p>\n"
+"    ライセンス:\n"
+"      ページ <a href=\"http://creativecommons.org/licenses/by/3.0/\">CC-BY(3.0)</a>\n"
+"      コード <a href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>\n"
+"  </p>\n"
+"  <p>\n"
+"    この記事は\n"
+"    <a href=\"http://www.dartlang.org/docs/getting-started/sdk/index.html\">Dart Editor - dartlang.org</a>\n"
+"    を元に\n"
+"    <a href=\"https://sites.google.com/site/dartrefjp/\">dartrefjp</a> / \n"
+"    <a href=\"usagi@WonderRabbitProject.net\">伊藤 兎</a>\n"
+"    が邦訳したものです。\n"
+"    邦訳は<a href=\"https://github.com/usagi/dartrefjp/\">github</a>と<a href=\"https://github.com/usagi/auto-po4a/\">auto-po4a</a>を用い、必要に応じて逐次更新・管理しています。\n"
+"  </p>\n"
+"</footer>\n"
 
 #. type: Plain text
 #: index-linux.html:688
 #, no-wrap
 msgid "\t</div>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:693
@@ -1358,7 +1460,7 @@ msgid ""
 "\t<script src=\"js/dd_belatedpng.js\"></script>\n"
 "\t<script> DD_belatedPNG.fix('img, .png_bg');</script>\n"
 "\t<![endif]-->\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:701
@@ -1371,9 +1473,9 @@ msgid ""
 "      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);\n"
 "    })();\n"
 "\t</script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:704
 msgid "</body> </html>"
-msgstr ""
+msgstr " "

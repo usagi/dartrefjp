@@ -274,7 +274,8 @@ JavaScript版となったプログラムが動作します。
 </section>
 
 
-<section id="features"> <h2> ステップ 5: Dart Editor の機能を幾つか試してみる </h2>
+<section id="features"> <a name="features"><h2> ステップ 5: Dart Editor
+の機能を幾つか試してみる </h2></a>
 
 <p> この節では Dart Editor の機能のうち、 API 宣言の検索、 Dart ファイルのアウトライン、 API
 参照の自動補完について紹介します。より多くの機能の搭載については暫くお待ち下さい。 </p>
@@ -408,146 +409,137 @@ static final TAU = Math.PI * 2;
 </section>
 
 
-<section id="code"> <h2> ステップ 6: ウェブアプリケーションの新規作成 </h2>
+<section id="code"> <a name="code"><h2> ステップ 6: ウェブアプリケーションの新規作成 </h2></a>
 
-<p> Now that you're familiar with Dart Editor, you can create a web app from
-scratch.  </p>
+<p> Dart Editor を使ってスクラッチからウェブアプリケーションを作成してみましょう。  </p>
 
 <ol>
   <li> <p>
-    Click the New Application
-    <img src="images/newapp.png" alt="New App" width="16" height="16"
-     style="vertical-align:top"> button
-    (at the upper left of Dart Editor)
-    to create a new app.
-    Alternatively, choose <b>File > New Application...</b>
-    from the Dart Editor menu.
+    (Dart Editor の左上の方の) New Application ボタン
+    <img src="http://www.dartlang.org/images/newapp.png" alt="New App" width="16" height="16"
+     style="vertical-align:top"> をクリックし、
+    新しいアプリケーションを作成しましょう。
+    Dart Editor のメニューから <b>File > New Application...</b>
+    と辿っても同じ事です。
     </p>
 
     <p>
-    A dialog comes up, looking something like this:
+    次の様なダイアログが表示されます:
     </p>
 
-    <img src="images/DartEditor-newapp.png"
+    <img src="http://www.dartlang.org/images/DartEditor-newapp.png"
       alt="screenshot of the New Application dialog"
       width="538" height="304">
     </li>
   <li> <p>
-    Type in a name for your application&mdash;for
-    example, <code>HelloWorld</code>.
-    If you don't like the default directory,
-    type in a new location or browse to choose the location.
-    Click <b>Finish</b> to create the initial files for the app.
+    アプリケーションに適当な名前を付けてあげます &mdash; 例えば、
+    <code>HelloWorld</code> とか。
+    もしデフォルトのディレクトリが気に入らなければ、
+    配置先を適宜に指示すると良いでしょう。
+    <b>Finish</b> をクリックするとアプリケーションのための初期ファイル群が生成されます。
     </p>
 
     <p>
-    A default Dart file appears in the Edit view,
-    and a few additional items appear
-    in the Libraries view.
-    Your Dart Editor window should look something like this:
+    デフォルトの Dart ファイルが Edit ビューに表示され、
+    Libraries ビューにも何やら幾つかの項目が表示されます。
+    Dart Editor ウィンドウは次の様になっている事でしょう:
     </p>
 
-    <img src="images/DartEditor-helloworld.png"
-      alt="screenshot of Dart Editor just after New Application..."
+    <img src="http://www.dartlang.org/images/DartEditor-helloworld.png"
+      alt="Dart Editor で New Application... した直後のスクリーンショット"
       width="599" height="454" >
 
     </li>
   <li> <p>
-    Click the
-    <img src="images/run.png" alt="Run" width="16" height="16"
+    Run ボタン 
+    <img src="http://www.dartlang.org/images/run.png" alt="Run" width="16" height="16"
      style="vertical-align:top">
-    button to run your new app.
+    をクリックすると新しいアプリケーションが起動します。
     </p> </li>
 
   <li> <p>
-    View the HTML file in Dart Editor
-    by double-clicking it in the Libraries view.
+    Libraries ビューでダブルクリックして、
+    Dart Editor に HTML ファイルを表示できます。
     </p>
 
     <p>
-    Note that the HTML file's &lt;script> tag
-    refers to a file that ends with
-    <code>.dart.app.js</code>.
-    You can't see this file in Dart Editor,
-    but this JavaScript file is automatically created
-    from your Dart code.
-    Compiling to JavaScript allows browsers that know nothing about Dart
-    to execute your app.
+    この HTML ファイルの末尾の
+    &lt;script&gt; タグは <code>.dart.app.js</code>
+    を参照します（訳註: Dart Editor のバージョンによっては MIMEが application/dart のスクリプトが埋め込まれている可能性もある。）。
+    しかし、 Dart Editor でこのファイルを見ることはできません。
+    この JavaScript ファイルは Dart コードから自動的に生成されるものだからです。
+    これは Dart をブラウザーが実行できない場合に JavaScript へコンパイルする仕掛けです。
     </p>
 
     <aside class="note">
-    <b>Note:</b>
-    The generated JavaScript is rather huge right now.
-    Don't worry, we'll fix that.
+    <b>ノート:</b>
+    現時点では生成される JavaScript は非常に大きい有り様ですが、
+    これについては修正を予定しているのであまり心配しないで下さい。
     </aside>
 
     
     </p> </li>
   <li> <p>
-    Modify the default Dart and HTML files as you like,
-    using auto-completion,
-    <a href="/samples/index.html">samples</a>, and 
-    <a href="http://api.dartlang.org/">API reference documentation</a>
-    to figure out which APIs you can use.
+    お好みで Dart や HTML ファイル群を
+    自動補完や、
+    <a href="http://www.dartlang.org/samples/index.html">サンプル群</a>、
+    <a href="http://api.dartlang.org/">API リファレンス文書</a>
+    などを使いながら編集し、
+    何ができるのか確かめてみて下さい。
     </p> </li>
 </ol>
 
-<section> <h2 id="feedback">Give us feedback!</h2>
+<section> <a name="feedback"><h2 id="feedback">フィードバックをお待ちしています！</h2></a>
 
-<p> We've released Dart Editor at a very early stage.  Please help us
-improve it! To see known bugs in Dart Editor, look at the issue list: </p>
+<p> リリースされた Dart Editor はまだまだ発展途上です。改善の手助けをお願いします！ Dart Editor
+の既知のバグと課題リストは以下にあります: </p>
 
 <blockquote> <a
 href="http://code.google.com/p/dart/issues/list?can=2&q=label%3AArea-Editor">Dart
-Editor issue list</a> </blockquote>
+Editor 課題リスト</a> </blockquote>
 
-<p> You can star bugs to receive updates about them, and you can add
-comments to bugs.  </p>
+<p> バグについてのコメントを寄せて頂いたり、バグを把握したり、それについての更新の通知を受けるなどできます。 </p>
 
-<p> Here are two other ways to give us feedback: </p>
+<p> 他にも2つのフィードバック方法を用意しています: </p>
 
 <ul>
-  <li> Use the <b>SEND FEEDBACK</b> link
-    at the upper right of the Dart Editor window.
+  <li> Dart Editor ウィンドウの右上には <b>SEND FEEDBACK</b> 
+    リンクがあります。
     <br>
-    We'll open a new issue for you, if appropriate,
-    without disclosing your sensitive or personally identifiable information.
+    個人を特定可能な情報や機密情報に触れる事無く、
+    新しい課題を開く事ができます。
     </li>
-  <li> <a href="http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium">Create
-    a new Dart Editor issue.</a>
+  <li> <a href="http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium">Dart Editor の課題を新たに作成する</a>。
     </li>
 </ul>
 
 </section>
 
 
-			</article>
-		</div>
+</article>
 		
-		<footer>
-			<p>
-			  Except as otherwise <a href="http://code.google.com/policies.html#restrictions">noted</a>, the content of this page is licensed under the <a 		href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href="http://code.google.com/google_bsd_license.html">BSD License</a>.
-			</p>
-			<p>
-				<a href="/tos.html" style="border-right: 1px solid black; padding-right: 5px">Terms of Service</a>
-				<a href="http://www.google.com/intl/en/privacy/privacy-policy.html">Privacy Policy</a>
-			</p>
-	</footer>
+<footer>
+  <p>
+    ライセンス:
+      ページ <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY(3.0)</a>
+      コード <a href="http://code.google.com/google_bsd_license.html">BSD License</a>
+  </p>
+  <p>
+    この記事は
+    <a href="http://www.dartlang.org/docs/getting-started/sdk/index.html">Dart Editor - dartlang.org</a>
+    を元に
+    <a href="https://sites.google.com/site/dartrefjp/">dartrefjp</a> / 
+    <a href="usagi@WonderRabbitProject.net">伊藤 兎</a>
+    が邦訳したものです。
+    邦訳は<a href="https://github.com/usagi/dartrefjp/">github</a>と<a href="https://github.com/usagi/auto-po4a/">auto-po4a</a>を用い、必要に応じて逐次更新・管理しています。
+  </p>
+</footer>
 
-	</div>
+ 
 
-	<!--[if lt IE 7 ]>
-	<script src="js/dd_belatedpng.js"></script>
-	<script> DD_belatedPNG.fix('img, .png_bg');</script>
-	<![endif]-->
+ 
 	
-	<script>
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-	</script>
+ 
 
-</body> </html>
+ 
 
