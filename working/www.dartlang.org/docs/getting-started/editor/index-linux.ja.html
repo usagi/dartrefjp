@@ -19,23 +19,7 @@
 
  
 
-  <script type="text/javascript">
-	window.___gcfg = {lang: 'en'};
-	(function() 
-	{var po = document.createElement("script");
-	po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(po, s);
-	})();
-  </script>
-</head>
-<body>
-	<div id="container">
-		<header>
-		  	<div id="plus1"><div class="g-plusone" data-size="standard" data-count="true"></div></div>
-      	<a href="/"><img src="/imgs/dart-logo.png" width="268" height="116" alt="Dart"></a>
-			  <span id="tagline">Structured web apps</span>
-		</header>
+ 
 
 		
  
@@ -293,7 +277,7 @@ JavaScript版となったプログラムが動作します。
 <section id="features"> <h2> ステップ 5: Dart Editor の機能を幾つか試してみる </h2>
 
 <p> この節では Dart Editor の機能のうち、 API 宣言の検索、 Dart ファイルのアウトライン、 API
-参照の自動コンパイルについて紹介します。より多くの機能の搭載については暫くお待ち下さい。 </p>
+参照の自動補完について紹介します。より多くの機能の搭載については暫くお待ち下さい。 </p>
 
 <ol>
   <li>
@@ -322,85 +306,85 @@ JavaScript版となったプログラムが動作します。
   </li>
   <li>
     <p>
-    Click the left arrow button
-    <img src="images/leftarrow.png" alt="left arrow" width="16" height="16"
+    （Run ボタンの左側にある）左矢印ボタン
+    <img src="http://www.dartlang.org/images/leftarrow.png" alt="左矢印" width="16" height="16"
       style="vertical-align:top">
-    (to the left of the Run button)
-    to go back to <code>Sunflower.dart</code>.
+    をクリックすると、
+    <code>Sunflower.dart</code> へ戻れます。
     </p>
   </li>
   <li>
     <p>
-    Either press <b>Alt+O</b> (<b>Option+O</b> on Mac) or
-    right-click and choose <b>Quick Outline</b>.
+    次に <b>Alt+O</b> (Mac では <b>Option+O</b>) または、
+    右クリックして <b>Quick Outline</b> を選びます。
     </p>
 
     <p>
-    A panel comes up displaying
-    the classes, methods, and fields
-    declared in <code>Sunflower.dart</code>.
-    It looks something like this:
+    <code>Sunflower.dart</code> に措ける
+    クラス群、メソッド群、フィールド宣言
+    についてのパネルが表示されます。
+    次の様に表示されるでしょう:
     </p>
 
-    <img src="images/sunflower-outline.png"
-      alt="screenshot of outline panel"
+    <img src="http://www.dartlang.org/images/sunflower-outline.png"
+      alt="アウトラインパネルのスクリーンショット"
       width="383" height="339">
 
     <br>
-    You can reduce the size of the list
-    by typing one or more characters.
-    For example, if you type <b>x</b>,
-    only the <b>xc</b> variable appears.
+    文字を入力する事でリストからの絞り込みもできます。
+    例えば、 <b>x</b> と打ち込むと、
+    <b>xc</b> という変数だけが表示されるでしょう。
 
     <p>
-    Choose an item from the list&mdash;for example, <b>xc</b>.
-    You'll be taken to its declaration in <code>Sunflower.dart</code>.
+    リストから何か、例えば、 <b>xc</b> を選択して見ましょう。
+    <code>Sunflower.dart</code> に於けるその宣言が示されます。
     </p>
 
   </li>
   <li>
     <p>
-    Now it's time to use Dart Editor's auto-complete feature.
+    次は、 Dart Editor の自動補完機能を見ましょう。
     </p>
 
     <ol style="list-style-type: lower-alpha">
       <li> <p>
-        Find the declaration of <b>TAU</b>,
-        near the end of <code>Sunflower.dart</code>:
+        <code>Sunflower.dart</code> の終端近くにある,
+        <b>TAU</b> の宣言を見付けましょう:
         </p>
 <pre class="prettyprint lang-dart linenums:1 ">
 static final TAU = Math.PI * 2;
 </pre>
         </li>
       <li> <p>
-        Delete everything to the right of <code>Math</code>,
-        and then type a period (<b>.</b>).
-        After a short pause,
-        a list of autocomplete suggestions comes up,
-        looking something like this:
+        <code>Math</code> の右側を削除して、
+        ピリオドを打ち込みましょう (<b>.</b>)。
+        ちょっと待たされるかもしれませんが、
+        次に示す様な
+        自動補完リストによるお伺いが出現します:
         </p>
 
-        <img src="images/sunflower-dotcomplete.png"
-          alt="snapshot of autocomplete for Math."
+        <img src="http://www.dartlang.org/images/sunflower-dotcomplete.png"
+          alt="Math. の自動補完のスナップショット"
           style="border: 1px solid black"
           width="450" height="234">
         </p> </li>
       <li> <p>
-        Type or use the arrow keys to select <code>PI</code>,
-        and then press Enter or Return to dismiss the panel.
+        打ち込むか、或いは矢印キーで <code>PI</code> を選択し、
+        Enter または Return キーを押すとパネルが閉じられます。
         </p> </li>
       <li> <p>
-        Complete your changes&mdash;for
-        example, if you think sunflower seeds should be semi-circular,
-        use <code>Math.PI</code> instead of <code>Math.PI*2</code>&mdash;and
-        then save the file.
+        変更を終え &mdash 例えば、
+        <code>Math.PI</code> の換わりに <code>Math.PI*2</code>にして
+        向日葵の種を半円状にしてみようかな、とか
+        &mdash; たならば、
+        ファイルを保存しましょう。
         </p>
 
         <p>
-        If Dart Editor displays an error after you save,
-        you've made a syntax error.
-        Fix it or undo your typing,
-        and then save again.
+        保存後に Dart Editor がエラーを表示した場合は、
+        きっと文法エラーが含まれます。
+        修正するか、入力を元に戻して
+        もう一度保存して見ましょう。
         </p> </li>
       <li> <p>
         Click the <b>Run</b> button to run your changed
@@ -408,16 +392,15 @@ static final TAU = Math.PI * 2;
         </p> </li>
 
       <li> <p>
-        Back in Dart Editor,
-        edit the Dart code again.
-        This time use <b>Ctl+Space</b>
-        to bring up the auto-complete suggestions.
+        さて、 Dart Editor に戻り、
+        再び Dart コードを編集しましょう。
+        今度は <b>Ctl+Space</b> を使い、
+        自動補完によるお伺いを表示してみましょう。
         </p>
 
         <p>
-        For example, type <code>Mat</code>, then Ctl+Space
-        to see a list of classes and interfaces
-        that start with "Mat".
+        例えば、 <code>Mat</code> と打ち込んだ状態で Ctl+Space すると、
+        "Mat" で始まるインターフェースやクラスのリストが示されます。
         </p> </li>
     </ol>
   </li>
@@ -425,7 +408,7 @@ static final TAU = Math.PI * 2;
 </section>
 
 
-<section id="code"> <h2> Step 6: Create a new web app </h2>
+<section id="code"> <h2> ステップ 6: ウェブアプリケーションの新規作成 </h2>
 
 <p> Now that you're familiar with Dart Editor, you can create a web app from
 scratch.  </p>

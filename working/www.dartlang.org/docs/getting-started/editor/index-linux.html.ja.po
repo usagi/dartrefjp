@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-10 14:43+0900\n"
-"PO-Revision-Date: 2012-03-11 13:56+0900\n"
+"PO-Revision-Date: 2012-03-11 14:26+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -125,7 +125,7 @@ msgid ""
 "      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" height=\"116\" alt=\"Dart\"></a>\n"
 "\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
 "\t\t</header>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:74
@@ -816,8 +816,8 @@ msgid ""
 "over time.  </p>"
 msgstr ""
 "<p> この節では Dart Editor の機能のうち、 API 宣言の検索、 Dart ファイルのア"
-"ウトライン、 API 参照の自動コンパイルについて紹介します。より多くの機能の搭載"
-"については暫くお待ち下さい。 </p>"
+"ウトライン、 API 参照の自動補完について紹介します。より多くの機能の搭載につい"
+"ては暫くお待ち下さい。 </p>"
 
 #. type: Plain text
 #: index-linux.html:429
@@ -902,17 +902,17 @@ msgstr ""
 "  </li>\n"
 "  <li>\n"
 "    <p>\n"
-"    Click the left arrow button\n"
-"    <img src=\"images/leftarrow.png\" alt=\"left arrow\" width=\"16\" height=\"16\"\n"
+"    （Run ボタンの左側にある）左矢印ボタン\n"
+"    <img src=\"http://www.dartlang.org/images/leftarrow.png\" alt=\"左矢印\" width=\"16\" height=\"16\"\n"
 "      style=\"vertical-align:top\">\n"
-"    (to the left of the Run button)\n"
-"    to go back to <code>Sunflower.dart</code>.\n"
+"    をクリックすると、\n"
+"    <code>Sunflower.dart</code> へ戻れます。\n"
 "    </p>\n"
 "  </li>\n"
 "  <li>\n"
 "    <p>\n"
-"    Either press <b>Alt+O</b> (<b>Option+O</b> on Mac) or\n"
-"    right-click and choose <b>Quick Outline</b>.\n"
+"    次に <b>Alt+O</b> (Mac では <b>Option+O</b>) または、\n"
+"    右クリックして <b>Quick Outline</b> を選びます。\n"
 "    </p>\n"
 
 #. type: Plain text
@@ -926,6 +926,12 @@ msgid ""
 "    It looks something like this:\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    <code>Sunflower.dart</code> に措ける\n"
+"    クラス群、メソッド群、フィールド宣言\n"
+"    についてのパネルが表示されます。\n"
+"    次の様に表示されるでしょう:\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:470
@@ -935,6 +941,9 @@ msgid ""
 "      alt=\"screenshot of outline panel\"\n"
 "      width=\"383\" height=\"339\">\n"
 msgstr ""
+"    <img src=\"http://www.dartlang.org/images/sunflower-outline.png\"\n"
+"      alt=\"アウトラインパネルのスクリーンショット\"\n"
+"      width=\"383\" height=\"339\">\n"
 
 #. type: Plain text
 #: index-linux.html:476
@@ -946,6 +955,10 @@ msgid ""
 "    For example, if you type <b>x</b>,\n"
 "    only the <b>xc</b> variable appears.\n"
 msgstr ""
+"    <br>\n"
+"    文字を入力する事でリストからの絞り込みもできます。\n"
+"    例えば、 <b>x</b> と打ち込むと、\n"
+"    <b>xc</b> という変数だけが表示されるでしょう。\n"
 
 #. type: Plain text
 #: index-linux.html:481
@@ -956,6 +969,10 @@ msgid ""
 "    You'll be taken to its declaration in <code>Sunflower.dart</code>.\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    リストから何か、例えば、 <b>xc</b> を選択して見ましょう。\n"
+"    <code>Sunflower.dart</code> に於けるその宣言が示されます。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:487
@@ -967,6 +984,11 @@ msgid ""
 "    Now it's time to use Dart Editor's auto-complete feature.\n"
 "    </p>\n"
 msgstr ""
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    次は、 Dart Editor の自動補完機能を見ましょう。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:504
@@ -989,6 +1011,22 @@ msgid ""
 "        looking something like this:\n"
 "        </p>\n"
 msgstr ""
+"    <ol style=\"list-style-type: lower-alpha\">\n"
+"      <li> <p>\n"
+"        <code>Sunflower.dart</code> の終端近くにある,\n"
+"        <b>TAU</b> の宣言を見付けましょう:\n"
+"        </p>\n"
+"<pre class=\"prettyprint lang-dart linenums:1 \">\n"
+"static final TAU = Math.PI * 2;\n"
+"</pre>\n"
+"        </li>\n"
+"      <li> <p>\n"
+"        <code>Math</code> の右側を削除して、\n"
+"        ピリオドを打ち込みましょう (<b>.</b>)。\n"
+"        ちょっと待たされるかもしれませんが、\n"
+"        次に示す様な\n"
+"        自動補完リストによるお伺いが出現します:\n"
+"        </p>\n"
 
 #. type: Plain text
 #: index-linux.html:520
@@ -1010,6 +1048,22 @@ msgid ""
 "        then save the file.\n"
 "        </p>\n"
 msgstr ""
+"        <img src=\"http://www.dartlang.org/images/sunflower-dotcomplete.png\"\n"
+"          alt=\"Math. の自動補完のスナップショット\"\n"
+"          style=\"border: 1px solid black\"\n"
+"          width=\"450\" height=\"234\">\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        打ち込むか、或いは矢印キーで <code>PI</code> を選択し、\n"
+"        Enter または Return キーを押すとパネルが閉じられます。\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        変更を終え &mdash 例えば、\n"
+"        <code>Math.PI</code> の換わりに <code>Math.PI*2</code>にして\n"
+"        向日葵の種を半円状にしてみようかな、とか\n"
+"        &mdash; たならば、\n"
+"        ファイルを保存しましょう。\n"
+"        </p>\n"
 
 #. type: Plain text
 #: index-linux.html:531
@@ -1026,6 +1080,16 @@ msgid ""
 "        version.\n"
 "        </p> </li>\n"
 msgstr ""
+"        <p>\n"
+"        保存後に Dart Editor がエラーを表示した場合は、\n"
+"        きっと文法エラーが含まれます。\n"
+"        修正するか、入力を元に戻して\n"
+"        もう一度保存して見ましょう。\n"
+"        </p> </li>\n"
+"      <li> <p>\n"
+"        Click the <b>Run</b> button to run your changed\n"
+"        version.\n"
+"        </p> </li>\n"
 
 #. type: Plain text
 #: index-linux.html:538
@@ -1038,6 +1102,12 @@ msgid ""
 "        to bring up the auto-complete suggestions.\n"
 "        </p>\n"
 msgstr ""
+"      <li> <p>\n"
+"        さて、 Dart Editor に戻り、\n"
+"        再び Dart コードを編集しましょう。\n"
+"        今度は <b>Ctl+Space</b> を使い、\n"
+"        自動補完によるお伺いを表示してみましょう。\n"
+"        </p>\n"
 
 #. type: Plain text
 #: index-linux.html:548
@@ -1053,11 +1123,20 @@ msgid ""
 "</ol>\n"
 "</section>\n"
 msgstr ""
+"        <p>\n"
+"        例えば、 <code>Mat</code> と打ち込んだ状態で Ctl+Space すると、\n"
+"        \"Mat\" で始まるインターフェースやクラスのリストが示されます。\n"
+"        </p> </li>\n"
+"    </ol>\n"
+"  </li>\n"
+"</ol>\n"
+"</section>\n"
 
 #. type: Plain text
 #: index-linux.html:552
 msgid "<section id=\"code\"> <h2> Step 6: Create a new web app </h2>"
 msgstr ""
+"<section id=\"code\"> <h2> ステップ 6: ウェブアプリケーションの新規作成 </h2>"
 
 #. type: Plain text
 #: index-linux.html:557
