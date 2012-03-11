@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-10 14:43+0900\n"
-"PO-Revision-Date: 2012-03-11 15:12+0900\n"
+"PO-Revision-Date: 2012-03-11 15:39+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -412,7 +412,7 @@ msgid ""
 msgstr ""
 "  <li>\n"
 "    <p>\n"
-"    展開されたファイル郡をどこか適当で便利な場所に配置しましょう。例えば、\n"
+"    展開されたファイル群をどこか適当で便利な場所に配置しましょう。例えば、\n"
 
 #. type: Plain text
 #: index-linux.html:229
