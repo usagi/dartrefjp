@@ -567,7 +567,7 @@ msgstr "</section>"
 #: index-linux.html:293
 msgid "<section id=\"sample\"> <h2>Step 3: Open a sample</h2>"
 msgstr ""
-"<section id=\"sample\"> <a name=\"sample\"><h2>ステップ 3: サンプルを開</"
+"<section id=\"sample\"> <a name=\"sample\"><h2>ステップ 3: サンプルを開く</"
 "h2></a>"
 
 #. type: Plain text
