@@ -1,47 +1,23 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"
-                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"
-                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"
-                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"
-                    itemscope itemtype="http://schema.org/Product"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"
-                    itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8">
 
-  <!-- Title & Google+ description -->
+ 
   
-  <title>Tutorial: Dart Editor (Linux) | DartLang.org</title> 
-  <meta itemprop="name" content="Tutorial: Dart Editor (Linux) | DartLang.org">
-  <meta itemprop="description" content="Dart is a new platform for building structured web apps for modern browsers. It includes a language, a virtual machine, libraries, a UI framework, an editor, and browser integration. Try Dart today!">
+  <title>チュートリアル: Dart Editor (Linux) | DartLang.org - dartrefjp</title> 
 
-	<link rel="stylesheet" href="/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+ 
 	
 	
 	
-	<link rel="alternate" type="application/atom+xml" href="http://news.dartlang.org/feeds/posts/default" title="Atom feed">
-    <link href="https://plus.google.com/109866369054280216564" rel="publisher">
-	<script src="/js/modernizr.custom.02548.js"></script>
+ 
   
-  <script type="text/javascript">
+ 
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-26406144-4']);
-    _gaq.push(['_setDomainName', 'dartlang.org']);
-    _gaq.push(['_trackPageview']);
+ 
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+ 
 
-  </script>
+ 
 
   <script type="text/javascript">
 	window.___gcfg = {lang: 'en'};
@@ -62,54 +38,14 @@
 		</header>
 
 		
-		<nav>
-  <form action="/search.html" id="cse-search-box">
-    <div id="search">
-      <input type="hidden" name="cx" value="011220921317074318178:i4mscbaxtru" />
-      <input type="hidden" name="ie" value="UTF-8" />
-      <input type="hidden" name="hl" value="en" />
-      <input type="search" name="q" id="q" autocomplete="off" placeholder="Search"/>
-    </div>
-  </form>
+ 
 
-  <ul>
-    <li><a href="/downloads.html">Downloads</a></li>
-    <li><a href="http://news.dartlang.org">News &amp; Updates</a></li>
-    <li>Getting Started
-      <ul>
-        <li><a href="/language-tour/">Language Tour</a></li>
-        <li><a href="/docs/technical-overview/">Technical Overview</a></li>
-        <li><a href="http://synonym.dartlang.org">Translations from JavaScript</a></li>
-      </ul> </li>
-    <li>Language &amp; Libraries
-      <ul>
-        <li><a href="/docs/spec/">Language Spec</a></li>
-        <li><a href="http://api.dartlang.org/">API Reference</a></li>
-      </ul> </li>
-    <li>Tools
-      <ul>
-        <li><a href="http://try.dartlang.org">Dartboard</a></li>
-        <li><a href="/docs/getting-started/editor/">Dart Editor</a></li>
-        <li><a href="/dartium/">Chromium with the Dart VM</a></li>
-        <li><a href="/docs/getting-started/sdk/">SDK</a></li>
-      </ul> </li>
-    <li>Resources
-      <ul>
-        <li><a href="/samples/">Code Samples</a></li>
-        <li><a href="/articles/">Articles</a></li>
-        <li><a href="/slides/">Presentations</a></li>
-        <li><a href="/support/faq.html">FAQ</a></li>
-        <li><a href="/resources/">More</a></li>
-      </ul> </li>
-    <li><a href="/support/">Contact Us</a></li>
-  </ul>
+ 
 
-  <div id="pluspage"><div class="g-plus" data-href="https://plus.google.com/109866369054280216564" data-width="100" data-height="131" data-theme="light"></div></div>
-</nav>
+ 
 
 
-		<div id="main" role="main">
-			<article>
+<article>
 				
 
 
@@ -122,18 +58,15 @@
 
 
 
-<h1> Tutorial: Dart Editor (Linux) </h1>
+<h1> チュートリアル: Dart Editor (Linux) </h1>
 
-<section> <p> Follow this tutorial to install and use Dart Editor on Linux.
-</p>
+<section> <p> このチュートリアルでは Linux で Dart Editor をインストールする方法を示します。  </p>
 
-<p> Dart Editor is a lightweight, open-source editor based on Eclipse
-components.  In addition to editing Dart programs, you can use Dart Editor
-to invoke the Dart-to-JavaScript compiler and launch Dart-based web apps.
-</p>
+<p> Dart Editor は Eclipse コンポーネント群を基にした軽量でオープンソースなエディターです。 Dart Editor で
+Dart プログラムの編集作業をすると、 Dart-to-JavaScript コンパイラーを実行したり、 Dart
+ベースのウェブアプリケーション群を起動したりもできます。  </p>
 
-<aside class="note"> <strong>Note:</strong> These instructions are also
-available for: <ul>
+<aside class="note"> <strong>ノート:</strong> 以下の環境向けのイントールガイドもあります: <ul>
 
 <li> <a href="index-win.html">Windows</a> </li>
 
@@ -146,27 +79,26 @@ available for: <ul>
 
 
 <section>
-<h4> Contents </h4>
+<h4> もくじ </h4>
 <ul>
-  <li> <a href="#download">Step 1: Download and install the software</a> </li>
-  <li> <a href="#launch">Step 2: Launch the editor</a> </li>
-  <li> <a href="#sample">Step 3: Open a sample</a> </li>
-  <li> <a href="#run">Step 4: Run the sample</a> </li>
-  <li> <a href="#features">Step 5: Try some Dart Editor features</a> </li>
-  <li> <a href="#code">Step 6: Create a new web app</a> </li>
-  <li> <a href="#feedback">Give us feedback!</a> </li>
+  <li> <a href="#download">ステップ 1: ソフトウェアのダウンロードとインストール</a> </li>
+  <li> <a href="#launch">ステップ 2: エディターの起動</a> </li>
+  <li> <a href="#sample">ステップ 3: サンプルを開く</a> </li>
+  <li> <a href="#run">ステップ 4: サンプルを動かす</a> </li>
+  <li> <a href="#features">ステップ 5: Dart Editor の機能を幾つか試してみる</a> </li>
+  <li> <a href="#code">ステップ 6: ウェブアプリケーションの新規作成</a> </li>
+  <li> <a href="#feedback">フィードバックをお待ちしています！</a> </li>
 </ul>
 </section>
 
-<section id="download"> <h2> Step 1: Download and install the software </h2>
+<section id="download"> <a name="download"><h2> ステップ 1: ソフトウェアのダウンロードとインストール
+</h2></a>
 
-<p> In this step, you'll install Dart Editor and, if necessary, a Java
-runtime environment.  </p>
+<p> このステップで Dart Editor と、必要に応じて Java の実行時環境もインストールします。  </p>
 
 <ol>
   <li> 
-  Download the Dart Editor ZIP file that matches
-    your system architecture:
+  システムアーキテクチャーに合った Dart Editor の ZIP ファイルをダウンロードします:
     <ul>
       <li> <a href="http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86.zip">32-bit Dart Editor</a> </li>
       <li> <a href="http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86_64.zip">64-bit Dart Editor</a> </li>
@@ -175,25 +107,24 @@ runtime environment.  </p>
 
     
   <p>
-  If you don't know whether you have 32-bit or 64-bit Linux,
-  use the command <code>uname -a</code>.
-  If <code>64</code> is in the output,
-  you have 64-bit Linux;
-  otherwise, you have 32-bit Linux.
+  使用している環境が 32-bit か 64-bit か判らない場合は <code>uname -a</code> コマンドを使います。
+  もしも表示に <code>64</code> が含まれていたなら、
+  それは恐らく 64-bit の Linux でしょうし、
+  そうでなければ 32-bit Linux でしょう。
   </p>
 
 
     <aside class="note">
-      <b>Version note:</b>
-      For information about this Dart Editor version, see the
+      <b>改版についてのノート:</b>
+      この Dart Editor のバージョンに関する情報は、 
       <a target="_blank"
-        href="http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html">change log</a>.
-      If you want to try out the most recent, untested version of Dart Editor,
+        href="http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html">改版履歴</a> を見て下さい。
+      もし最新の未テストの Dart Editor を試してみたい場合には、
       
-  use one of these ZIP files instead:
+  こちらの ZIP を使います:
   <ul>
-    <li> <a href="http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86.zip">32-bit Dart Editor (latest)</a></li>
-    <li> <a href="http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86_64.zip">64-bit Dart Editor (latest)</a></li>
+    <li> <a href="http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86.zip">32-bit Dart Editor (最新版)</a></li>
+    <li> <a href="http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86_64.zip">64-bit Dart Editor (最新版)</a></li>
   </ul>
 
     </aside>
@@ -201,7 +132,7 @@ runtime environment.  </p>
 
   <li>
 
-  Unarchive the ZIP file. For example:
+  ZIP ファイルを展開します。例:
   
   <pre> $ <b>unzip DartBuild-linux.gtk.x86_64.zip</b> </pre>
 
@@ -210,59 +141,55 @@ runtime environment.  </p>
 
   <li>
     <p>
-    Put the resulting directory somewhere convenient, such as
+    展開されたファイル郡をどこか適当で便利な場所に配置しましょう。例えば、
     
   <code>/home/me/dart</code>.
 
-    </p>
+    などに。</p>
 
     <p>
-    We'll call this your <b>Dart installation directory</b>.
-    This installation directory contains
-    the <code>DartEditor</code> executable file and several subdirectories,
-    including a <code>samples</code> directory.
+    この場所を <b>Dart インストールディレクトリ</b>と呼ぶ事にしましょう。
+    このディレクトリには
+    <code>DartEditor</code> の実行ファイルと幾つかのサブディレクトリ、また<code>サンプル群</code>などが含まれています。
     </p>
     
     <aside class="note">
-    <strong>Important:</strong>
-    Do <b>not</b> use the Dart installation directory
-    for any other Eclipse-based software.
-    If Dart Editor and Eclipse
-    share the same <code>workspace</code> directory,
-    they'll save conflicting settings,
-    resulting in warnings and errors from both
-    Dart Editor and Eclipse.
+    <strong>重要:</strong>
+    Dart インストールディレクトリを他の Eclipse ベースのソフトウェアの為には
+    使用し<b>ないで</b>下さい。
+    もし、 Dart Editor と Eclipse で
+    同じ <code>workspace</code> ディレクトリーを共有してしまうと、
+    それらの設定が衝突してしまい
+    Dart Editor と Eclipse の両方で
+    エラーや警告が報告される事でしょう。
     </aside>
   </li>
 
   <li> <p>
-    If you don't already have a Java runtime,
-    download and install it.
+    もし、 Java 実行時環境をまだ準備していない場合は、ダウンロードとインストールを済ませましょう。
     
-  You can get JDK 7 from
+  JDK 7 は 
   <a href="http://www.oracle.com/technetwork/java/javase/downloads/java-se-jdk-7-download-432154.html"
-    target="_blank">Java SE Development Kit 7 Downloads</a>.
+    target="_blank">Java SE 開発キット 7 ダウンロード</a> から入手できます。
 
   </li>
 </ol>
 </section>
 
-<section id="launch"> <h2> Step 2: Launch the editor </h2>
+<section id="launch"> <a name="launch"><h2> ステップ 2: エディターの起動 </h2></a>
 
-<p> Go to your Dart installation directory, and double-click
-<b>DartEditor</b>.  </p>
+<p> Dart インストールディレクトリで <b>DartEditor</b> をダブルクリックしましょう。  </p>
 
 <blockquote>
-<img src="images/DartEditor-icon.png"
+<img src="http://www.dartlang.org/images/DartEditor-icon.png"
   alt="DartEditor icon"
   width="78" height="92">
 </blockquote>
 
-<p> You should see the Dart Editor application window appear, looking
-something like this: </p>
+<p> Dart Editor のウィンドウが次のように表示されます: </p>
 
-<img src="images/DartEditor-initial.png"
-  alt="screenshot of empty Dart Editor window"
+<img src="http://www.dartlang.org/images/DartEditor-initial.png"
+  alt="空の Dart Editor ウィンドウのスクリーンショット"
   width="599" height="454">
 
 </section>
@@ -270,131 +197,127 @@ something like this: </p>
 
 
 
-<section id="sample"> <h2>Step 3: Open a sample</h2>
+<section id="sample"> <a name="sample"><h2>ステップ 3: サンプルを開</h2></a>
 
-<p> The Dart Editor bundle comes with several samples.  In this step, you'll
-open one and run it.  </p>
+<p> Dart Editor には幾つかのサンプルが含まれています。このステップではそのうちの1つを開き、実行してみましょう。</p>
 
 <ol>
   <li> <p>
-    Go to the <b>File</b> menu,
-    and choose <b>Open...</b>.
-    Or use the keyboard shortcut
-    (<b>Ctl+O</b> or, on Mac, <b>Option+O</b>).
+    <b>File</b> メニューから
+    <b>Open...</b> を選びます。
+    或いは、キーボードショートカットの
+    (<b>Ctl+O</b> 、または Mac なら <b>Option+O</b>)を使っても良いでしょう。
     </p>
   </li>
   <li> <p>
-    Navigate to your Dart installation directory,
-    then to <b>samples</b>,
-    and then to <b>sunflower</b>.
-    Double-click <b>Sunflower.dart</b>.
+    Dart インストールディレクトリへと辿り、
+    <b>samples</b> の、
+    <b>sunflower</b> へ。
+    そして、<b>Sunflower.dart</b>をダブルクリックします。
     </p>
 </ol>
 
-<p> Your Dart Editor should now look something like this: </p>
+<p> Dart Editor は次の様に表示されます: </p>
 
-<img src="images/DartEditor-sunflower.png"
-  alt="screenshot of Dart Editor displaying the Sunflower sample's code"
+<img src="http://www.dartlang.org/images/DartEditor-sunflower.png"
+  alt="Dart Editor で Sunflower サンプルコードを表示したスクリーンショット"
   width="600" height="454">
 
-<p> Dart Editor not only displays the contents of
-<code>Sunflower.dart</code>, but also updates the Libraries view to list
-important files for the sample.  This list includes the resources that
-<code>Sunflower.dart</code> refers to, plus any HTML files in the Dart
-file's directory that refer to the app's code,
+<p> Dart Editor は <code>Sunflower.dart</code>
+の内容のほか、サンプルでインポートしているファイルの一覧についての Libraries ビュー も更新します。このリストには
+<code>Sunflower.dart</code> の参照の他、 Dart ファイルのディレクトリにあるアプリケーションから参照される HTML
+ファイル群も含まれます。
 
 </p>
 
-<p> The Libraries view puts this list under a node called
-<code>sunflower</code>, corresponding to the following line of code in
-<code>Sunflower.dart</code>: </p>
+<p> Libraries ビュー には <code>sunflower</code> というノードが、
+<code>Sunflower.dart</code>の次の行に対応して表示されます: </p>
 
 <pre class="prettyprint lang-dart linenums:1 "> #library('sunflower');
 </pre>
 
-<p> The Libraries view displays entries for the Dart <b>core</b> and
-<b>dom</b> libraries.  The <b>core</b> library is there because every Dart
-program uses it.  The <b>dom</b> library is there because of this program's
-reference to it in the following statement: </p>
+<p> Libraries ビューには Dart ライブラリの <b>core</b> と <b>dom</b> も表示されてます。
+<b>core</b> ライブラリはあらゆる Dart プログラムで使用されます。 <b>dom</b>
+ライブラリはプログラムの次の命令文で参照されています: </p>
 
 <pre>#import('dart:dom');</pre>
 
-<p> For more information about the Sunflower example, read the <a
-href="/samples/sunflower/index.html">Sunflower Code Walkthrough</a>.  </p>
+<p> Sunflower についてのより詳細な情報については、 <a
+href="http://www.dartlang.org/samples/sunflower/index.html">Sunflower Code
+Walkthrough</a>を見て下さい。  </p>
 
 </section>
 
-<section id="run"> <h2> Step 4: Run the sample </h2>
+<section id="run"> <a name="run"><h2> ステップ 4: サンプルを動かす </h2></a>
 
 <p>
-To run any program in Dart Editor,
-just click the Run button
-<img src="images/run.png" alt="Run" width="16" height="16"
+Dart Editor からプログラムを起動したい場合は、
+プログラムのライブラリを選択して、
+Run ボタン
+<img src="http://www.dartlang.org/images/run.png" alt="Run" width="16" height="16"
   style="vertical-align:top">
-while any item in that program's library is selected.
-Dart Editor compiles your Dart program to JavaScript.
-It then brings up a browser window that displays
-the program's HTML page,
-with the JavaScript version of the program running inside it.
+をクリックします。
+Dart Editor が Dart プログラムを JavaScript へコンパイルします。
+その後、ブラウザーのウィンドウが起動し、
+プログラムの HTML ページが表示され、
+JavaScript版となったプログラムが動作します。
 </p>
 
 <aside class="note">
-  <strong>Tip:</strong>
-  Sometimes the automatic compilation doesn't work.
-  If you get a message that the JavaScript output was not generated,
-  try using
-  <strong>Tools&nbsp;&gt;&nbsp;Force&nbsp;Recompile</strong>.
+  <strong>ヒント:</strong>
+  時折、自動コンパイルが動作しない事もあるかもしれません。
+  JavaScript の出力が生成されない旨のメッセージが示された際には、
+  <strong>Tools&nbsp;&gt;&nbsp;Force&nbsp;Recompile</strong>
+  を試して見て下さい。
 </aside>
 
-<p> For example, to run Sunflower, click <b>Sunflower.dart</b> and then the
-<b>Run</b> button.  </p>
+<p> Sunflower に於いて、 <b>Sunflower.dart</b> 、 <b>Run</b> ボタンをクリックした例を示します。
+</p>
 
-<img src="images/sunflower-run.png"
-  alt="Snapshot of Libraries view and Run button"
+<img src="http://www.dartlang.org/images/sunflower-run.png"
+  alt="Libraries ビューと Run ボタンのスナップショット"
   style="border: 1px solid black"
   width="302" height="157">
 
-<p> In the browser window that comes up, move the slider to display the
-sunflower.  It should look something like this: </p>
+<p> 起動したブラウザーのウィンドウで、次のように表示された向日葵（訳註: 一般名詞としての sunflower）のスライダーを動かしてみましょう:
+</p>
 
-<img src="images/sunflower.png"
-  alt="screenshot of Sunflower app running"
+<img src="http://www.dartlang.org/images/sunflower.png"
+  alt="Sunflower アプリケーション実行のスクリーンショット"
   style="border: 1px solid black"
   width="559" height="489">
 
 </section>
 
 
-<section id="features"> <h2> Step 5: Try some Dart Editor features </h2>
+<section id="features"> <h2> ステップ 5: Dart Editor の機能を幾つか試してみる </h2>
 
-<p> This section introduces you to some of Dart Editor's features, such as
-finding where APIs are declared, outlining the contents of a Dart file, and
-auto-completing references to APIs.  We expect to add many more features
-over time.  </p>
+<p> この節では Dart Editor の機能のうち、 API 宣言の検索、 Dart ファイルのアウトライン、 API
+参照の自動コンパイルについて紹介します。より多くの機能の搭載については暫くお待ち下さい。 </p>
 
 <ol>
   <li>
     <p>
-    In the Editor view of <code>Sunflower.dart</code>,
-    select anywhere within the string <b>Math</b>
-    (at the top of the <code>Sunflower()</code> constructor).
-    Then either press <b>F3</b>
-    or right-click and choose <b>Open Declaration</b>.
+    <code>Sunflower.dart</code> の Editor ビューで、
+    何処か適当な所にある <b>Math</b> を選択して下さい
+    (<code>Sunflower()</code> コンストラクターの最上部とか)。
+    それから <b>F3</b>
+    または右クリックして<b>Open Declaration</b>を選択します。
     </p>
 
-    <img src="images/sunflower-f3.png"
-      alt="screenshot of right-click on Math"
+    <img src="http://www.dartlang.org/images/sunflower-f3.png"
+      alt="Math で右クリックしたスクリーンショット"
       style="border: 1px solid black"
       width="423" height="255">
 
     <p>
-    The editor opens a new tab that displays the file that declares the
-    <a href="http://api.dartlang.org/dart_core/Math.html"><code>Math</code></a> type.
+    エディターには新しいタブが開かれ、
+    <a href="http://api.dartlang.org/dart_core/Math.html"><code>Math</code></a> 型の宣言が表示されます。
     </p>
 
     <aside class="note">
-    <b>Tip:</b>
-    You can also use this trick to find declarations within the same file.
+    <b>ヒント:</b>
+    この方法を使って同じファイル内の宣言を見付け出す事もできます。
     </aside>
   </li>
   <li>

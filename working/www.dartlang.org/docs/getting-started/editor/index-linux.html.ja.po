@@ -2,14 +2,14 @@
 # Copyright (C) YEAR Usagi Ito
 # This file is distributed under the same license as the dartrefjp package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FULL NAME <EMAIL@ADDRESS>, 2012.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: dartrefjp Sat, 10 Mar 2012 14:43:37 +0900\n"
 "Report-Msgid-Bugs-To: usagi@WonderRabbitProject.net\n"
 "POT-Creation-Date: 2012-03-10 14:43+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2012-03-11 13:56+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -23,69 +23,59 @@ msgstr ""
 msgid ""
 "<!DOCTYPE html>\n"
 "<!--[if lt IE 7 ]> <html lang=\"en\" class=\"no-js ie6\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> "
-"<![endif]-->\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
 "<!--[if IE 7 ]>    <html lang=\"en\" class=\"no-js ie7\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> "
-"<![endif]-->\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
 "<!--[if IE 8 ]>    <html lang=\"en\" class=\"no-js ie8\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> "
-"<![endif]-->\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
 "<!--[if IE 9 ]>    <html lang=\"en\" class=\"no-js ie9\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> "
-"<![endif]-->\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <![endif]-->\n"
 "<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\" class=\"no-js\"\n"
-"                    itemscope itemtype=\"http://schema.org/Product\"> "
-"<!--<![endif]-->\n"
+"                    itemscope itemtype=\"http://schema.org/Product\"> <!--<![endif]-->\n"
 "<head>\n"
 "\t<meta charset=\"UTF-8\">\n"
 "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n"
 msgstr ""
+"<!DOCTYPE html>\n"
+"  <meta charset=\"UTF-8\">\n"
 
 #. type: Plain text
 #: index-linux.html:17
 #, no-wrap
 msgid "  <!-- Title & Google+ description -->\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:21
 #, no-wrap
 msgid ""
 "  <title>Tutorial: Dart Editor (Linux) | DartLang.org</title> \n"
-"  <meta itemprop=\"name\" content=\"Tutorial: Dart Editor (Linux) | "
-"DartLang.org\">\n"
-"  <meta itemprop=\"description\" content=\"Dart is a new platform for "
-"building structured web apps for modern browsers. It includes a language, a "
-"virtual machine, libraries, a UI framework, an editor, and browser "
-"integration. Try Dart today!\">\n"
-msgstr ""
+"  <meta itemprop=\"name\" content=\"Tutorial: Dart Editor (Linux) | DartLang.org\">\n"
+"  <meta itemprop=\"description\" content=\"Dart is a new platform for building structured web apps for modern browsers. It includes a language, a virtual machine, libraries, a UI framework, an editor, and browser integration. Try Dart today!\">\n"
+msgstr "  <title>チュートリアル: Dart Editor (Linux) | DartLang.org - dartrefjp</title> \n"
 
 #. type: Plain text
 #: index-linux.html:24
 #, no-wrap
 msgid ""
 "\t<link rel=\"stylesheet\" href=\"/css/style.css\">\n"
-"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' "
-"rel='stylesheet' type='text/css'>\n"
-msgstr ""
+"\t<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n"
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:30
 #, no-wrap
 msgid ""
-"\t<link rel=\"alternate\" type=\"application/atom+xml\" "
-"href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
-"    <link href=\"https://plus.google.com/109866369054280216564\" "
-"rel=\"publisher\">\n"
+"\t<link rel=\"alternate\" type=\"application/atom+xml\" href=\"http://news.dartlang.org/feeds/posts/default\" title=\"Atom feed\">\n"
+"    <link href=\"https://plus.google.com/109866369054280216564\" rel=\"publisher\">\n"
 "\t<script src=\"/js/modernizr.custom.02548.js\"></script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:32
 #, no-wrap
 msgid "  <script type=\"text/javascript\">\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:37
@@ -95,27 +85,24 @@ msgid ""
 "    _gaq.push(['_setAccount', 'UA-26406144-4']);\n"
 "    _gaq.push(['_setDomainName', 'dartlang.org']);\n"
 "    _gaq.push(['_trackPageview']);\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:43
 #, no-wrap
 msgid ""
 "    (function() {\n"
-"      var ga = document.createElement('script'); ga.type = "
-"'text/javascript'; ga.async = true;\n"
-"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : "
-"'http://www') + '.google-analytics.com/ga.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; "
-"s.parentNode.insertBefore(ga, s);\n"
+"      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n"
+"      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n"
+"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n"
 "    })();\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:45
 #, no-wrap
 msgid "  </script>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:63
@@ -125,8 +112,7 @@ msgid ""
 "\twindow.___gcfg = {lang: 'en'};\n"
 "\t(function() \n"
 "\t{var po = document.createElement(\"script\");\n"
-"\tpo.type = \"text/javascript\"; po.async = true;po.src = "
-"\"https://apis.google.com/js/plusone.js\";\n"
+"\tpo.type = \"text/javascript\"; po.async = true;po.src = \"https://apis.google.com/js/plusone.js\";\n"
 "\tvar s = document.getElementsByTagName(\"script\")[0];\n"
 "\ts.parentNode.insertBefore(po, s);\n"
 "\t})();\n"
@@ -135,10 +121,8 @@ msgid ""
 "<body>\n"
 "\t<div id=\"container\">\n"
 "\t\t<header>\n"
-"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" "
-"data-count=\"true\"></div></div>\n"
-"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" "
-"height=\"116\" alt=\"Dart\"></a>\n"
+"\t\t  \t<div id=\"plus1\"><div class=\"g-plusone\" data-size=\"standard\" data-count=\"true\"></div></div>\n"
+"      \t<a href=\"/\"><img src=\"/imgs/dart-logo.png\" width=\"268\" height=\"116\" alt=\"Dart\"></a>\n"
 "\t\t\t  <span id=\"tagline\">Structured web apps</span>\n"
 "\t\t</header>\n"
 msgstr ""
@@ -150,15 +134,13 @@ msgid ""
 "\t\t<nav>\n"
 "  <form action=\"/search.html\" id=\"cse-search-box\">\n"
 "    <div id=\"search\">\n"
-"      <input type=\"hidden\" name=\"cx\" "
-"value=\"011220921317074318178:i4mscbaxtru\" />\n"
+"      <input type=\"hidden\" name=\"cx\" value=\"011220921317074318178:i4mscbaxtru\" />\n"
 "      <input type=\"hidden\" name=\"ie\" value=\"UTF-8\" />\n"
 "      <input type=\"hidden\" name=\"hl\" value=\"en\" />\n"
-"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" "
-"placeholder=\"Search\"/>\n"
+"      <input type=\"search\" name=\"q\" id=\"q\" autocomplete=\"off\" placeholder=\"Search\"/>\n"
 "    </div>\n"
 "  </form>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:106
@@ -170,10 +152,8 @@ msgid ""
 "    <li>Getting Started\n"
 "      <ul>\n"
 "        <li><a href=\"/language-tour/\">Language Tour</a></li>\n"
-"        <li><a href=\"/docs/technical-overview/\">Technical "
-"Overview</a></li>\n"
-"        <li><a href=\"http://synonym.dartlang.org\">Translations from "
-"JavaScript</a></li>\n"
+"        <li><a href=\"/docs/technical-overview/\">Technical Overview</a></li>\n"
+"        <li><a href=\"http://synonym.dartlang.org\">Translations from JavaScript</a></li>\n"
 "      </ul> </li>\n"
 "    <li>Language &amp; Libraries\n"
 "      <ul>\n"
@@ -197,17 +177,15 @@ msgid ""
 "      </ul> </li>\n"
 "    <li><a href=\"/support/\">Contact Us</a></li>\n"
 "  </ul>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:109
 #, no-wrap
 msgid ""
-"  <div id=\"pluspage\"><div class=\"g-plus\" "
-"data-href=\"https://plus.google.com/109866369054280216564\" "
-"data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
+"  <div id=\"pluspage\"><div class=\"g-plus\" data-href=\"https://plus.google.com/109866369054280216564\" data-width=\"100\" data-height=\"131\" data-theme=\"light\"></div></div>\n"
 "</nav>\n"
-msgstr ""
+msgstr " \n"
 
 #. type: Plain text
 #: index-linux.html:113
@@ -215,12 +193,12 @@ msgstr ""
 msgid ""
 "\t\t<div id=\"main\" role=\"main\">\n"
 "\t\t\t<article>\n"
-msgstr ""
+msgstr "<article>\n"
 
 #. type: Plain text
 #: index-linux.html:126
 msgid "<h1> Tutorial: Dart Editor (Linux) </h1>"
-msgstr ""
+msgstr "<h1> チュートリアル: Dart Editor (Linux) </h1>"
 
 #. type: Plain text
 #: index-linux.html:132
@@ -228,15 +206,21 @@ msgid ""
 "<section> <p> Follow this tutorial to install and use Dart Editor on Linux.  "
 "</p>"
 msgstr ""
+"<section> <p> このチュートリアルでは Linux で Dart Editor をインストールする"
+"方法を示します。  </p>"
 
 #. type: Plain text
 #: index-linux.html:140
 msgid ""
 "<p> Dart Editor is a lightweight, open-source editor based on Eclipse "
 "components.  In addition to editing Dart programs, you can use Dart Editor "
-"to invoke the Dart-to-JavaScript compiler and launch Dart-based web apps.  "
-"</p>"
+"to invoke the Dart-to-JavaScript compiler and launch Dart-based web apps.  </"
+"p>"
 msgstr ""
+"<p> Dart Editor は Eclipse コンポーネント群を基にした軽量でオープンソースなエ"
+"ディターです。 Dart Editor で Dart プログラムの編集作業をすると、 Dart-to-"
+"JavaScript コンパイラーを実行したり、 Dart ベースのウェブアプリケーション群を"
+"起動したりもできます。  </p>"
 
 #. type: Plain text
 #: index-linux.html:145
@@ -244,21 +228,23 @@ msgid ""
 "<aside class=\"note\"> <strong>Note:</strong> These instructions are also "
 "available for: <ul>"
 msgstr ""
+"<aside class=\"note\"> <strong>ノート:</strong> 以下の環境向けのイントールガ"
+"イドもあります: <ul>"
 
 #. type: Plain text
 #: index-linux.html:147
 msgid "<li> <a href=\"index-win.html\">Windows</a> </li>"
-msgstr ""
+msgstr "<li> <a href=\"index-win.html\">Windows</a> </li>"
 
 #. type: Plain text
 #: index-linux.html:150
 msgid "<li> <a href=\"index-macos.html\">Mac</a> </li>"
-msgstr ""
+msgstr "<li> <a href=\"index-macos.html\">Mac</a> </li>"
 
 #. type: Plain text
 #: index-linux.html:155
 msgid "</ul> </aside> </section>"
-msgstr ""
+msgstr "</ul> </aside> </section>"
 
 #. type: Plain text
 #: index-linux.html:170
@@ -267,25 +253,37 @@ msgid ""
 "<section>\n"
 "<h4> Contents </h4>\n"
 "<ul>\n"
-"  <li> <a href=\"#download\">Step 1: Download and install the software</a> "
-"</li>\n"
+"  <li> <a href=\"#download\">Step 1: Download and install the software</a> </li>\n"
 "  <li> <a href=\"#launch\">Step 2: Launch the editor</a> </li>\n"
 "  <li> <a href=\"#sample\">Step 3: Open a sample</a> </li>\n"
 "  <li> <a href=\"#run\">Step 4: Run the sample</a> </li>\n"
-"  <li> <a href=\"#features\">Step 5: Try some Dart Editor features</a> "
-"</li>\n"
+"  <li> <a href=\"#features\">Step 5: Try some Dart Editor features</a> </li>\n"
 "  <li> <a href=\"#code\">Step 6: Create a new web app</a> </li>\n"
 "  <li> <a href=\"#feedback\">Give us feedback!</a> </li>\n"
 "</ul>\n"
 "</section>\n"
 msgstr ""
+"<section>\n"
+"<h4> もくじ </h4>\n"
+"<ul>\n"
+"  <li> <a href=\"#download\">ステップ 1: ソフトウェアのダウンロードとインストール</a> </li>\n"
+"  <li> <a href=\"#launch\">ステップ 2: エディターの起動</a> </li>\n"
+"  <li> <a href=\"#sample\">ステップ 3: サンプルを開く</a> </li>\n"
+"  <li> <a href=\"#run\">ステップ 4: サンプルを動かす</a> </li>\n"
+"  <li> <a href=\"#features\">ステップ 5: Dart Editor の機能を幾つか試してみる</a> </li>\n"
+"  <li> <a href=\"#code\">ステップ 6: ウェブアプリケーションの新規作成</a> </li>\n"
+"  <li> <a href=\"#feedback\">フィードバックをお待ちしています！</a> </li>\n"
+"</ul>\n"
+"</section>\n"
 
 #. type: Plain text
 #: index-linux.html:173
 msgid ""
-"<section id=\"download\"> <h2> Step 1: Download and install the software "
-"</h2>"
+"<section id=\"download\"> <h2> Step 1: Download and install the software </"
+"h2>"
 msgstr ""
+"<section id=\"download\"> <a name=\"download\"><h2> ステップ 1: ソフトウェア"
+"のダウンロードとインストール </h2></a>"
 
 #. type: Plain text
 #: index-linux.html:178
@@ -293,6 +291,8 @@ msgid ""
 "<p> In this step, you'll install Dart Editor and, if necessary, a Java "
 "runtime environment.  </p>"
 msgstr ""
+"<p> このステップで Dart Editor と、必要に応じて Java の実行時環境もインストー"
+"ルします。  </p>"
 
 #. type: Plain text
 #: index-linux.html:187
@@ -303,14 +303,17 @@ msgid ""
 "  Download the Dart Editor ZIP file that matches\n"
 "    your system architecture:\n"
 "    <ul>\n"
-"      <li> <a "
-"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86.zip\">32-bit "
-"Dart Editor</a> </li>\n"
-"      <li> <a "
-"href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit "
-"Dart Editor</a> </li>\n"
+"      <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86.zip\">32-bit Dart Editor</a> </li>\n"
+"      <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit Dart Editor</a> </li>\n"
 "    </ul>\n"
 msgstr ""
+"<ol>\n"
+"  <li> \n"
+"  システムアーキテクチャーに合った Dart Editor の ZIP ファイルをダウンロードします:\n"
+"    <ul>\n"
+"      <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86.zip\">32-bit Dart Editor</a> </li>\n"
+"      <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-integration/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit Dart Editor</a> </li>\n"
+"    </ul>\n"
 
 #. type: Plain text
 #: index-linux.html:197
@@ -324,6 +327,12 @@ msgid ""
 "  otherwise, you have 32-bit Linux.\n"
 "  </p>\n"
 msgstr ""
+"  <p>\n"
+"  使用している環境が 32-bit か 64-bit か判らない場合は <code>uname -a</code> コマンドを使います。\n"
+"  もしも表示に <code>64</code> が含まれていたなら、\n"
+"  それは恐らく 64-bit の Linux でしょうし、\n"
+"  そうでなければ 32-bit Linux でしょう。\n"
+"  </p>\n"
 
 #. type: Plain text
 #: index-linux.html:205
@@ -333,12 +342,15 @@ msgid ""
 "      <b>Version note:</b>\n"
 "      For information about this Dart Editor version, see the\n"
 "      <a target=\"_blank\"\n"
-"        "
-"href=\"http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html\">change "
-"log</a>.\n"
-"      If you want to try out the most recent, untested version of Dart "
-"Editor,\n"
+"        href=\"http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html\">change log</a>.\n"
+"      If you want to try out the most recent, untested version of Dart Editor,\n"
 msgstr ""
+"    <aside class=\"note\">\n"
+"      <b>改版についてのノート:</b>\n"
+"      この Dart Editor のバージョンに関する情報は、 \n"
+"      <a target=\"_blank\"\n"
+"        href=\"http://commondatastorage.googleapis.com/dart-editor-archive-integration/latest/changelog.html\">改版履歴</a> を見て下さい。\n"
+"      もし最新の未テストの Dart Editor を試してみたい場合には、\n"
 
 #. type: Plain text
 #: index-linux.html:211
@@ -346,14 +358,15 @@ msgstr ""
 msgid ""
 "  use one of these ZIP files instead:\n"
 "  <ul>\n"
-"    <li> <a "
-"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86.zip\">32-bit "
-"Dart Editor (latest)</a></li>\n"
-"    <li> <a "
-"href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit "
-"Dart Editor (latest)</a></li>\n"
+"    <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86.zip\">32-bit Dart Editor (latest)</a></li>\n"
+"    <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit Dart Editor (latest)</a></li>\n"
 "  </ul>\n"
 msgstr ""
+"  こちらの ZIP を使います:\n"
+"  <ul>\n"
+"    <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86.zip\">32-bit Dart Editor (最新版)</a></li>\n"
+"    <li> <a href=\"http://gsdview.appspot.com/dart-editor-archive-continuous/latest/DartBuild-linux.gtk.x86_64.zip\">64-bit Dart Editor (最新版)</a></li>\n"
+"  </ul>\n"
 
 #. type: Plain text
 #: index-linux.html:214
@@ -362,30 +375,32 @@ msgid ""
 "    </aside>\n"
 "  </li>\n"
 msgstr ""
+"    </aside>\n"
+"  </li>\n"
 
 #. type: Plain text
 #: index-linux.html:216
 #, no-wrap
 msgid "  <li>\n"
-msgstr ""
+msgstr "  <li>\n"
 
 #. type: Plain text
 #: index-linux.html:218
 #, no-wrap
 msgid "  Unarchive the ZIP file. For example:\n"
-msgstr ""
+msgstr "  ZIP ファイルを展開します。例:\n"
 
 #. type: Plain text
 #: index-linux.html:220
 #, no-wrap
 msgid "  <pre> $ <b>unzip DartBuild-linux.gtk.x86_64.zip</b> </pre>\n"
-msgstr ""
+msgstr "  <pre> $ <b>unzip DartBuild-linux.gtk.x86_64.zip</b> </pre>\n"
 
 #. type: Plain text
 #: index-linux.html:223
 #, no-wrap
 msgid "  </li>\n"
-msgstr ""
+msgstr "  </li>\n"
 
 #. type: Plain text
 #: index-linux.html:227
@@ -395,18 +410,21 @@ msgid ""
 "    <p>\n"
 "    Put the resulting directory somewhere convenient, such as\n"
 msgstr ""
+"  <li>\n"
+"    <p>\n"
+"    展開されたファイル郡をどこか適当で便利な場所に配置しましょう。例えば、\n"
 
 #. type: Plain text
 #: index-linux.html:229
 #, no-wrap
 msgid "  <code>/home/me/dart</code>.\n"
-msgstr ""
+msgstr "  <code>/home/me/dart</code>.\n"
 
 #. type: Plain text
 #: index-linux.html:231
 #, no-wrap
 msgid "    </p>\n"
-msgstr ""
+msgstr "    などに。</p>\n"
 
 #. type: Plain text
 #: index-linux.html:238
@@ -415,11 +433,15 @@ msgid ""
 "    <p>\n"
 "    We'll call this your <b>Dart installation directory</b>.\n"
 "    This installation directory contains\n"
-"    the <code>DartEditor</code> executable file and several "
-"subdirectories,\n"
+"    the <code>DartEditor</code> executable file and several subdirectories,\n"
 "    including a <code>samples</code> directory.\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    この場所を <b>Dart インストールディレクトリ</b>と呼ぶ事にしましょう。\n"
+"    このディレクトリには\n"
+"    <code>DartEditor</code> の実行ファイルと幾つかのサブディレクトリ、また<code>サンプル群</code>などが含まれています。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:250
@@ -437,6 +459,17 @@ msgid ""
 "    </aside>\n"
 "  </li>\n"
 msgstr ""
+"    <aside class=\"note\">\n"
+"    <strong>重要:</strong>\n"
+"    Dart インストールディレクトリを他の Eclipse ベースのソフトウェアの為には\n"
+"    使用し<b>ないで</b>下さい。\n"
+"    もし、 Dart Editor と Eclipse で\n"
+"    同じ <code>workspace</code> ディレクトリーを共有してしまうと、\n"
+"    それらの設定が衝突してしまい\n"
+"    Dart Editor と Eclipse の両方で\n"
+"    エラーや警告が報告される事でしょう。\n"
+"    </aside>\n"
+"  </li>\n"
 
 #. type: Plain text
 #: index-linux.html:254
@@ -446,16 +479,20 @@ msgid ""
 "    If you don't already have a Java runtime,\n"
 "    download and install it.\n"
 msgstr ""
+"  <li> <p>\n"
+"    もし、 Java 実行時環境をまだ準備していない場合は、ダウンロードとインストールを済ませましょう。\n"
 
 #. type: Plain text
 #: index-linux.html:258
 #, no-wrap
 msgid ""
 "  You can get JDK 7 from\n"
-"  <a "
-"href=\"http://www.oracle.com/technetwork/java/javase/downloads/java-se-jdk-7-download-432154.html\"\n"
+"  <a href=\"http://www.oracle.com/technetwork/java/javase/downloads/java-se-jdk-7-download-432154.html\"\n"
 "    target=\"_blank\">Java SE Development Kit 7 Downloads</a>.\n"
 msgstr ""
+"  JDK 7 は \n"
+"  <a href=\"http://www.oracle.com/technetwork/java/javase/downloads/java-se-jdk-7-download-432154.html\"\n"
+"    target=\"_blank\">Java SE 開発キット 7 ダウンロード</a> から入手できます。\n"
 
 #. type: Plain text
 #: index-linux.html:262
@@ -465,18 +502,25 @@ msgid ""
 "</ol>\n"
 "</section>\n"
 msgstr ""
+"  </li>\n"
+"</ol>\n"
+"</section>\n"
 
 #. type: Plain text
 #: index-linux.html:265
 msgid "<section id=\"launch\"> <h2> Step 2: Launch the editor </h2>"
 msgstr ""
+"<section id=\"launch\"> <a name=\"launch\"><h2> ステップ 2: エディターの起動 "
+"</h2></a>"
 
 #. type: Plain text
 #: index-linux.html:270
 msgid ""
-"<p> Go to your Dart installation directory, and double-click "
-"<b>DartEditor</b>.  </p>"
+"<p> Go to your Dart installation directory, and double-click <b>DartEditor</"
+"b>.  </p>"
 msgstr ""
+"<p> Dart インストールディレクトリで <b>DartEditor</b> をダブルクリックしま"
+"しょう。  </p>"
 
 #. type: Plain text
 #: index-linux.html:276
@@ -488,13 +532,18 @@ msgid ""
 "  width=\"78\" height=\"92\">\n"
 "</blockquote>\n"
 msgstr ""
+"<blockquote>\n"
+"<img src=\"http://www.dartlang.org/images/DartEditor-icon.png\"\n"
+"  alt=\"DartEditor icon\"\n"
+"  width=\"78\" height=\"92\">\n"
+"</blockquote>\n"
 
 #. type: Plain text
 #: index-linux.html:281
 msgid ""
 "<p> You should see the Dart Editor application window appear, looking "
 "something like this: </p>"
-msgstr ""
+msgstr "<p> Dart Editor のウィンドウが次のように表示されます: </p>"
 
 #. type: Plain text
 #: index-linux.html:285
@@ -504,16 +553,22 @@ msgid ""
 "  alt=\"screenshot of empty Dart Editor window\"\n"
 "  width=\"599\" height=\"454\">\n"
 msgstr ""
+"<img src=\"http://www.dartlang.org/images/DartEditor-initial.png\"\n"
+"  alt=\"空の Dart Editor ウィンドウのスクリーンショット\"\n"
+"  width=\"599\" height=\"454\">\n"
 
 #. type: Plain text
-#: index-linux.html:287 index-linux.html:360 index-linux.html:407 index-linux.html:672
+#: index-linux.html:287 index-linux.html:360 index-linux.html:407
+#: index-linux.html:672
 msgid "</section>"
-msgstr ""
+msgstr "</section>"
 
 #. type: Plain text
 #: index-linux.html:293
 msgid "<section id=\"sample\"> <h2>Step 3: Open a sample</h2>"
 msgstr ""
+"<section id=\"sample\"> <a name=\"sample\"><h2>ステップ 3: サンプルを開</"
+"h2></a>"
 
 #. type: Plain text
 #: index-linux.html:298
@@ -521,6 +576,8 @@ msgid ""
 "<p> The Dart Editor bundle comes with several samples.  In this step, you'll "
 "open one and run it.  </p>"
 msgstr ""
+"<p> Dart Editor には幾つかのサンプルが含まれています。このステップではそのう"
+"ちの1つを開き、実行してみましょう。</p>"
 
 #. type: Plain text
 #: index-linux.html:314
@@ -542,11 +599,26 @@ msgid ""
 "    </p>\n"
 "</ol>\n"
 msgstr ""
+"<ol>\n"
+"  <li> <p>\n"
+"    <b>File</b> メニューから\n"
+"    <b>Open...</b> を選びます。\n"
+"    或いは、キーボードショートカットの\n"
+"    (<b>Ctl+O</b> 、または Mac なら <b>Option+O</b>)を使っても良いでしょう。\n"
+"    </p>\n"
+"  </li>\n"
+"  <li> <p>\n"
+"    Dart インストールディレクトリへと辿り、\n"
+"    <b>samples</b> の、\n"
+"    <b>sunflower</b> へ。\n"
+"    そして、<b>Sunflower.dart</b>をダブルクリックします。\n"
+"    </p>\n"
+"</ol>\n"
 
 #. type: Plain text
 #: index-linux.html:318
 msgid "<p> Your Dart Editor should now look something like this: </p>"
-msgstr ""
+msgstr "<p> Dart Editor は次の様に表示されます: </p>"
 
 #. type: Plain text
 #: index-linux.html:322
@@ -556,62 +628,81 @@ msgid ""
 "  alt=\"screenshot of Dart Editor displaying the Sunflower sample's code\"\n"
 "  width=\"600\" height=\"454\">\n"
 msgstr ""
+"<img src=\"http://www.dartlang.org/images/DartEditor-sunflower.png\"\n"
+"  alt=\"Dart Editor で Sunflower サンプルコードを表示したスクリーンショット\"\n"
+"  width=\"600\" height=\"454\">\n"
 
 #. type: Plain text
 #: index-linux.html:330
 msgid ""
-"<p> Dart Editor not only displays the contents of "
-"<code>Sunflower.dart</code>, but also updates the Libraries view to list "
-"important files for the sample.  This list includes the resources that "
-"<code>Sunflower.dart</code> refers to, plus any HTML files in the Dart "
-"file's directory that refer to the app's code,"
+"<p> Dart Editor not only displays the contents of <code>Sunflower.dart</"
+"code>, but also updates the Libraries view to list important files for the "
+"sample.  This list includes the resources that <code>Sunflower.dart</code> "
+"refers to, plus any HTML files in the Dart file's directory that refer to "
+"the app's code,"
 msgstr ""
+"<p> Dart Editor は <code>Sunflower.dart</code> の内容のほか、サンプルでイン"
+"ポートしているファイルの一覧についての Libraries ビュー も更新します。このリ"
+"ストには <code>Sunflower.dart</code> の参照の他、 Dart ファイルのディレクトリ"
+"にあるアプリケーションから参照される HTML ファイル群も含まれます。"
 
 #. type: Plain text
 #: index-linux.html:332
 msgid "</p>"
-msgstr ""
+msgstr "</p>"
 
 #. type: Plain text
 #: index-linux.html:339
 msgid ""
-"<p> The Libraries view puts this list under a node called "
-"<code>sunflower</code>, corresponding to the following line of code in "
-"<code>Sunflower.dart</code>: </p>"
+"<p> The Libraries view puts this list under a node called <code>sunflower</"
+"code>, corresponding to the following line of code in <code>Sunflower.dart</"
+"code>: </p>"
 msgstr ""
+"<p> Libraries ビュー には <code>sunflower</code> というノードが、 "
+"<code>Sunflower.dart</code>の次の行に対応して表示されます: </p>"
 
 #. type: Plain text
 #: index-linux.html:343
 msgid ""
-"<pre class=\"prettyprint lang-dart linenums:1 \"> #library('sunflower'); "
-"</pre>"
+"<pre class=\"prettyprint lang-dart linenums:1 \"> #library('sunflower'); </"
+"pre>"
 msgstr ""
+"<pre class=\"prettyprint lang-dart linenums:1 \"> #library('sunflower'); </"
+"pre>"
 
 #. type: Plain text
 #: index-linux.html:351
 msgid ""
-"<p> The Libraries view displays entries for the Dart <b>core</b> and "
-"<b>dom</b> libraries.  The <b>core</b> library is there because every Dart "
-"program uses it.  The <b>dom</b> library is there because of this program's "
+"<p> The Libraries view displays entries for the Dart <b>core</b> and <b>dom</"
+"b> libraries.  The <b>core</b> library is there because every Dart program "
+"uses it.  The <b>dom</b> library is there because of this program's "
 "reference to it in the following statement: </p>"
 msgstr ""
+"<p> Libraries ビューには Dart ライブラリの <b>core</b> と <b>dom</b> も表示さ"
+"れてます。 <b>core</b> ライブラリはあらゆる Dart プログラムで使用されます。 "
+"<b>dom</b> ライブラリはプログラムの次の命令文で参照されています: </p>"
 
 #. type: Plain text
 #: index-linux.html:353
 msgid "<pre>#import('dart:dom');</pre>"
-msgstr ""
+msgstr "<pre>#import('dart:dom');</pre>"
 
 #. type: Plain text
 #: index-linux.html:358
 msgid ""
-"<p> For more information about the Sunflower example, read the <a "
-"href=\"/samples/sunflower/index.html\">Sunflower Code Walkthrough</a>.  </p>"
+"<p> For more information about the Sunflower example, read the <a href=\"/"
+"samples/sunflower/index.html\">Sunflower Code Walkthrough</a>.  </p>"
 msgstr ""
+"<p> Sunflower についてのより詳細な情報については、 <a href=\"http://www."
+"dartlang.org/samples/sunflower/index.html\">Sunflower Code Walkthrough</a>を"
+"見て下さい。  </p>"
 
 #. type: Plain text
 #: index-linux.html:363
 msgid "<section id=\"run\"> <h2> Step 4: Run the sample </h2>"
 msgstr ""
+"<section id=\"run\"> <a name=\"run\"><h2> ステップ 4: サンプルを動かす </"
+"h2></a>"
 
 #. type: Plain text
 #: index-linux.html:375
@@ -629,6 +720,18 @@ msgid ""
 "with the JavaScript version of the program running inside it.\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"Dart Editor からプログラムを起動したい場合は、\n"
+"プログラムのライブラリを選択して、\n"
+"Run ボタン\n"
+"<img src=\"http://www.dartlang.org/images/run.png\" alt=\"Run\" width=\"16\" height=\"16\"\n"
+"  style=\"vertical-align:top\">\n"
+"をクリックします。\n"
+"Dart Editor が Dart プログラムを JavaScript へコンパイルします。\n"
+"その後、ブラウザーのウィンドウが起動し、\n"
+"プログラムの HTML ページが表示され、\n"
+"JavaScript版となったプログラムが動作します。\n"
+"</p>\n"
 
 #. type: Plain text
 #: index-linux.html:383
@@ -642,6 +745,13 @@ msgid ""
 "  <strong>Tools&nbsp;&gt;&nbsp;Force&nbsp;Recompile</strong>.\n"
 "</aside>\n"
 msgstr ""
+"<aside class=\"note\">\n"
+"  <strong>ヒント:</strong>\n"
+"  時折、自動コンパイルが動作しない事もあるかもしれません。\n"
+"  JavaScript の出力が生成されない旨のメッセージが示された際には、\n"
+"  <strong>Tools&nbsp;&gt;&nbsp;Force&nbsp;Recompile</strong>\n"
+"  を試して見て下さい。\n"
+"</aside>\n"
 
 #. type: Plain text
 #: index-linux.html:389
@@ -649,6 +759,8 @@ msgid ""
 "<p> For example, to run Sunflower, click <b>Sunflower.dart</b> and then the "
 "<b>Run</b> button.  </p>"
 msgstr ""
+"<p> Sunflower に於いて、 <b>Sunflower.dart</b> 、 <b>Run</b> ボタンをクリック"
+"した例を示します。  </p>"
 
 #. type: Plain text
 #: index-linux.html:394
@@ -659,6 +771,10 @@ msgid ""
 "  style=\"border: 1px solid black\"\n"
 "  width=\"302\" height=\"157\">\n"
 msgstr ""
+"<img src=\"http://www.dartlang.org/images/sunflower-run.png\"\n"
+"  alt=\"Libraries ビューと Run ボタンのスナップショット\"\n"
+"  style=\"border: 1px solid black\"\n"
+"  width=\"302\" height=\"157\">\n"
 
 #. type: Plain text
 #: index-linux.html:400
@@ -666,6 +782,8 @@ msgid ""
 "<p> In the browser window that comes up, move the slider to display the "
 "sunflower.  It should look something like this: </p>"
 msgstr ""
+"<p> 起動したブラウザーのウィンドウで、次のように表示された向日葵（訳註: 一般"
+"名詞としての sunflower）のスライダーを動かしてみましょう: </p>"
 
 #. type: Plain text
 #: index-linux.html:405
@@ -676,11 +794,18 @@ msgid ""
 "  style=\"border: 1px solid black\"\n"
 "  width=\"559\" height=\"489\">\n"
 msgstr ""
+"<img src=\"http://www.dartlang.org/images/sunflower.png\"\n"
+"  alt=\"Sunflower アプリケーション実行のスクリーンショット\"\n"
+"  style=\"border: 1px solid black\"\n"
+"  width=\"559\" height=\"489\">\n"
 
 #. type: Plain text
 #: index-linux.html:411
-msgid "<section id=\"features\"> <h2> Step 5: Try some Dart Editor features </h2>"
+msgid ""
+"<section id=\"features\"> <h2> Step 5: Try some Dart Editor features </h2>"
 msgstr ""
+"<section id=\"features\"> <h2> ステップ 5: Dart Editor の機能を幾つか試してみ"
+"る </h2>"
 
 #. type: Plain text
 #: index-linux.html:419
@@ -690,6 +815,9 @@ msgid ""
 "auto-completing references to APIs.  We expect to add many more features "
 "over time.  </p>"
 msgstr ""
+"<p> この節では Dart Editor の機能のうち、 API 宣言の検索、 Dart ファイルのア"
+"ウトライン、 API 参照の自動コンパイルについて紹介します。より多くの機能の搭載"
+"については暫くお待ち下さい。 </p>"
 
 #. type: Plain text
 #: index-linux.html:429
@@ -705,6 +833,15 @@ msgid ""
 "    or right-click and choose <b>Open Declaration</b>.\n"
 "    </p>\n"
 msgstr ""
+"<ol>\n"
+"  <li>\n"
+"    <p>\n"
+"    <code>Sunflower.dart</code> の Editor ビューで、\n"
+"    何処か適当な所にある <b>Math</b> を選択して下さい\n"
+"    (<code>Sunflower()</code> コンストラクターの最上部とか)。\n"
+"    それから <b>F3</b>\n"
+"    または右クリックして<b>Open Declaration</b>を選択します。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:434
@@ -715,6 +852,10 @@ msgid ""
 "      style=\"border: 1px solid black\"\n"
 "      width=\"423\" height=\"255\">\n"
 msgstr ""
+"    <img src=\"http://www.dartlang.org/images/sunflower-f3.png\"\n"
+"      alt=\"Math で右クリックしたスクリーンショット\"\n"
+"      style=\"border: 1px solid black\"\n"
+"      width=\"423\" height=\"255\">\n"
 
 #. type: Plain text
 #: index-linux.html:439
@@ -722,11 +863,13 @@ msgstr ""
 msgid ""
 "    <p>\n"
 "    The editor opens a new tab that displays the file that declares the\n"
-"    <a "
-"href=\"http://api.dartlang.org/dart_core/Math.html\"><code>Math</code></a> "
-"type.\n"
+"    <a href=\"http://api.dartlang.org/dart_core/Math.html\"><code>Math</code></a> type.\n"
 "    </p>\n"
 msgstr ""
+"    <p>\n"
+"    エディターには新しいタブが開かれ、\n"
+"    <a href=\"http://api.dartlang.org/dart_core/Math.html\"><code>Math</code></a> 型の宣言が表示されます。\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:459
@@ -740,8 +883,7 @@ msgid ""
 "  <li>\n"
 "    <p>\n"
 "    Click the left arrow button\n"
-"    <img src=\"images/leftarrow.png\" alt=\"left arrow\" width=\"16\" "
-"height=\"16\"\n"
+"    <img src=\"images/leftarrow.png\" alt=\"left arrow\" width=\"16\" height=\"16\"\n"
 "      style=\"vertical-align:top\">\n"
 "    (to the left of the Run button)\n"
 "    to go back to <code>Sunflower.dart</code>.\n"
@@ -753,6 +895,25 @@ msgid ""
 "    right-click and choose <b>Quick Outline</b>.\n"
 "    </p>\n"
 msgstr ""
+"    <aside class=\"note\">\n"
+"    <b>ヒント:</b>\n"
+"    この方法を使って同じファイル内の宣言を見付け出す事もできます。\n"
+"    </aside>\n"
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    Click the left arrow button\n"
+"    <img src=\"images/leftarrow.png\" alt=\"left arrow\" width=\"16\" height=\"16\"\n"
+"      style=\"vertical-align:top\">\n"
+"    (to the left of the Run button)\n"
+"    to go back to <code>Sunflower.dart</code>.\n"
+"    </p>\n"
+"  </li>\n"
+"  <li>\n"
+"    <p>\n"
+"    Either press <b>Alt+O</b> (<b>Option+O</b> on Mac) or\n"
+"    right-click and choose <b>Quick Outline</b>.\n"
+"    </p>\n"
 
 #. type: Plain text
 #: index-linux.html:466
@@ -845,8 +1006,7 @@ msgid ""
 "      <li> <p>\n"
 "        Complete your changes&mdash;for\n"
 "        example, if you think sunflower seeds should be semi-circular,\n"
-"        use <code>Math.PI</code> instead of "
-"<code>Math.PI*2</code>&mdash;and\n"
+"        use <code>Math.PI</code> instead of <code>Math.PI*2</code>&mdash;and\n"
 "        then save the file.\n"
 "        </p>\n"
 msgstr ""
@@ -913,8 +1073,7 @@ msgid ""
 "<ol>\n"
 "  <li> <p>\n"
 "    Click the New Application\n"
-"    <img src=\"images/newapp.png\" alt=\"New App\" width=\"16\" "
-"height=\"16\"\n"
+"    <img src=\"images/newapp.png\" alt=\"New App\" width=\"16\" height=\"16\"\n"
 "     style=\"vertical-align:top\"> button\n"
 "    (at the upper left of Dart Editor)\n"
 "    to create a new app.\n"
@@ -1050,9 +1209,8 @@ msgstr ""
 #. type: Plain text
 #: index-linux.html:649
 msgid ""
-"<blockquote> <a "
-"href=\"http://code.google.com/p/dart/issues/list?can=2&q=label%3AArea-Editor\">Dart "
-"Editor issue list</a> </blockquote>"
+"<blockquote> <a href=\"http://code.google.com/p/dart/issues/list?"
+"can=2&q=label%3AArea-Editor\">Dart Editor issue list</a> </blockquote>"
 msgstr ""
 
 #. type: Plain text
@@ -1076,11 +1234,9 @@ msgid ""
 "    at the upper right of the Dart Editor window.\n"
 "    <br>\n"
 "    We'll open a new issue for you, if appropriate,\n"
-"    without disclosing your sensitive or personally identifiable "
-"information.\n"
+"    without disclosing your sensitive or personally identifiable information.\n"
 "    </li>\n"
-"  <li> <a "
-"href=\"http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium\">Create\n"
+"  <li> <a href=\"http://code.google.com/p/dart/issues/entry?template=Defect%20report%20from%20user&labels=Area-Editor,Type-Defect,Priority-Medium\">Create\n"
 "    a new Dart Editor issue.</a>\n"
 "    </li>\n"
 "</ul>\n"
@@ -1100,19 +1256,11 @@ msgstr ""
 msgid ""
 "\t\t<footer>\n"
 "\t\t\t<p>\n"
-"\t\t\t  Except as otherwise <a "
-"href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the "
-"content of this page is licensed under the <a "
-"\t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons "
-"Attribution 3.0 License</a>, and code samples are licensed under the <a "
-"href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
+"\t\t\t  Except as otherwise <a href=\"http://code.google.com/policies.html#restrictions\">noted</a>, the content of this page is licensed under the <a \t\thref=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution 3.0 License</a>, and code samples are licensed under the <a href=\"http://code.google.com/google_bsd_license.html\">BSD License</a>.\n"
 "\t\t\t</p>\n"
 "\t\t\t<p>\n"
-"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; "
-"padding-right: 5px\">Terms of Service</a>\n"
-"\t\t\t\t<a "
-"href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy "
-"Policy</a>\n"
+"\t\t\t\t<a href=\"/tos.html\" style=\"border-right: 1px solid black; padding-right: 5px\">Terms of Service</a>\n"
+"\t\t\t\t<a href=\"http://www.google.com/intl/en/privacy/privacy-policy.html\">Privacy Policy</a>\n"
 "\t\t\t</p>\n"
 "\t</footer>\n"
 msgstr ""
@@ -1139,11 +1287,9 @@ msgstr ""
 msgid ""
 "\t<script>\n"
 "    (function() {\n"
-"      var po = document.createElement('script'); po.type = "
-"'text/javascript'; po.async = true;\n"
+"      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;\n"
 "      po.src = 'https://apis.google.com/js/plusone.js';\n"
-"      var s = document.getElementsByTagName('script')[0]; "
-"s.parentNode.insertBefore(po, s);\n"
+"      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);\n"
 "    })();\n"
 "\t</script>\n"
 msgstr ""
